@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <!--
 **thunderbirdtr/thunderbirdtr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -17,7 +15,7 @@ Here are some ideas to get you started:
 
 
 
-<h1 align="center">Hi there! I am <a href="https://fedoraproject.org/wiki/User:thunderbirdtr" target="_blank">Onuralp</a>!</h1>
+<h1 align="center">Hi there👋 ! I am <a href="https://fedoraproject.org/wiki/User:thunderbirdtr" target="_blank">Onuralp</a>!</h1>
 
 
 <p align="center">I am a python,opencv enthusiast with keen interests in AR,AI, system adminsistration and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:thunderbirdtr">contributor and Mindshare member</a> at Fedora Project. I have been developing cool application and service projects by <a href="https://github.com/thunderbirdtr/">myself</a> for FOSS community.
