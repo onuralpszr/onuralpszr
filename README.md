@@ -81,6 +81,15 @@ Here are some ideas to get you started:
 <img align="left" alt="MacOS" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/macos/macos.png" />
 <br/>
 
+### Current project(s) I'm working on
+
+- [Impression](https://github.com/t0xic0der/impression)
+- [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora)
+- [Fedora Developer Content](https://github.com/developer-portal/content)
+- [Detect](https://github.com/samyak-jn/detect)
+
+
+
 ## Useful links
 If you want to stay in touch with me, these links can be useful.
 
