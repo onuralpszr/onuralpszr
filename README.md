@@ -90,3 +90,4 @@ If you want to stay in touch with me, these links can be useful.
 - [My Twitter account](https://twitter.com/thunderbirdtr)
 - [My Fedora Pagure Account](https://pagure.io/user/thunderbirdtr)
 - [My Src.Fedora Account ](https://src.fedoraproject.org/user/thunderbirdtr/)
+- [My Credly Account](https://www.credly.com/users/onuralp-sezer/badges)
