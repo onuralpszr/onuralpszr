@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 <br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=thunderbirdtr&show_icons=true&theme=onedark" alt="Onuralp's GitHub stats"></img>
+  <img src="https://github-readme-stats.vercel.app/api?username=thunderbirdtr&show_icons=true&theme=dracula" alt="Onuralp's GitHub stats"></img>
 </p>
 
 <!--
