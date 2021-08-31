@@ -33,7 +33,6 @@ Here are some ideas to get you started:
 </p>
 -->
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=thunderbirdtr&margin-w=15&theme=onedark)](https://github.com/thunderbirdtr/thunderbirdtr/)
 
 
 ## Competencies
@@ -91,6 +90,8 @@ Here are some ideas to get you started:
 - [Fedora Developer Content](https://github.com/developer-portal/content)
 - [Detect](https://github.com/samyak-jn/detect)
 
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=thunderbirdtr&margin-w=15&theme=onedark)](https://github.com/thunderbirdtr/thunderbirdtr/)
 
 
 ## Useful links
