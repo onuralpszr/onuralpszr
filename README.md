@@ -32,6 +32,8 @@ Here are some ideas to get you started:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thunderbirdtr" alt="Onuralp's Top Language stats"></img>
 </p>
 -->
+[![trophy](https://github-profile-trophy.vercel.app/?username=thunderbirdtr&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+
 
 ## Competencies
 
