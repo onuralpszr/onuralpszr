@@ -33,7 +33,7 @@ Here are some ideas to get you started:
 </p>
 -->
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=thunderbirdtr&theme=onedark)](https://github.com/thunderbirdtr/thunderbirdtr/)
+[![trophy](https://github-profile-trophy.vercel.app/?username=thunderbirdtr&margin-w=15&theme=onedark)](https://github.com/thunderbirdtr/thunderbirdtr/)
 
 
 ## Competencies
