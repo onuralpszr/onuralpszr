@@ -1,5 +1,5 @@
 <!--
-**thunderbirdtr/thunderbirdtr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**onuralpszr/onuralpszr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
@@ -15,21 +15,21 @@ Here are some ideas to get you started:
 
 
 
-<h1 align="center">Hi there👋 ! I am <a href="https://fedoraproject.org/wiki/User:thunderbirdtr" target="_blank">Onuralp</a>!</h1>
+<h1 align="center">Hi there👋 ! I am <a href="https://fedoraproject.org/wiki/User:onuralpszr" target="_blank">Onuralp</a>!</h1>
 
 
-<p align="center">I am a python,opencv enthusiast with keen interests in AR,AI, system adminsistration and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:thunderbirdtr">contributor and Mindshare member</a> at Fedora Project. I have been developing cool application and service projects by <a href="https://github.com/thunderbirdtr/">myself</a> for FOSS community.
+<p align="center">I am a python,opencv enthusiast with keen interests in AR,AI, system adminsistration and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare member</a> at Fedora Project. I have been developing cool application and service projects by <a href="https://github.com/onuralpszr/">myself</a> for FOSS community.
 
 <br>
 <br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=thunderbirdtr&show_icons=true&theme=dracula" alt="Onuralp's GitHub stats"></img>
+  <img src="https://github-readme-stats.vercel.app/api?username=onuralpszr&show_icons=true&theme=dracula" alt="Onuralp's GitHub stats"></img>
 </p>
 
 <!--
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thunderbirdtr" alt="Onuralp's Top Language stats"></img>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=onuralpszr" alt="Onuralp's Top Language stats"></img>
 </p>
 -->
 
@@ -91,16 +91,16 @@ Here are some ideas to get you started:
 - [Detect](https://github.com/samyak-jn/detect)
 
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=thunderbirdtr&margin-w=15&theme=onedark)](https://github.com/thunderbirdtr/thunderbirdtr/)
+[![trophy](https://github-profile-trophy.vercel.app/?username=onuralpszr&margin-w=15&theme=onedark)](https://github.com/onuralpszr/onuralpszr/)
 
 
 ## Useful links
 If you want to stay in touch with me, these links can be useful.
 
-- [My GitHub profile](https://github.com/thunderbirdtr/)
+- [My GitHub profile](https://github.com/onuralpszr/)
 - [My LinkedIn profile](https://www.linkedin.com/in/osezer/)
-- [My AskFedora account](https://ask.fedoraproject.org/u/thunderbirdtr/)
-- [My Twitter account](https://twitter.com/thunderbirdtr)
-- [My Fedora Pagure Account](https://pagure.io/user/thunderbirdtr)
-- [My Src.Fedora Account ](https://src.fedoraproject.org/user/thunderbirdtr/)
+- [My AskFedora account](https://ask.fedoraproject.org/u/onuralpszr/)
+- [My Twitter account](https://twitter.com/onuralpszr)
+- [My Fedora Pagure Account](https://pagure.io/user/onuralpszr)
+- [My Src.Fedora Account ](https://src.fedoraproject.org/user/onuralpszr/)
 - [My Credly Account](https://www.credly.com/users/onuralp-sezer/badges)
