@@ -99,8 +99,8 @@ If you want to stay in touch with me, these links can be useful.
 
 - [My GitHub profile](https://github.com/onuralpszr/)
 - [My LinkedIn profile](https://www.linkedin.com/in/osezer/)
-- [My AskFedora account](https://ask.fedoraproject.org/u/onuralpszr/)
-- [My Twitter account](https://twitter.com/onuralpszr)
-- [My Fedora Pagure Account](https://pagure.io/user/onuralpszr)
-- [My Src.Fedora Account ](https://src.fedoraproject.org/user/onuralpszr/)
+- [My AskFedora account](https://ask.fedoraproject.org/u/thunderbirdtr/)
+- [My Twitter account](https://twitter.com/thunderbirdtr)
+- [My Fedora Pagure Account](https://pagure.io/user/thunderbirdtr)
+- [My Src.Fedora Account ](https://src.fedoraproject.org/user/thunderbirdtr/)
 - [My Credly Account](https://www.credly.com/users/onuralp-sezer/badges)
