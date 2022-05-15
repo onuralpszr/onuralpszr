@@ -96,11 +96,11 @@ Here are some ideas to get you started:
 
 ## Useful links
 If you want to stay in touch with me, these links can be useful.
-
-- [My GitHub profile](https://github.com/onuralpszr/)
-- [My LinkedIn profile](https://www.linkedin.com/in/osezer/)
-- [My AskFedora account](https://ask.fedoraproject.org/u/thunderbirdtr/)
-- [My Twitter account](https://twitter.com/thunderbirdtr)
-- [My Fedora Pagure Account](https://pagure.io/user/thunderbirdtr)
-- [My Src.Fedora Account ](https://src.fedoraproject.org/user/thunderbirdtr/)
-- [My Credly Account](https://www.credly.com/users/onuralp-sezer/badges)
+ 
+- [LinkedIn profile](https://www.linkedin.com/in/osezer/)
+- [AskFedora account](https://ask.fedoraproject.org/u/thunderbirdtr/)
+- [Twitter account](https://twitter.com/thunderbirdtr)
+- [Fedora Pagure Account](https://pagure.io/user/thunderbirdtr)
+- [Src.Fedora Account ](https://src.fedoraproject.org/user/thunderbirdtr/)
+- [Credly Account](https://www.credly.com/users/onuralp-sezer/badges)
+- [Google Developer Account](https://developers.google.com/profile/u/onuralpsezer)
