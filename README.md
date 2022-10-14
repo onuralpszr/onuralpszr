@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 <h1 align="center">Hi there👋 ! I am <a href="https://fedoraproject.org/wiki/User:thunderbirdtr" target="_blank">Onuralp</a>!</h1>
 
 
-<p align="center">I am a python,opencv enthusiast with keen interests in AR,AI, system adminsistration and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare member</a> at Fedora Project. I have been developing cool application and service projects by <a href="https://github.com/onuralpszr/">myself</a> for FOSS community.
+<p align="center">I am a python,opencv enthusiast with keen interests in AR,AI, system adminsistration and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare member</a> at Fedora Project. I have been developing cool application and service projects by <a href="https://github.com/onuralpszr/">myself</a> for FOSS community. In my profesional life in recent events, I started to use kotlin along with google technologies such as ARCore and <a href="https://mediapipe.dev/">mediapipe</a>. Along with these two technologies, I added tensorflow in my arsenal for better understanding for medipipe library and doing more AI based on apps/products as well. I am also trying to contribute what I can into FLOSS and OSS projects to make everyone/developers life better.   
 
 <br>
 <br>
@@ -89,6 +89,9 @@ Here are some ideas to get you started:
 - [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora)
 - [Fedora Developer Content](https://github.com/developer-portal/content)
 - [Detect](https://github.com/samyak-jn/detect)
+- [Sceneform-android from Sceneview Team](https://github.com/SceneView/sceneform-android)
+- [Sceneview-android](https://github.com/SceneView/sceneview-android)
+- [Kde ControlCentre Plasmoid](https://github.com/Prayag2/kde_controlcentre)
 
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=onuralpszr&margin-w=15&theme=onedark)](https://github.com/onuralpszr/onuralpszr/)
