@@ -120,6 +120,7 @@ If you want to stay in touch with me, these links can be useful.
 - [Credly Account](https://www.credly.com/users/onuralp-sezer/badges)
 - [Google Developer Account](https://developers.google.com/profile/u/onuralpsezer)
 - [Personal Fedora wiki page](https://fedoraproject.org/wiki/User:Thunderbirdtr)
+- [Fedora Contribution Badges](https://badges.fedoraproject.org/user/thunderbirdtr)
 
 
 [![@osezer's Holopin board](https://holopin.me/osezer)](https://holopin.io/@osezer)
