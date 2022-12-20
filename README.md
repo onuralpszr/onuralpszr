@@ -34,56 +34,68 @@ Here are some ideas to get you started:
 -->
 
 
+<h3 align="left">Programming</h3>
+<p>
+    <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?logo=python&logoColor=white"></img>
+    <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-%23E34F26.svg?logo=Kotlin&logoColor=white"></img>
+    <a href="#"><img alt="Flutter" src="https://img.shields.io/badge/Flutter-00979D?logo=flutter&logoColor=white"></a>
+    <img alt="cpp" src="https://img.shields.io/badge/++-2391E6.svg?logo=C&logoColor=white"></img>
+    <img alt="cpp" src="https://img.shields.io/badge/-2391E6.svg?logo=C&logoColor=white"></img>
+    <img alt="bash" src="https://img.shields.io/badge/Bash-2AFFE6.svg?logo=bash&logoColor=white"></img>
+    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=black"></img>
+   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript%20-%23007ACC.svg?logo=typescript&logoColor=white"></img>
+   <img alt="HTML" src="https://img.shields.io/badge/HTML%20-%23E34F26.svg?logo=html5&logoColor=white"></img>
+   <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%231572B6.svg?logo=css3&logoColor=white"></img>
+</p>
 
-## Competencies
 
-### Programming
-<img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/python/python.png" />
-<img align="left" alt="C++" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" />
-<img align="left" alt="C" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/c/c.png" />
-<img align="left" alt="Go" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png" />
-<img align="left" alt="Bash" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/bash/bash.png" />
-<br/>
+<h3 align="left">Framework & Libraries</h3>
+<p>
+    <img alt="Android" src="https://img.shields.io/badge/Android-7AFF33.svg?logo=Android&logoColor=black"></img>
+    <img alt="Django" src="https://img.shields.io/badge/Django-006400.svg?logo=Django&logoColor=white"></img>
+    <img alt="Django Rest Framework" src="https://img.shields.io/badge/Django%20Rest%20Framework%20-%23404d59.svg?logo=django&logoColor=white"></img>
+    <img alt="Flask" src="https://img.shields.io/badge/Flask-%2320232a.svg?logo=flask&logoColor=white"></img>
+    <img alt="Angular" src="https://img.shields.io/badge/Angular%20-%2320232a.svg?logo=angular&logoColor=red"></img>
+    <img alt="Qt" src="https://img.shields.io/badge/Qt-006400.svg?logo=Qt&logoColor=white"></img>
+    <img alt="Tensorflow" src="https://img.shields.io/badge/Tensorflow-v2-FE7A16.svg?logo=Tensorflow&logoColor=white"></img>
+    <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-FE7A16.svg?logo=PyTorch&logoColor=white"></img>
+  
+</p>
 
-### Analytics
-<img align="left" alt="Jupyter Notebook" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jupyter-notebook/jupyter-notebook.png" />
-<img align="left" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/sql/sql.png" />
-<img align="left" alt="JSON" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/json/json.png" />
-<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />
-<img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />
-<br/>
+<h3 align="left">Game Engines</h3>
+<p>
+    <img alt="Unity" src="https://img.shields.io/badge/Unity%20-%2320232a.svg?logo=unity&logoColor=white"></img>
+    <img alt="UnrealEngine" src="https://img.shields.io/badge/UnrealEngine%20-%2320232a.svg?logo=UnrealEngine&logoColor=white"></img>
+</p>
 
-### Informatics
-<img align="left" alt="Flask" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png" />
-<img align="left" alt="Django" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png" />
-<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img align="left" alt="JQuery" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png" />
-<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<img align="left" alt="Bootstrap" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" />
-<img align="left" alt="Markdown" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/markdown/markdown.png" />
-<img align="left" alt="Telegram" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/telegram/telegram.png" />
-<img align="left" alt="Latex" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/latex/latex.png" />
-<br/>
+<h3 align="left">Databases</h3>
+<p>
+    <a href="#"><img alt="PostgreSql" src="https://img.shields.io/badge/PostgreSql-00979D?logo=postgresql&logoColor=black"></a>
+    <a href="#"><img alt="SQLite" src ="https://img.shields.io/badge/SQLite-%2307405e.svg?logo=sqlite&logoColor=white"></a>
+    <a href="#"><img alt="MySQL" src ="https://img.shields.io/badge/MySQL-%23FFFFFe.svg?logo=MySQL&logoColor=black"></a>
+</p>
 
-### Toolkits
-<img align="left" alt="Qt" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/qt/qt.png" />
-<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
-<img align="left" alt="Atom" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/atom/atom.png" />
-<img align="left" alt="Minecraft" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/minecraft/minecraft.png" />
-<img align="left" alt="Raspberry Pi" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/raspberry-pi/raspberry-pi.png" />
-<img align="left" alt="Unreal Engine" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/unreal-engine/unreal-engine.png" />
-<img align="left" alt="Unity" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/unity/unity.png" />
-<br/>
+<h3 align="left">Software and tools</h3>
+<p>
+    <a href="#"><img alt="Fedora" src="https://img.shields.io/badge/Fedora-2391E6.svg?logo=fedora&logoColor=white"></a>
+    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?logo=git&logoColor=white"></a>
+    <img alt="Docker" src="https://img.shields.io/badge/Docker-2391E6.svg?logo=docker&logoColor=white"></img>
+    <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white"></a>
+    <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white"></a>
+    <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
+    <a href="#"><img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-006400.svg?logo=pycharm&logoColor=white"></a>
+    <a href="#"><img alt="PyCharm" src="https://img.shields.io/badge/JupyterNotebook-FE7A16.svg?logo=Jupyter&logoColor=black"></a>
+</p>
 
-### Platforms
-<img align="left" alt="Windows" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/windows/windows.png" />
-<img align="left" alt="Linux" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png" />
-<img align="left" alt="MacOS" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/macos/macos.png" />
-<br/>
+<h3 align="left">Platforms</h3>
+<p>
+    <a href="#"><img alt="Linux" src="https://img.shields.io/badge/Linux-%23F7DF1E.svg?logo=Linux&logoColor=black"></a>
+    <a href="#"><img alt="Windows" src="https://img.shields.io/badge/Windows-%2391E6.svg?logo=Windows&logoColor=white"></a>
+    <a href="#"><img alt="OSX" src="https://img.shields.io/badge/Mac-OSX-%23E34F26.svg?logo=Apple&logoColor=white"></a>
+</p>
 
-### Current project(s) I'm working on
+
+## Current project(s) I'm working on
 
 - [Impression](https://github.com/t0xic0der/impression)
 - [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora)
@@ -111,5 +123,4 @@ If you want to stay in touch with me, these links can be useful.
 
 
 [![@osezer's Holopin board](https://holopin.me/osezer)](https://holopin.io/@osezer)
-
 
