@@ -38,34 +38,37 @@ Here are some ideas to get you started:
 <p>
     <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?logo=python&logoColor=white"></img>
     <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-%23E34F26.svg?logo=Kotlin&logoColor=white"></img>
-    <a href="#"><img alt="Flutter" src="https://img.shields.io/badge/Flutter-00979D?logo=flutter&logoColor=white"></a>
+    <img alt="Dart" src="https://img.shields.io/badge/Dart-00979D?logo=dart&logoColor=white"></img>
     <img alt="cpp" src="https://img.shields.io/badge/++-2391E6.svg?logo=C&logoColor=white"></img>
-    <img alt="cpp" src="https://img.shields.io/badge/-2391E6.svg?logo=C&logoColor=white"></img>
+    <img alt="c" src="https://img.shields.io/badge/-2391E6.svg?logo=C&logoColor=white"></img>
     <img alt="bash" src="https://img.shields.io/badge/Bash-2AFFE6.svg?logo=bash&logoColor=white"></img>
     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=black"></img>
-   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript%20-%23007ACC.svg?logo=typescript&logoColor=white"></img>
-   <img alt="HTML" src="https://img.shields.io/badge/HTML%20-%23E34F26.svg?logo=html5&logoColor=white"></img>
-   <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%231572B6.svg?logo=css3&logoColor=white"></img>
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript%20-%23007ACC.svg?logo=typescript&logoColor=white"></img>
+    <img alt="HTML" src="https://img.shields.io/badge/HTML%20-%23E34F26.svg?logo=html5&logoColor=white"></img>
+    <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%231572B6.svg?logo=css3&logoColor=white"></img>
 </p>
 
 
 <h3 align="left">Framework & Libraries</h3>
-<p>
-    <img alt="Android" src="https://img.shields.io/badge/Android-7AFF33.svg?logo=Android&logoColor=black"></img>
-    <img alt="Django" src="https://img.shields.io/badge/Django-006400.svg?logo=Django&logoColor=white"></img>
-    <img alt="Django Rest Framework" src="https://img.shields.io/badge/Django%20Rest%20Framework%20-%23404d59.svg?logo=django&logoColor=white"></img>
-    <img alt="Flask" src="https://img.shields.io/badge/Flask-%2320232a.svg?logo=flask&logoColor=white"></img>
-    <img alt="Angular" src="https://img.shields.io/badge/Angular%20-%2320232a.svg?logo=angular&logoColor=red"></img>
-    <img alt="Qt" src="https://img.shields.io/badge/Qt-006400.svg?logo=Qt&logoColor=white"></img>
-    <img alt="Tensorflow" src="https://img.shields.io/badge/Tensorflow-v2-FE7A16.svg?logo=Tensorflow&logoColor=white"></img>
-    <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-FE7A16.svg?logo=PyTorch&logoColor=white"></img>
-  
+<p> 
+  <img alt="Django" src="https://img.shields.io/badge/Django-006400.svg?logo=Django&logoColor=white"></img>
+  <img alt="Django Rest Framework" src="https://img.shields.io/badge/Django%20Rest%20Framework%20-%23404d59.svg?logo=django&logoColor=white"></img>
+  <img alt="Flask" src="https://img.shields.io/badge/Flask-%2320232a.svg?logo=flask&logoColor=white"></img>
+  <img alt="Angular" src="https://img.shields.io/badge/Angular%20-%2320232a.svg?logo=angular&logoColor=red"></img>
+  <img alt="Qt" src="https://img.shields.io/badge/Qt-006400.svg?logo=Qt&logoColor=white"></img>
+  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-2391E6.svg?logo=Flutter&logoColor=white"></img>
+  <img alt="Android" src="https://img.shields.io/badge/Android-7AFF33.svg?logo=Android&logoColor=black"></img>
+  <img alt="Tensorflow" src="https://img.shields.io/badge/Tensorflow-v2-FE7A16.svg?logo=Tensorflow&logoColor=white"></img>
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-FE7A16.svg?logo=PyTorch&logoColor=white"></img>
+  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-2391E6.svg?logo=OpenCV&logoColor=white"></img>
+  <img alt="Mediapipe" src="https://img.shields.io/badge/Mediapipe-008F9E.svg?&logoColor=white"></img>
 </p>
 
 <h3 align="left">Game Engines</h3>
 <p>
     <img alt="Unity" src="https://img.shields.io/badge/Unity%20-%2320232a.svg?logo=unity&logoColor=white"></img>
     <img alt="UnrealEngine" src="https://img.shields.io/badge/UnrealEngine%20-%2320232a.svg?logo=UnrealEngine&logoColor=white"></img>
+
 </p>
 
 <h3 align="left">Databases</h3>
@@ -78,13 +81,15 @@ Here are some ideas to get you started:
 <h3 align="left">Software and tools</h3>
 <p>
     <a href="#"><img alt="Fedora" src="https://img.shields.io/badge/Fedora-2391E6.svg?logo=fedora&logoColor=white"></a>
+    <a href="#"><img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-FE7A16.svg?logo=Ubuntu&logoColor=white"></a>
     <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?logo=git&logoColor=white"></a>
-    <img alt="Docker" src="https://img.shields.io/badge/Docker-2391E6.svg?logo=docker&logoColor=white"></img>
+    <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2391E6.svg?logo=docker&logoColor=white"></img></a>
     <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white"></a>
     <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white"></a>
     <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
     <a href="#"><img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-006400.svg?logo=pycharm&logoColor=white"></a>
-    <a href="#"><img alt="PyCharm" src="https://img.shields.io/badge/JupyterNotebook-FE7A16.svg?logo=Jupyter&logoColor=black"></a>
+    <a href="#"><img alt="Jupyter" src="https://img.shields.io/badge/JupyterNotebook-FE7A16.svg?logo=Jupyter&logoColor=black"></a>
+    <a href="#"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-2391E6.svg?logo=Kubernetes&logoColor=black"></a>
 </p>
 
 <h3 align="left">Platforms</h3>
