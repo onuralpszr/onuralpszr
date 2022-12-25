@@ -38,12 +38,12 @@ I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen int
 
 <h3 align="left">Programming</h3>
 <p>
-    <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?logo=python&logoColor=white"></img>
+    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?logo=python&logoColor=white"></img>
     <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-%23E34F26.svg?logo=Kotlin&logoColor=white"></img>
     <img alt="Dart" src="https://img.shields.io/badge/Dart-00979D?logo=dart&logoColor=white"></img>
     <img alt="cpp" src="https://img.shields.io/badge/++-2391E6.svg?logo=C&logoColor=white"></img>
     <img alt="c" src="https://img.shields.io/badge/-2391E6.svg?logo=C&logoColor=white"></img>
-    <img alt="bash" src="https://img.shields.io/badge/Bash-2AFFE6.svg?logo=bash&logoColor=white"></img>
+    <img alt="GNU Bash" src="https://img.shields.io/badge/GNU Bash-4EAA25.svg?logo=gnubash&logoColor=white"></img>
     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=black"></img>
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript%20-%23007ACC.svg?logo=typescript&logoColor=white"></img>
     <img alt="HTML" src="https://img.shields.io/badge/HTML%20-%23E34F26.svg?logo=html5&logoColor=white"></img>
@@ -56,8 +56,16 @@ I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen int
       <img alt="Appwrite" src="https://img.shields.io/badge/Appwrite-F02E65.svg?logo=Appwrite&logoColor=white"></img>
 </p>
 
+<h3 align="left">Web Servers</h3>
+<p>
+   <img alt="Nginx" src="https://img.shields.io/badge/Nginx-009639.svg?logo=Nginx&logoColor=white"></img>
+   <img alt="Apache" src="https://img.shields.io/badge/Apache-D22128.svg?logo=Apache&logoColor=white"></img>
+</p>
+
+
 <h3 align="left">Framework & Libraries</h3>
 <p> 
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688.svg?logo=FastAPI&logoColor=white"></img>
   <img alt="Django" src="https://img.shields.io/badge/Django-006400.svg?logo=Django&logoColor=white"></img>
   <img alt="Django Rest Framework" src="https://img.shields.io/badge/Django%20Rest%20Framework%20-%23404d59.svg?logo=django&logoColor=white"></img>
   <img alt="Flask" src="https://img.shields.io/badge/Flask-%2320232a.svg?logo=flask&logoColor=white"></img>
@@ -83,25 +91,55 @@ I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen int
 
 <h3 align="left">Databases</h3>
 <p>
-    <a href="#"><img alt="PostgreSql" src="https://img.shields.io/badge/PostgreSql-00979D?logo=postgresql&logoColor=black"></a>
-    <a href="#"><img alt="SQLite" src ="https://img.shields.io/badge/SQLite-%2307405e.svg?logo=sqlite&logoColor=white"></a>
-    <a href="#"><img alt="MySQL" src ="https://img.shields.io/badge/MySQL-%23FFFFFe.svg?logo=MySQL&logoColor=black"></a>
+    <a href="#"><img alt="PostgreSql" src="https://img.shields.io/badge/PostgreSql-4169E1?logo=postgresql&logoColor=white"></a>
+    <a href="#"><img alt="SQLite" src ="https://img.shields.io/badge/SQLite-003B57.svg?logo=sqlite&logoColor=white"></a>
+    <a href="#"><img alt="MySQL" src ="https://img.shields.io/badge/MySQL-4479A1.svg?logo=MySQL&logoColor=white"></a>
+    <a href="#"><img alt="MariaDB" src ="https://img.shields.io/badge/MariaDB-003545.svg?logo=MariaDB&logoColor=white"></a>
+</p>
+
+<h3 align="left">VPN Servers</h3>
+<p>
+    <a href="#"><img alt="WireGuard" src="https://img.shields.io/badge/WireGuard-88171A?logo=WireGuard&logoColor=white"></a>
+    <a href="#"><img alt="OpenVPN" src="https://img.shields.io/badge/OpenVPN-EA7E20?logo=OpenVPN&logoColor=white"></a>
+</p>
+
+
+<h3 align="left">Virtualization Platforms</h3>
+<p>
+    <a href="#"><img alt="QEMU" src="https://img.shields.io/badge/QEMU-FF6600?logo=QEMU&logoColor=white"></a>
+    <a href="#"><img alt="VirtualBox" src="https://img.shields.io/badge/VirtualBox-183A61?logo=VirtualBox&logoColor=white"></a>
+    <a href="#"><img alt="VMware" src="https://img.shields.io/badge/VMware-607078?logo=VMware&logoColor=white"></a>
+    <a href="#"><img alt="VMwareESXI" src="https://img.shields.io/badge/VMware ESXI-607078?logo=VMware&logoColor=white"></a>
 </p>
 
 <h3 align="left">Software and tools</h3>
 <p>
-    <a href="#"><img alt="Fedora" src="https://img.shields.io/badge/Fedora-2391E6.svg?logo=fedora&logoColor=white"></a>
-    <a href="#"><img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-FE7A16.svg?logo=Ubuntu&logoColor=white"></a>
     <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?logo=git&logoColor=white"></a>
     <a href="#"><img alt="Meson" src="https://img.shields.io/badge/Meson%20-%2391E6.svg?logo=Meson&logoColor=white"></a>
     <a href="#"><img alt="Cmake" src="https://img.shields.io/badge/Cmake-064F8C.svg?logo=Cmake&logoColor=white"></a>
     <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2391E6.svg?logo=docker&logoColor=white"></img></a>
+    <a href="#"><img alt="Podman" src="https://img.shields.io/badge/Podman-892CA0.svg?logo=Podman&logoColor=white"></img></a>
+    <a href="#"><img alt="Dependabot" src="https://img.shields.io/badge/Dependabot-025E8C.svg?logo=Dependabot&logoColor=white"></img></a>
+    <a href="#"><img alt="Nvidia" src="https://img.shields.io/badge/Nvidia-76B900.svg?logo=Nvidia&logoColor=white"></img></a>
+    <a href="#"><img alt="LLVM" src="https://img.shields.io/badge/LLVM-262D3A.svg?logo=LLVM&logoColor=white"></img></a>
     <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white"></a>
-    <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white"></a>
+    <a href="#"><img alt="Conventional Commits" src="https://img.shields.io/badge/Conventional Commits-FE5196?logo=conventionalcommits&logoColor=white"></a>
+    <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-StackOverflow-F58025?logo=stack-overflow&logoColor=white"></a>
     <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
-    <a href="#"><img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-006400.svg?logo=pycharm&logoColor=white"></a>
-    <a href="#"><img alt="Jupyter" src="https://img.shields.io/badge/JupyterNotebook-FE7A16.svg?logo=Jupyter&logoColor=black"></a>
-    <a href="#"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-2391E6.svg?logo=Kubernetes&logoColor=black"></a>
+    <a href="#"><img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-000000.svg?logo=pycharm&logoColor=white"></a>
+    <a href="#"><img alt="Android Studio" src="https://img.shields.io/badge/Android Studio-3DDC84.svg?logo=androidstudio&logoColor=white"></a>
+    <a href="#"><img alt="Jupyter" src="https://img.shields.io/badge/JupyterNotebook-F37626.svg?logo=Jupyter&logoColor=white"></a>
+    <a href="#"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-2391E6.svg?logo=Kubernetes&logoColor=white"></a>
+    <a href="#"><img alt="Blender" src="https://img.shields.io/badge/Blender-F5792A.svg?logo=Blender&logoColor=white"></a>
+
+</p>
+
+<h3 align="left">Linux Distributions</h3>
+<p>
+    <a href="#"><img alt="Fedora" src="https://img.shields.io/badge/Fedora-2391E6.svg?logo=fedora&logoColor=white"></a>
+    <a href="#"><img alt="OpenSUSE" src="https://img.shields.io/badge/OpenSUSE-73BA25.svg?logo=OpenSUSE&logoColor=white"></a>
+    <a href="#"><img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-FE7A16.svg?logo=Ubuntu&logoColor=white"></a>
+    <a href="#"><img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33.svg?logo=Debian&logoColor=white"></a>
 </p>
 
 <h3 align="left">Platforms</h3>
@@ -110,6 +148,7 @@ I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen int
     <a href="#"><img alt="Windows" src="https://img.shields.io/badge/Windows-%2391E6.svg?logo=Windows&logoColor=white"></a>
     <a href="#"><img alt="OSX" src="https://img.shields.io/badge/Mac-OSX-%23E34F26.svg?logo=Apple&logoColor=white"></a>
 </p>
+
 
 
 ## Current project(s) I'm working on
@@ -141,4 +180,3 @@ If you want to stay in touch with me, these links can be useful.
 
 
 [![@osezer's Holopin board](https://holopin.me/osezer)](https://holopin.io/@osezer)
-
