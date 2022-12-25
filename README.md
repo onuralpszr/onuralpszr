@@ -48,6 +48,11 @@ Here are some ideas to get you started:
     <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%231572B6.svg?logo=css3&logoColor=white"></img>
 </p>
 
+<h3 align="left">Backend-as-a-Service (Baas)</h3>
+<p>
+   <img alt="Firebase" src="https://img.shields.io/badge/Firebase-FFCA28.svg?logo=Firebase&logoColor=white"></img>
+      <img alt="Appwrite" src="https://img.shields.io/badge/Appwrite-F02E65.svg?logo=Appwrite&logoColor=white"></img>
+</p>
 
 <h3 align="left">Framework & Libraries</h3>
 <p> 
