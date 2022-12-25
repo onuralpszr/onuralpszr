@@ -136,7 +136,9 @@ I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen int
 
 <h3 align="left">Linux Distributions</h3>
 <p>
-    <a href="#"><img alt="Fedora" src="https://img.shields.io/badge/Fedora-2391E6.svg?logo=fedora&logoColor=white"></a>
+    <a href="#"><img alt="Fedora" src="https://img.shields.io/badge/Fedora-51A2DA.svg?logo=fedora&logoColor=white"></a>
+    <a href="#"><img alt="CentOS" src="https://img.shields.io/badge/CentOS-262577.svg?logo=CentOS&logoColor=white"></a>
+    <a href="#"><img alt="RHEL" src="https://img.shields.io/badge/RHEL-EE0000.svg?logo=redhat&logoColor=white"></a>
     <a href="#"><img alt="OpenSUSE" src="https://img.shields.io/badge/OpenSUSE-73BA25.svg?logo=OpenSUSE&logoColor=white"></a>
     <a href="#"><img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-FE7A16.svg?logo=Ubuntu&logoColor=white"></a>
     <a href="#"><img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33.svg?logo=Debian&logoColor=white"></a>
