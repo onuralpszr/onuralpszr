@@ -70,6 +70,7 @@ Here are some ideas to get you started:
 <p>
     <img alt="Unity" src="https://img.shields.io/badge/Unity%20-%2320232a.svg?logo=unity&logoColor=white"></img>
     <img alt="UnrealEngine" src="https://img.shields.io/badge/UnrealEngine%20-%2320232a.svg?logo=UnrealEngine&logoColor=white"></img>
+    <img alt="Godotengine" src="https://img.shields.io/badge/Godotengine-478CBF.svg?logo=Godotengine&logoColor=white"></img>
 
 </p>
 
@@ -85,6 +86,8 @@ Here are some ideas to get you started:
     <a href="#"><img alt="Fedora" src="https://img.shields.io/badge/Fedora-2391E6.svg?logo=fedora&logoColor=white"></a>
     <a href="#"><img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-FE7A16.svg?logo=Ubuntu&logoColor=white"></a>
     <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?logo=git&logoColor=white"></a>
+    <a href="#"><img alt="Meson" src="https://img.shields.io/badge/Meson%20-%2391E6.svg?logo=Meson&logoColor=white"></a>
+    <a href="#"><img alt="Cmake" src="https://img.shields.io/badge/Cmake-064F8C.svg?logo=Cmake&logoColor=white"></a>
     <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2391E6.svg?logo=docker&logoColor=white"></img></a>
     <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white"></a>
     <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white"></a>
