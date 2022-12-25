@@ -18,7 +18,9 @@ Here are some ideas to get you started:
 <h1 align="center">Hi there👋 ! I am <a href="https://fedoraproject.org/wiki/User:thunderbirdtr" target="_blank">Onuralp</a>!</h1>
 
 
-<p align="center">I am a python,opencv enthusiast with keen interests in AR,AI, system adminsistration and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare member</a> at Fedora Project. I have been developing cool application and service projects by <a href="https://github.com/onuralpszr/">myself</a> for FOSS community. In my profesional life in recent events, I started to use kotlin along with google technologies such as ARCore and <a href="https://mediapipe.dev/">mediapipe</a>. Along with these two technologies, I added tensorflow in my arsenal for better understanding for medipipe library and doing more AI based on apps/products as well. I am also trying to contribute what I can into FLOSS and OSS projects to make everyone/developers life better.   
+<p align="left">
+I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen interest in AR, AI, ML, DL system administration, and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare Member and RPM Packager</a> at Fedora Project. I have been developing applications and service projects myself or with the FOSS community. In my professional life, I use Kotlin/Java with Google technologies such as ARCore and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in Kotlin and AR, I added TensorFlow to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products. I am also trying to contribute what I can to FLOSS and OSS projects around GitHub/GitLab and other platforms to make everyone's and developers' lives better.
+</p>
 
 <br>
 <br>
