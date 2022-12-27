@@ -15,7 +15,11 @@ Here are some ideas to get you started:
 
 
 
-<h1 align="center">Hi there👋 ! I am <a href="https://fedoraproject.org/wiki/User:thunderbirdtr" target="_blank">Onuralp</a>!</h1>
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+There!+👋;I+am+Onuralp+....;Nice+to+meet+you!&center=true&size=30">
+  </a>
+</h1>
 
 <p align="center">
     <img alt="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=onuralpszr.onuralpszr"></img>
@@ -24,7 +28,7 @@ Here are some ideas to get you started:
 </p>
 
 <p align="left">
-I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen interest in AR, AI, ML, DL system administration, and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare Member and RPM Packager</a> at Fedora Project. I have been developing applications and service projects myself or with the FOSS community. In my professional life, I use Kotlin/Java with Google technologies such as ARCore and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in Kotlin and AR, I added TensorFlow to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products. I am also trying to contribute what I can to FLOSS and OSS projects around GitHub/GitLab and other platforms to make everyone's and developers' lives better.
+Hello, I am Onuralp. I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen interest in AR, AI, ML, DL system administration, and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare Member and RPM Packager</a> at Fedora Project. I have been developing applications and service projects myself or with the FOSS community. In my professional life, I use Kotlin/Java with Google technologies such as ARCore and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in Kotlin and AR, I added TensorFlow to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products. I am also trying to contribute what I can to FLOSS and OSS projects around GitHub/GitLab and other platforms to make everyone's and developers' lives better.
 </p>
 
 
