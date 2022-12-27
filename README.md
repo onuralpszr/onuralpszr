@@ -26,8 +26,11 @@ I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen int
 <br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=onuralpszr&show_icons=true&theme=dracula" alt="Onuralp's GitHub stats"></img>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=onuralpszr&show_icons=true&theme=tokyonight" alt="Onuralp's GitHub stats"></img>
+   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=onuralpszr&theme=tokyonight" />
 </p>
+
+
 
 <!--
 <p align="center">
