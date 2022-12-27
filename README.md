@@ -13,13 +13,13 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+<!--
+<h1 align="center">Hi there👋 ! I am <a href="https://fedoraproject.org/wiki/User:thunderbirdtr" target="_blank">Onuralp</a>!</h1>
+-->
 
-
-<h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+There!+👋;I+am+Onuralp+....;Nice+to+meet+you!&center=true&size=30">
-  </a>
-</h1>
+<p align="center">
+<a href="https://github.com/onuralpszr"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=2000&color=4A71D9&center=true&vCenter=true&width=435&lines=Hi+there%F0%9F%91%8B!+I+am+Onuralp;Nice+to+meet+you!" alt="Typing SVG" /></a>
+</p>
 
 <p align="center">
     <img alt="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=onuralpszr.onuralpszr"></img>
