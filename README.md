@@ -17,10 +17,17 @@ Here are some ideas to get you started:
 
 <h1 align="center">Hi there👋 ! I am <a href="https://fedoraproject.org/wiki/User:thunderbirdtr" target="_blank">Onuralp</a>!</h1>
 
+<p align="center">
+    <img alt="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=onuralpszr.onuralpszr"></img>
+    <a href="https://twitter.com/onuralpszr"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?logo=Twitter&logoColor=white"></a>
+    <a href="https://www.linkedin.com/in/osezer/"><img alt="Linkedin" src="https://img.shields.io/badge/Linkedin-0A66C2?logo=Linkedin&logoColor=white"></a>
+</p>
 
 <p align="left">
 I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen interest in AR, AI, ML, DL system administration, and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare Member and RPM Packager</a> at Fedora Project. I have been developing applications and service projects myself or with the FOSS community. In my professional life, I use Kotlin/Java with Google technologies such as ARCore and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in Kotlin and AR, I added TensorFlow to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products. I am also trying to contribute what I can to FLOSS and OSS projects around GitHub/GitLab and other platforms to make everyone's and developers' lives better.
 </p>
+
+
 
 <br>
 <br>
