@@ -149,6 +149,8 @@ Here is my Arsenal Tools and Skills I use;
     <a href="#"><img alt="Jupyter" src="https://img.shields.io/badge/JupyterNotebook-F37626.svg?logo=Jupyter&logoColor=white"></a>
     <a href="#"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-2391E6.svg?logo=Kubernetes&logoColor=white"></a>
     <a href="#"><img alt="Blender" src="https://img.shields.io/badge/Blender-F5792A.svg?logo=Blender&logoColor=white"></a>
+    <a href="#"><img alt="GithubActions" src="https://img.shields.io/badge/Github Actions-2088FF.svg?logo=githubactions&logoColor=white"></a>
+    <a href="#"><img alt="Anaconda" src="https://img.shields.io/badge/Anaconda-44A833.svg?logo=Anaconda&logoColor=white"></a>
 
 </p>
 
