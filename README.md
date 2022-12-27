@@ -28,9 +28,8 @@ Here are some ideas to get you started:
 </p>
 
 <p align="left">
-Hello, I am Onuralp. I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen interest in AR, AI, ML, DL system administration, and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare Member and RPM Packager</a> at Fedora Project. I have been developing applications and service projects myself or with the FOSS community. In my professional life, I use Kotlin/Java with Google technologies such as ARCore and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in Kotlin and AR, I added TensorFlow to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products. I am also trying to contribute what I can to FLOSS and OSS projects around GitHub/GitLab and other platforms to make everyone's and developers' lives better.
+Hello, I am Onuralp. I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen interest in AR, AI, ML, DL system administration, and operating systems. I am a <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare Member and RPM Packager</a> at Fedora Project. I have been developing applications and service projects myself or with the FOSS community. In my professional life, I use Kotlin/Java with Google technologies such as <a href="https://developers.google.com/ar">ARCore</a> and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in <a href="https://kotlinlang.org/">Kotlin</a> and AR, I added <a href="https://www.tensorflow.org">Tensorflow</a> to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products. I am also trying to contribute what I can to FLOSS and OSS projects around GitHub/GitLab and other platforms to make everyone's and developers' lives better.
 </p>
-
 
 
 <br>
@@ -173,16 +172,18 @@ Here is my Arsenal Tools and Skills I use;
 
 
 
-## Current project(s) I'm working on
+## Current project(s) I'm working/worked on,
 
+- [Ear-segmentation-ai](https://github.com/umitkacar/Ear-segmentation-ai)
+- [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan)
+- [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile)
+- [Sceneview-android](https://github.com/SceneView/sceneview-android)
+- [Sceneform-android from Sceneview Team](https://github.com/SceneView/sceneform-android)
 - [Impression](https://github.com/t0xic0der/impression)
 - [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora)
 - [Fedora Developer Content](https://github.com/developer-portal/content)
-- [Detect](https://github.com/samyak-jn/detect)
-- [Sceneform-android from Sceneview Team](https://github.com/SceneView/sceneform-android)
-- [Sceneview-android](https://github.com/SceneView/sceneview-android)
 - [Kde ControlCentre Plasmoid](https://github.com/Prayag2/kde_controlcentre)
-
+- [Detect](https://github.com/samyak-jn/detect)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=onuralpszr&theme=monokai)](https://github.com/onuralpszr/onuralpszr/)
 
