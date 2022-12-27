@@ -164,7 +164,7 @@ I am a Python and OpenCV enthusiast. I am also using Kotlin heavily and keen int
 - [Kde ControlCentre Plasmoid](https://github.com/Prayag2/kde_controlcentre)
 
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=onuralpszr&margin-w=15&theme=onedark)](https://github.com/onuralpszr/onuralpszr/)
+[![trophy](https://github-profile-trophy.vercel.app/?username=onuralpszr&theme=monokai)](https://github.com/onuralpszr/onuralpszr/)
 
 
 ## Useful links
@@ -180,5 +180,6 @@ If you want to stay in touch with me, these links can be useful.
 - [Personal Fedora wiki page](https://fedoraproject.org/wiki/User:Thunderbirdtr)
 - [Fedora Contribution Badges](https://badges.fedoraproject.org/user/thunderbirdtr)
 
+![](./profile-3d-contrib/profile-night-rainbow.svg)
 
 [![@osezer's Holopin board](https://holopin.me/osezer)](https://holopin.io/@osezer)
