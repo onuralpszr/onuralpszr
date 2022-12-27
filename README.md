@@ -49,6 +49,7 @@ Hello, I am Onuralp. I am a Python and OpenCV enthusiast. I am also using Kotlin
 </p>
 -->
 
+Here is my Arsenal Tools and Skills I use;
 
 <h3 align="left">Programming</h3>
 <p>
@@ -88,7 +89,9 @@ Hello, I am Onuralp. I am a Python and OpenCV enthusiast. I am also using Kotlin
   <img alt="Flutter" src="https://img.shields.io/badge/Flutter-2391E6.svg?logo=Flutter&logoColor=white"></img>
   <img alt="Android" src="https://img.shields.io/badge/Android-7AFF33.svg?logo=Android&logoColor=black"></img>
   <img alt="Tensorflow" src="https://img.shields.io/badge/Tensorflow-v2-FE7A16.svg?logo=Tensorflow&logoColor=white"></img>
-  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-FE7A16.svg?logo=PyTorch&logoColor=white"></img>
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C.svg?logo=PyTorch&logoColor=white"></img>
+  <img alt="PyTorch" src="https://img.shields.io/badge/TorchVision-EE4C2C.svg?logo=PyTorch&logoColor=white"></img>
+  <img alt="PyTorch" src="https://img.shields.io/badge/TorchAudio-EE4C2C.svg?logo=PyTorch&logoColor=white"></img>
   <img alt="Onnx" src="https://img.shields.io/badge/Onnx-717272.svg?logo=Onnx&logoColor=white"></img>
   <img alt="Onnx-runtime" src="https://img.shields.io/badge/OnnxRuntime-717272.svg?logo=Onnx&logoColor=white"></img>
   <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-2391E6.svg?logo=OpenCV&logoColor=white"></img>
@@ -141,6 +144,7 @@ Hello, I am Onuralp. I am a Python and OpenCV enthusiast. I am also using Kotlin
     <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-StackOverflow-F58025?logo=stack-overflow&logoColor=white"></a>
     <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
     <a href="#"><img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-000000.svg?logo=pycharm&logoColor=white"></a>
+    <a href="#"><img alt="Clion" src="https://img.shields.io/badge/Clion-1AC69B.svg?logo=Clion&logoColor=white"></a>
     <a href="#"><img alt="Android Studio" src="https://img.shields.io/badge/Android Studio-3DDC84.svg?logo=androidstudio&logoColor=white"></a>
     <a href="#"><img alt="Jupyter" src="https://img.shields.io/badge/JupyterNotebook-F37626.svg?logo=Jupyter&logoColor=white"></a>
     <a href="#"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-2391E6.svg?logo=Kubernetes&logoColor=white"></a>
