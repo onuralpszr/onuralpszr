@@ -82,7 +82,7 @@ Here is my Arsenal Tools and Skills I use;
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688.svg?logo=FastAPI&logoColor=white"></img>
   <img alt="Django" src="https://img.shields.io/badge/Django-006400.svg?logo=Django&logoColor=white"></img>
   <img alt="Django Rest Framework" src="https://img.shields.io/badge/Django%20Rest%20Framework%20-%23404d59.svg?logo=django&logoColor=white"></img>
-  <img alt="Flask" src="https://img.shields.io/badge/Flask-%2320232a.svg?logo=flask&logoColor=white"></img>
+  <img alt="Flask" src="https://img.shields.io/badge/Flask-000000.svg?logo=flask&logoColor=white"></img>
   <img alt="Angular" src="https://img.shields.io/badge/Angular%20-%2320232a.svg?logo=angular&logoColor=red"></img>
   <img alt="Qt" src="https://img.shields.io/badge/Qt-006400.svg?logo=Qt&logoColor=white"></img>
   <img alt="Flutter" src="https://img.shields.io/badge/Flutter-2391E6.svg?logo=Flutter&logoColor=white"></img>
