@@ -34,9 +34,8 @@ Hello, I am Onuralp. I am a Python and OpenCV enthusiast. I am also using Kotlin
 
 <br>
 <br>
-
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=onuralpszr&show_icons=true&theme=tokyonight" alt="Onuralp's GitHub stats"></img>
+  <img width="48%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=onuralpszr&show_icons=true&theme=tokyonight" alt="Onuralp's GitHub stats"></img>
    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=onuralpszr&theme=tokyonight" />
 </p>
 
