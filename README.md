@@ -39,7 +39,7 @@ import torch.nn as nn
 class Onuralp(nn.Module):
     def __init__(self):
         super().__init__()
-        self.role = "Senior Machine Learning Engineer Lv2 @ Ultralytics"
+        self.role = "Senior Machine Learning Engineer @ Ultralytics"
         self.focus = ["Computer Vision 👁️", "Deep Learning 🧠", "MLOps ⚙️", "GPU Kernels ⚡"]
         self.languages = ["Python 🐍", "Kotlin 📱", "C++ ⚙️", "Rust 🦀", "CUDA PTX ⚡"]
         self.community = ["Fedora Project Contributor 🐧", "GDG Samsun Organizer 🎤"]
