@@ -28,7 +28,7 @@ Here are some ideas to get you started:
 
 <p align="left">
 
-Hello, I am Onuralp. I am a Python,Kotlin,Cpp and OpenCV enthusiast. I using Kotlin heavily and keen interest in AR,Machine Learning,Deep Learning,Computer Vision, System administration.
+Hello, I am Onuralp. I am a Python,Kotlin,Cpp and OpenCV enthusiast. I using Kotlin heavily and keen interest in AR,Machine Learning,Deep Learning,Computer Vision. I am also doing a lot of DevOps and System administration.
 
 I am a long term <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare Member,Fedora KDE-Sig Member,Fedora Website and Apps Team Member and RPM Packager</a> at Fedora Project.
 
