@@ -34,7 +34,7 @@ I am a long term <a href="https://fedoraproject.org/wiki/User:onuralpszr">contri
 
 I have been developing applications and services myself or with the people around FOSS community. 
 
-In my professional life, I use Kotlin/Java with Google technologies such as <a href="https://developers.google.com/ar">ARCore</a> and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in <a href="https://kotlinlang.org/">Kotlin</a> and AR, I added <a href="https://www.tensorflow.org">Tensorflow</a> to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products. Currently I am also involved with unity engine for certain AR and DL applications. 
+In my professional life, I use Kotlin/Java with Google technologies such as <a href="https://developers.google.com/ar">ARCore</a> and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in <a href="https://kotlinlang.org/">Kotlin</a> and AR, I added <a href="https://www.tensorflow.org">Tensorflow</a> to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products. Currently I am also involved with unity engine for certain AR and DL applications.
 
 I am also trying to contribute what I can to FLOSS and OSS projects around GitHub/GitLab and other platforms to make everyone's and developers' lives better.
 </p>
@@ -81,6 +81,7 @@ Here is my Arsenal Tools and Skills I use;
 <p>
    <img alt="Nginx" src="https://img.shields.io/badge/Nginx-009639.svg?logo=Nginx&logoColor=white"></img>
    <img alt="Apache" src="https://img.shields.io/badge/Apache-D22128.svg?logo=Apache&logoColor=white"></img>
+   <img alt="Traefik" src="https://img.shields.io/badge/Traefik-24A1C1.svg?logo=Traefik-Proxy&logoColor=white"></img>
 </p>
 
 
