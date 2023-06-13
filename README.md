@@ -202,8 +202,6 @@ Here is my Arsenal Tools and Skills I use;
 - [Kde ControlCentre Plasmoid](https://github.com/Prayag2/kde_controlcentre)
 - [Detect](https://github.com/samyak-jn/detect)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=onuralpszr&theme=monokai)](https://github.com/onuralpszr/onuralpszr/)
-
 
 ## Useful links
 If you want to stay in touch with me, these links can be useful.
