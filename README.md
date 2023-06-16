@@ -206,15 +206,16 @@ Here is my Arsenal Tools and Skills I use;
 ## Useful links
 If you want to stay in touch with me, these links can be useful.
  
-- [LinkedIn profile](https://www.linkedin.com/in/osezer/)
+- [LinkedIn](https://www.linkedin.com/in/osezer/)
 - [AskFedora account](https://ask.fedoraproject.org/u/thunderbirdtr/)
-- [Twitter account](https://twitter.com/thunderbirdtr)
+- [Twitter](https://twitter.com/thunderbirdtr)
 - [Fedora Pagure Account](https://pagure.io/user/thunderbirdtr)
 - [Src.Fedora Account ](https://src.fedoraproject.org/user/thunderbirdtr/)
-- [Credly Account](https://www.credly.com/users/onuralp-sezer/badges)
+- [Credly](https://www.credly.com/users/onuralp-sezer/badges)
 - [Google Developer Account](https://developers.google.com/profile/u/onuralpsezer)
 - [Personal Fedora wiki page](https://fedoraproject.org/wiki/User:Thunderbirdtr)
 - [Fedora Contribution Badges](https://badges.fedoraproject.org/user/thunderbirdtr)
+- [Google Cloud Skill Boost Profile](https://www.cloudskillsboost.google/public_profiles/aa921c43-e963-4266-aa26-e7465dab9aec)
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
