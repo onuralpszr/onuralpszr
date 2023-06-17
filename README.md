@@ -36,7 +36,7 @@ I have been developing applications and services myself or with the people aroun
 
 In my professional life, I use Kotlin/Java with Google technologies such as <a href="https://developers.google.com/ar">ARCore</a> and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in <a href="https://kotlinlang.org/">Kotlin</a> and AR, I added <a href="https://www.tensorflow.org">Tensorflow</a> to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products. Currently I am also involved with unity engine for certain AR and DL applications.
 
-I am also trying to contribute what I can to FLOSS and OSS projects around GitHub/GitLab and other platforms to make everyone's and developers' lives better.
+I am also trying to contribute what I can to FLOSS and OSS projects around GitHub/GitLab and other platforms to make everyone's and developers lives better.
 </p>
 
 
