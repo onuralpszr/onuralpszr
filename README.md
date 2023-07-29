@@ -32,7 +32,7 @@ Hello, I am Onuralp. I am a Python,Kotlin,Cpp and OpenCV enthusiast. I using Kot
 
 I am a long term <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare Member,Fedora KDE-Sig Member,Fedora Website and Apps Team Member and RPM Packager</a> at Fedora Project.
 
-Professionally, I use Kotlin/Java with Google technologies such as <a href="https://developers.google.com/ar">ARCore</a> and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in <a href="https://kotlinlang.org/">Kotlin</a> and AR, I added <a href="https://www.tensorflow.org">Tensorflow</a> to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products. Currently I am also involved with unity engine for certain AR and DL applications.
+Professionally, I use Kotlin/Java with Google technologies such as <a href="https://developers.google.com/ar">ARCore</a> and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in <a href="https://kotlinlang.org/">Kotlin</a> and AR, I added <a href="https://www.tensorflow.org">Tensorflow</a> to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products.I am also involved with Unity engine for certain AR and ML applications.
 
 I am also trying to contribute what I can to FLOSS and OSS projects around GitHub/GitLab and other platforms to make everyone and developers lives better.
 </p>
