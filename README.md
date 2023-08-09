@@ -28,13 +28,13 @@ Here are some ideas to get you started:
 
 <p align="left">
 
-Hello, I am Onuralp. I am a Python,Kotlin,Cpp and OpenCV enthusiast. I using Kotlin heavily and keen interest in AR,Machine Learning,Deep Learning,Computer Vision. I am also doing a lot of DevOps and System administration.
+Hello, I am Onuralp I am a Senior Software Engineer. I am usng Python,Kotlin,C++ and OpenCV. I am also using Kotlin heavily and keen interest in AR,Machine Learning,Deep Learning,Computer Vision. I am also doing a lot of DevOps and System administration.
 
 I am a long term <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare Member,Fedora KDE-Sig Member,Fedora Website and Apps Team Member and RPM Packager</a> at Fedora Project.
 
-Professionally, I use Kotlin/Java with Google technologies such as <a href="https://developers.google.com/ar">ARCore</a> and <a href="https://mediapipe.dev/">Mediapipe</a>. Of course, while I was coding in <a href="https://kotlinlang.org/">Kotlin</a> and AR, I added <a href="https://www.tensorflow.org">Tensorflow</a> to my arsenal for understanding the Mediapipe library and builds more AI based on apps/products.I am also involved with Unity engine for certain AR and ML applications.
+Professionally, I use Python development on backend side of works and on mobile side I used Kotlin and flutter with Google technologies such as <a href="https://developers.google.com/ar">ARCore</a> and <a href="https://mediapipe.dev/">Mediapipe</a>. On machine learning sides I used <a href="https://www.tensorflow.org">Tensorflow</a> which helps understand mediapipe and I am also using Pytorch for ML/DL/AI based on apps/products. I am also using Unity engine for creating AR and ML applications.
 
-I am also trying to contribute what I can to FLOSS and OSS projects around GitHub/GitLab and other platforms to make everyone and developers lives better.
+I am also contributing various FLOSS and OSS projects around GitHub/Gitlab/Pagure and other platforms to make everyone and developers lives better.
 </p>
 
 
