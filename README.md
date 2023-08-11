@@ -196,6 +196,7 @@ Here is my Arsenal Tools and Skills I use;
 - [Sceneform-android from Sceneview Team](https://github.com/SceneView/sceneform-android)
 - [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora)
 - [Supervision](https://github.com/roboflow/supervision)
+- [Ultralytics](https://github.com/ultralytics/ultralytics)
 
 ## Useful links
 If you want to stay in touch with me, these links can be useful.
