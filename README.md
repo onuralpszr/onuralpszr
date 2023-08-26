@@ -203,7 +203,7 @@ If you want to stay in touch with me, these links can be useful.
  
 - [LinkedIn](https://www.linkedin.com/in/osezer/)
 - [AskFedora account](https://ask.fedoraproject.org/u/thunderbirdtr/)
-- [Twitter](https://twitter.com/thunderbirdtr)
+- [Twitter](https://twitter.com/onuralpszr)
 - [Fedora Pagure Account](https://pagure.io/user/thunderbirdtr)
 - [Src.Fedora Account ](https://src.fedoraproject.org/user/thunderbirdtr/)
 - [Credly](https://www.credly.com/users/onuralp-sezer/badges)
