@@ -28,7 +28,7 @@ Here are some ideas to get you started:
 
 <p align="left">
 
-Hello, I am Onuralp I am a Senior Software Engineer. I am usng Python,Kotlin,C++ and OpenCV. I am also using Kotlin heavily and keen interest in AR,Machine Learning,Deep Learning,Computer Vision. I am also doing a lot of DevOps and System administration.
+Greetings! I'm Onuralp, a seasoned Senior Software Engineer proficient in Python, Kotlin, C++, and OpenCV. My expertise lies in the captivating realms of AR, Machine Learning, Deep Learning, and Computer Vision. Engaging in extensive DevOps and MLOps practices further complements my skill set. 
 
 I am a long term <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare Member,Fedora KDE-Sig Member,Fedora Website and Apps Team Member and RPM Packager</a> at Fedora Project.
 
