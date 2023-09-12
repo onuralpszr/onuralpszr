@@ -189,13 +189,13 @@ Here is my Arsenal Tools and Skills I use;
 
 ## Current project(s) I'm working/worked on,
 
+- [Supervision](https://github.com/roboflow/supervision)
 - [Ear-segmentation-ai](https://github.com/umitkacar/Ear-segmentation-ai)
 - [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan)
 - [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile)
 - [Sceneview-android](https://github.com/SceneView/sceneview-android)
 - [Sceneform-android from Sceneview Team](https://github.com/SceneView/sceneform-android)
 - [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora)
-- [Supervision](https://github.com/roboflow/supervision)
 - [Ultralytics](https://github.com/ultralytics/ultralytics)
 
 ## Useful links
