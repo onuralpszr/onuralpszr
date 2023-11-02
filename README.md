@@ -138,7 +138,7 @@ Here is my Arsenal Tools and Skills I use;
     <a href="#"><img alt="Blender" src="https://img.shields.io/badge/Blender-F5792A.svg?logo=Blender&logoColor=white"></a>
     <a href="#"><img alt="GithubActions" src="https://img.shields.io/badge/Github Actions-2088FF.svg?logo=githubactions&logoColor=white"></a>
     <a href="#"><img alt="Anaconda" src="https://img.shields.io/badge/Anaconda-44A833.svg?logo=Anaconda&logoColor=white"></a>
-
+    <a href="#"><img alt="Ansible" src="https://img.shields.io/badge/Ansible-EE0000.svg?logo=Ansible&logoColor=white"></a>
 </p>
 
 <h3 align="left">Linux Distributions</h3>
