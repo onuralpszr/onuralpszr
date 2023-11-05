@@ -9,9 +9,9 @@
 
 <p align="left">
 
-Greetings! I'm Onuralp, a seasoned Senior Software Engineer proficient in Python, Kotlin, C++, and OpenCV. My expertise lies in the captivating realms of AR, Machine Learning, Deep Learning, and Computer Vision. Engaging in extensive DevOps and MLOps practices further complements my skill set. 
+Greetings! I'm Onuralp, a seasoned Senior Software Engineer proficient in Python, Kotlin, C++, Rust and OpenCV. My expertise lies in the captivating realms of AR, Machine Learning, Deep Learning, and Computer Vision. Engaging in extensive DevOps and MLOps practices further complements my skill set. 
 
-I am a long term <a href="https://fedoraproject.org/wiki/User:onuralpszr">contributor and Mindshare Member,Fedora KDE SIG Member,Fedora Website and Apps Team Member and RPM Packager</a> at Fedora Project.
+I am a long term <a href="https://fedoraproject.org/wiki/User:onuralpszr"> Contributor and Mindshare Member,Fedora KDE SIG Member,Fedora Website and Apps Team Member and RPM Packager</a> at Fedora Project.
 
 Professionally, I use Python development on backend side of works and on mobile side I used Kotlin and flutter with Google technologies such as <a href="https://developers.google.com/ar">ARCore</a> and <a href="https://mediapipe.dev/">Mediapipe</a>. On machine learning sides I used <a href="https://www.tensorflow.org">Tensorflow</a> which helps understand mediapipe and I am also using Pytorch for ML/DL/AI based on apps/products. I am also using Unity engine for creating AR and ML applications.
 
