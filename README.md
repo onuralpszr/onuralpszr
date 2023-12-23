@@ -27,12 +27,10 @@ I am also contributing various FLOSS and OSS projects around GitHub/Gitlab/Pagur
 </p>
 
 
-
-<!--
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=onuralpszr" alt="Onuralp's Top Language stats"></img>
 </p>
--->
+
 
 Here is my Arsenal Tools and Skills I use;
 
