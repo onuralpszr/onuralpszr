@@ -165,6 +165,7 @@ Here is my Arsenal Tools and Skills I use;
 - [Sceneform-android from Sceneview Team](https://github.com/SceneView/sceneform-android)
 - [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora)
 - [Ultralytics](https://github.com/ultralytics/ultralytics)
+- [Yolo-World](https://github.com/AILab-CVC/YOLO-World)
 
 ## Useful links
 
