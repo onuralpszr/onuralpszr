@@ -7,6 +7,7 @@
     <a href="https://www.linkedin.com/in/osezer/"><img alt="Linkedin" src="https://img.shields.io/badge/Linkedin-0A66C2?logo=Linkedin&logoColor=white"></a>
     <a href="https://user-badge.committers.top/turkey_public/onuralpszr">
     <img alt="commiter" src="https://user-badge.committers.top/turkey_public/onuralpszr.svg" alt="committers.top badge"> </a>
+    <a href="https://huggingface.co/onuralpszr"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FF9A00?logo=HuggingFace&logoColor=white"></a>
 
 </p>
 
@@ -18,7 +19,10 @@ I am a long term <a href="https://fedoraproject.org/wiki/User:onuralpszr"> Contr
 
 Professionally, I use Python development on backend side of works and on mobile side I used Kotlin and flutter with Google technologies such as <a href="https://developers.google.com/ar">ARCore</a>,<a href="https://mediapipe.dev/">Mediapipe</a>,<a href="https://firebase.google.com/">Firebase</a>,<a href="https://protobuf.dev/">Protobuf</a>,<a href="https://flatbuffers.dev/">FlatBuffers</a> and many others. On machine learning sides I used <a href="https://www.tensorflow.org">Tensorflow</a>,<a href="https://www.tensorflow.org/tensorboard">Tensorboard</a>,<a href="https://keras.io/">Keras</a>,<a href="https://github.com/google/jax">Jax</a>,<a href="https://www.pytorch.org">Pytorch</a>. These tools enable me to incorporate ML/DL/AI into apps and products. Additionally, I use the Unity engine for creating AR and ML applications.
 
+In addition to my diverse skill set, I am actively contributing to a computer vision project named Supervision. Supervision is dedicated to crafting reusable computer vision tools tailored to a wide array of needs. This project embodies my commitment to advancing the field of computer vision, offering robust solutions that empower developers and researchers alike.
+
 I am also contributing various FLOSS and OSS projects around GitHub/Gitlab/Pagure and other platforms to make everyone and developers lives better.
+
 </p>
 
 <br>
