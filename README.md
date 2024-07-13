@@ -197,3 +197,8 @@ If you want to stay in touch with me, these links can be useful.
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
 [![@osezer's Holopin board](https://holopin.me/osezer)](https://holopin.io/@osezer)
+
+## Mentorship Programs
+
+- [Outreachy](https://github.com/outreachy)
+- [OpenTR](https://github.com/OpenTRFoundation/OpenTR)
