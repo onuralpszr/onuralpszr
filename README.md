@@ -166,6 +166,7 @@ Here is my Arsenal Tools and Skills I use;
 ## Current project(s) I'm working/worked on
 
 - [Supervision](https://github.com/roboflow/supervision)
+- [Supervision Conda Forge](https://github.com/conda-forge/supervision-feedstock)
 - [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan)
 - [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile)
 - [Sceneview-android](https://github.com/SceneView/sceneview-android)
