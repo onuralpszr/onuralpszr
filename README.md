@@ -189,6 +189,7 @@ If you want to stay in touch with me, these links can be useful.
 - [Personal Fedora wiki page](https://fedoraproject.org/wiki/User:Thunderbirdtr)
 - [Fedora Contribution Badges](https://badges.fedoraproject.org/user/thunderbirdtr)
 - [Google Cloud Skill Boost Profile](https://www.cloudskillsboost.google/public_profiles/aa921c43-e963-4266-aa26-e7465dab9aec)
+- [HuggingFace](https://huggingface.co/onuralpszr)
 
 ## Certifcations
 
