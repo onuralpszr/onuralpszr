@@ -13,7 +13,7 @@
 
 <p align="left">
 
-Greetings! I'm Onuralp, a seasoned Senior Software Engineer proficient in Python, Kotlin, C++, Rust and OpenCV. My expertise lies in the captivating realms of AR, Machine Learning, Deep Learning, and Computer Vision. Engaging in extensive DevOps and MLOps practices further complements my skill set.
+Greetings! I'm Onuralp, a seasoned Senior Software Engineer proficient in Python, Kotlin, C++, Rust. My expertise lies in the captivating realms of AR, Machine Learning, Deep Learning, and Computer Vision. Engaging in extensive DevOps and MLOps practices further complements my skill set.
 
 I am a long term [Contributor and Mindshare Member,Fedora KDE SIG Member,Fedora Website and Apps Team Member and RPM Packager](https://fedoraproject.org/wiki/User:onuralpszr) at Fedora Project. I am also member of [Samsun - Google Developer Group](https://github.com/gdgsamsun) as team member and speaker related around Machine learning and Computer Vision.
 
