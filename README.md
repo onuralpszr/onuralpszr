@@ -203,3 +203,8 @@ If you want to stay in touch with me, these links can be useful.
 
 - [Outreachy](https://github.com/outreachy)
 - [OpenTR](https://github.com/OpenTRFoundation/OpenTR)
+
+## Volunteer Work
+
+- Fedora Project Contributor
+- Google Developer Group Samsun Member/Speaker/Organizer
