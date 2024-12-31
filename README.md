@@ -206,5 +206,5 @@ If you want to stay in touch with me, these links can be useful.
 
 ## Volunteer Work
 
-- Fedora Project Contributor
-- Google Developer Group Samsun Member/Speaker/Organizer
+- [Fedora Project Contributor](https://fedoraproject.org/wiki/User:Thunderbirdtr)
+- [Google Developer Group Samsun Member/Speaker/Organizer](https://gdg.community.dev/gdg-samsun/)
