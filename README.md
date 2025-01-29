@@ -195,6 +195,7 @@ Here is my Arsenal Tools and Skills I use;
 ## Current project(s) I'm working/worked on
 
 - [Ultralytics](https://github.com/ultralytics/ultralytics)
+- [TrackForge](https://github.com/onuralpszr/trackforge) - A unified, high-performance computer vision tracking library, implemented in Rust and exposed as a Python package. It provides state-of-the-art tracking algorithms like ByteTrack and DeepSORT, optimized for speed and ease of use in both Rust and Python environments.
 - [ExecuTorch](https://github.com/pytorch/executorch)
 - [Yolo-World](https://github.com/AILab-CVC/YOLO-World)
 - [Supervision](https://github.com/roboflow/supervision)
