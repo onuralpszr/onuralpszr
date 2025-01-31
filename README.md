@@ -12,7 +12,7 @@
 
 <p align="left">
 
-Greetings! I'm Onuralp, a seasoned Senior Software Engineer Team Lead with expertise in Python, Kotlin, C++, and Rust. My passion lies in the dynamic fields of Computer Vision, Machine Learning, Deep Learning. Beyond development, I have a strong foundation in DevOps and MLOps, ensuring seamless deployment and scalability of cutting-edge solutions. 
+Greetings! I'm Onuralp, a seasoned Senior Software Engineer Team Lead with expertise in Python, Kotlin, C++, and Rust. My passion lies in the dynamic fields of Computer Vision, Machine Learning, Deep Learning. Beyond development, I have a strong foundation in DevOps and MLOps, ensuring seamless deployment and scalability of cutting-edge solutions.
 
 I am a long term [Contributor and Mindshare Member,Fedora KDE SIG Member,Fedora Website and Apps Team Member and RPM Packager](https://fedoraproject.org/wiki/User:onuralpszr) at Fedora Project. I am also member of [Samsun - Google Developer Group](https://github.com/gdgsamsun) as team member and speaker related around Machine learning and Computer Vision.
 
