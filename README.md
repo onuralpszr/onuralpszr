@@ -194,6 +194,7 @@ If you want to stay in touch with me, these links can be useful.
 ## Certifcations
 
 - [Tensorflow Developer](https://www.credential.net/5d4c2d99-4c0b-4990-9399-2bdb496f7d4f#gs.axwujf)
+- [HuggingFace Agents Course](https://cdn-lfs-us-1.hf.co/repos/f2/34/f2344151f60f6027c436821dc61cf3f27a46435de57df8df50ad02b5acca7c07/0d9e4191750a428ab9d6467196276e0801759a1a59c2fd43b7478a4fac38067e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%272025-02-11.png%3B+filename%3D%222025-02-11.png%22%3B&response-content-type=image%2Fpng&Expires=1742677783&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MjY3Nzc4M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2YyLzM0L2YyMzQ0MTUxZjYwZjYwMjdjNDM2ODIxZGM2MWNmM2YyN2E0NjQzNWRlNTdkZjhkZjUwYWQwMmI1YWNjYTdjMDcvMGQ5ZTQxOTE3NTBhNDI4YWI5ZDY0NjcxOTYyNzZlMDgwMTc1OWExYTU5YzJmZDQzYjc0NzhhNGZhYzM4MDY3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=oTIv5lnswS3gCi9vW1KBG1bh6zBcMwRkj3mQE-ILNTSFf-OuW1s6pnptNlPJaZJCOwBhUDA%7EdEmzMaEHSxzKVNnvIB558b0T2KUEVj1j5X1ilD2Q81iIgWqr%7EI82X-PpJogDkj6OaKpWthOhclfuwUj2nATtP5ajjZEyG-U2VSTpcfUVwRZc-rmplzAJqTF-mxkZduQlTnyIvL3x9KATmcY1YkWPrZ%7E0se18EDbOZt4OxWynOVBkL-KXVoORzJc9ISZ1LPNRrEmMxGo3lMpg8UeT7C%7EhdlSrLtBkZDtYGYpPl0mGIPBLDUBfsNC3KXUM-wfco9%7E5a7i8iNI%7EgasL9w__&Key-Pair-Id=K24J24Z295AEI9)
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
