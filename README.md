@@ -8,7 +8,6 @@
     <a href="https://user-badge.committers.top/turkey_public/onuralpszr">
     <img alt="commiter" src="https://user-badge.committers.top/turkey_public/onuralpszr.svg" alt="committers.top badge"> </a>
     <a href="https://huggingface.co/onuralpszr"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FF9A00?logo=HuggingFace&logoColor=white"></a>
-
 </p>
 
 <p align="left">
