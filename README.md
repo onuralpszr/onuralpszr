@@ -14,7 +14,7 @@
 
 👋 **Greetings Everyone!**
 
-I'm **Onuralp**, a seasoned **Senior ML Engineer / Software Engineer @Ultralytics** with expertise in **Python 🐍**, **Kotlin 📱**, **C++ ⚙️**, and **Rust 🦀**. My passion lies in the dynamic fields of **Computer Vision 👁️**, **Machine Learning 🤖**, and **Deep Learning 🧠**. Beyond development, I have a strong foundation in **DevOps** and **MLOps**, ensuring seamless deployment, automation, and scalability of cutting-edge solutions 🚀.
+I'm **Onuralp**, a seasoned **Senior Machine Learning Engineer Lv2 @Ultralytics** with expertise in **Python 🐍**, **Kotlin 📱**, **C++ ⚙️**, and **Rust 🦀**. My passion lies in the dynamic fields of **Computer Vision 👁️**, **Machine Learning 🤖**, and **Deep Learning 🧠**. Beyond development, I have a strong foundation in **DevOps** and **MLOps**, ensuring seamless deployment, automation, and scalability of cutting-edge solutions 🚀.
 
 ### 🐧 Open Source & Community
 
