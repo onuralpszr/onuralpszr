@@ -1,0 +1,10 @@
+[project]
+name = "supervision-computer-vision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "supervision>=0.25.1",
+    "ultralytics>=8.3.158",
+]

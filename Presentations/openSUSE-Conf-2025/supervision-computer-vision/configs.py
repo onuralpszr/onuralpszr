@@ -1,0 +1,1 @@
+SOURCE_IMAGE_PATH = "bus.jpg"
