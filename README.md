@@ -208,3 +208,4 @@ If you want to stay in touch with me, these links can be useful.
 
 - [Fedora Project Contributor](https://fedoraproject.org/wiki/User:Thunderbirdtr)
 - [Google Developer Group Samsun Member/Speaker/Organizer](https://gdg.community.dev/gdg-samsun/)
+- [GDG Samsun](https://gdgsamsun.org/)
