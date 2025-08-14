@@ -1,0 +1,56 @@
+#!/bin/bash
+
+# Pre-commit hook to format and lint code
+# If any changes are made, the commit is cancelled and user must re-add files
+
+echo "Running pre-commit formatting and linting..."
+
+# Store the current git status to detect changes
+git_status_before=$(git status --porcelain)
+
+# Run ruff format
+echo "Running ruff format..."
+ruff format \
+    --line-length 120 \
+    . || true
+
+# Run ruff check with fixes
+echo "Running ruff check..."
+ruff check \
+    --fix \
+    --unsafe-fixes \
+    --extend-select I,D,UP \
+    --target-version py38 \
+    --ignore D100,D104,D203,D205,D212,D213,D401,D406,D407,D413 \
+    .
+
+# Run docformatter
+echo "Running docformatter..."
+docformatter \
+    --wrap-summaries 120 \
+    --wrap-descriptions 120 \
+    --pre-summary-newline \
+    --close-quotes-on-newline \
+    --in-place \
+    --recursive \
+    .
+
+# Check if any files were modified
+git_status_after=$(git status --porcelain)
+
+if [ "$git_status_before" != "$git_status_after" ]; then
+    echo ""
+    echo "❌ COMMIT CANCELLED: Code formatting/linting made changes to your files."
+    echo ""
+    echo "The following changes were made:"
+    git diff --name-only
+    echo ""
+    echo "Please review the changes, then run:"
+    echo "  git add ."
+    echo "  git commit"
+    echo ""
+    exit 1
+fi
+
+echo "✅ All formatting and linting checks passed. Proceeding with commit..."
+exit 0
