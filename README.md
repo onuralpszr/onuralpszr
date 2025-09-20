@@ -169,9 +169,9 @@ let platforms = vec!["GitHub", "GitLab", "Pagure"];
 let mission   = "build together - make open source better for everyone 🌍";
 ```
 
-In addition to my diverse skill set, I am actively contributing and co-maintaner to a computer vision project named [sahi](https://github.com/obss/sahi) is an open-source project that provides a simple and efficient way to perform slicing-based inference for object detection models. It is designed to work with various deep learning frameworks and models, making it a versatile tool for computer vision tasks. In past I was a co-maintaner to [Supervision](https://supervision.roboflow.com/). [Supervision](https://supervision.roboflow.com/) is dedicated to crafting reusable computer vision tools tailored to a wide array of needs. These projects are embodies my commitment to advancing the field of computer vision, offering robust solutions that empower developers and researchers alike.
+In addition to my diverse skill set, I am actively contributing to and co-maintaining a computer vision project named [sahi](https://github.com/obss/sahi), an open-source project that provides a simple and efficient way to perform slicing-based inference for object detection models. It is designed to work with various deep learning frameworks and models, making it a versatile tool for computer vision tasks. In the past I was a co-maintainer of [Supervision](https://supervision.roboflow.com/), which is dedicated to crafting reusable computer vision tools tailored to a wide array of needs. These projects embody my commitment to advancing the field of computer vision, offering robust solutions that empower developers and researchers alike.
 
-I am also contributing various FLOSS and OSS projects around GitHub/Gitlab/Pagure and other platforms to make everyone happy and doing better projects together.
+I am also contributing to various FLOSS and OSS projects around GitHub/GitLab/Pagure and other platforms to make everyone happy and build better projects together.
 
 ### 🌱 Hacktoberfest Journey
 
