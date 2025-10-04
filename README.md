@@ -14,7 +14,7 @@
 
 Greetings! I'm Onuralp, a seasoned Senior ML Engineer/Software Engineer @Ultralytics with expertise in Python, Kotlin, C++, and Rust. My passion lies in the dynamic fields of Computer Vision, Machine Learning, Deep Learning. Beyond development, I have a strong foundation in DevOps and MLOps, ensuring seamless deployment and scalability of cutting-edge solutions.
 
-I am a long term [Contributor and Mindshare Member,Fedora KDE SIG Member,Fedora Website and Apps Team Member and RPM Packager](https://fedoraproject.org/wiki/User:onuralpszr) at Fedora Project. I am also member of [Samsun - Google Developer Group](https://github.com/gdgsamsun) as Organizer and Speaker related around ML and Computer Vision.
+I am a long term [Contributor and Mindshare Member,Fedora KDE SIG Member,Fedora Website and Apps Team Member and RPM Packager](https://fedoraproject.org/wiki/User:onuralpszr) at Fedora Project. I am also member of [Samsun - Google Developer Group](https://github.com/gdgsamsun) as Organizer and Speaker related around ML and Computer Vision and VLMs.
 
 Professionally, I use Python development on backend side of works and on mobile side I used Kotlin and Flutter with Google technologies such as [ARCore](https://developers.google.com/ar), [Mediapipe](https://mediapipe.dev/), [Firebase](https://firebase.google.com/), [FlatBuffers](https://flatbuffers.dev/) and many others. On ML sides I used [Tensorflow](https://www.tensorflow.org), [Tensorboard](https://www.tensorflow.org/tensorboard), [Keras](https://keras.io/), [Jax](https://github.com/google/jax), [Pytorch](https://www.pytorch.org). These tools enable me to incorporate ML/DL/AI into apps and products. Additionally, I use the Unity engine for creating AR and ML applications.
 
