@@ -164,6 +164,9 @@ Here is my Arsenal Tools and Skills I use;
 
 ## Current project(s) I'm working/worked on
 
+- [Ultralytics](https://github.com/ultralytics/ultralytics)
+- [ExecuTorch](https://github.com/pytorch/executorch)
+- [Yolo-World](https://github.com/AILab-CVC/YOLO-World)
 - [Supervision](https://github.com/roboflow/supervision)
 - [Supervision Conda Forge](https://github.com/conda-forge/supervision-feedstock)
 - [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan)
@@ -171,8 +174,7 @@ Here is my Arsenal Tools and Skills I use;
 - [Sceneview-android](https://github.com/SceneView/sceneview-android)
 - [Sceneform-android from Sceneview Team](https://github.com/SceneView/sceneform-android)
 - [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora)
-- [Ultralytics](https://github.com/ultralytics/ultralytics)
-- [Yolo-World](https://github.com/AILab-CVC/YOLO-World)
+
 
 ## Useful links
 
