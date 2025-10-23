@@ -234,8 +234,8 @@ Here is my Arsenal Tools and Skills I use;
     <img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?logo=python&logoColor=white"></img>
     <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-%23E34F26.svg?logo=Kotlin&logoColor=white"></img>
     <img alt="Dart" src="https://img.shields.io/badge/Dart-00979D?logo=dart&logoColor=white"></img>
-    <img alt="cpp" src="https://img.shields.io/badge/++-2391E6.svg?logo=C&logoColor=white"></img>
-    <img alt="c" src="https://img.shields.io/badge/-2391E6.svg?logo=C&logoColor=white"></img>
+    <img alt="cpp" src="https://img.shields.io/badge/C%2B%2B-00599C.svg?logo=cplusplus&logoColor=white"></img>
+    <img alt="c" src="https://img.shields.io/badge/C-A8B9CC.svg?logo=c&logoColor=black"></img>
     <img alt="GNU Bash" src="https://img.shields.io/badge/GNU Bash-4EAA25.svg?logo=gnubash&logoColor=white"></img>
     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=black"></img>
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript%20-%23007ACC.svg?logo=typescript&logoColor=white"></img>
@@ -312,7 +312,7 @@ Here is my Arsenal Tools and Skills I use;
 <h3 align="left">Software and tools</h3>
 <p>
     <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?logo=git&logoColor=white"></a>
-    <a href="#"><img alt="Meson" src="https://img.shields.io/badge/Meson%20-%2391E6.svg?logo=Meson&logoColor=white"></a>
+    <a href="#"><img alt="Meson" src="https://img.shields.io/badge/Meson-2391E6.svg?logo=Meson&logoColor=white"></a>
     <a href="#"><img alt="Cmake" src="https://img.shields.io/badge/Cmake-064F8C.svg?logo=Cmake&logoColor=white"></a>
     <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2391E6.svg?logo=docker&logoColor=white"></img></a>
     <a href="#"><img alt="Podman" src="https://img.shields.io/badge/Podman-892CA0.svg?logo=Podman&logoColor=white"></img></a>
@@ -329,7 +329,7 @@ Here is my Arsenal Tools and Skills I use;
     <a href="#"><img alt="Jupyter" src="https://img.shields.io/badge/JupyterNotebook-F37626.svg?logo=Jupyter&logoColor=white"></a>
     <a href="#"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-2391E6.svg?logo=Kubernetes&logoColor=white"></a>
     <a href="#"><img alt="Blender" src="https://img.shields.io/badge/Blender-F5792A.svg?logo=Blender&logoColor=white"></a>
-    <a href="#"><img alt="GithubActions" src="https://img.shields.io/badge/Github Actions-2088FF.svg?logo=githubactions logoColor=white"></a>
+    <a href="#"><img alt="GithubActions" src="https://img.shields.io/badge/Github Actions-2088FF.svg?logo=githubactions&logoColor=white"></a>
     <a href="#"><img alt="Anaconda" src="https://img.shields.io/badge/Anaconda-44A833.svg?logo=Anaconda&logoColor=white"></a>
     <a href="#"><img alt="Ansible" src="https://img.shields.io/badge/Ansible-EE0000.svg?logo=Ansible&logoColor=white"></a>
 </p>
@@ -347,7 +347,7 @@ Here is my Arsenal Tools and Skills I use;
 <h3 align="left">Platforms</h3>
 <p>
     <a href="#"><img alt="Linux" src="https://img.shields.io/badge/Linux-%23F7DF1E.svg?logo=Linux&logoColor=black"></a>
-    <a href="#"><img alt="Windows" src="https://img.shields.io/badge/Windows-%2391E6.svg?logo=Windows&logoColor=white"></a>
+    <a href="#"><img alt="Windows" src="https://img.shields.io/badge/Windows-0078D4.svg?logo=Windows&logoColor=white"></a>
     <a href="#"><img alt="OSX" src="https://img.shields.io/badge/Mac-OSX-%23E34F26.svg?logo=Apple&logoColor=white"></a>
 </p>
 
