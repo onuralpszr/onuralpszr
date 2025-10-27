@@ -15,8 +15,7 @@
 👋 **Greetings Everyone!**
 
 I'm **Onuralp**, a seasoned **Senior ML Engineer / Software Engineer @Ultralytics** with expertise in **Python 🐍**, **Kotlin 📱**, **C++ ⚙️**, and **Rust 🦀**.  
-My passion lies in the dynamic fields of **Computer Vision 👁️**, **Machine Learning 🤖**, and **Deep Learning 🧠**.  
-Beyond development, I have a strong foundation in **DevOps** and **MLOps**, ensuring seamless deployment, automation, and scalability of cutting-edge solutions 🚀.
+My passion lies in the dynamic fields of **Computer Vision 👁️**, **Machine Learning 🤖**, and **Deep Learning 🧠**. Beyond development, I have a strong foundation in **DevOps** and **MLOps**, ensuring seamless deployment, automation, and scalability of cutting-edge solutions 🚀.
 
 ### 🐧 Open Source & Community
 
@@ -48,9 +47,7 @@ I am also contributing various FLOSS and OSS projects around GitHub/Gitlab/Pagur
 I’ve proudly participated in **Hacktoberfest** every year since **2022**, completing four consecutive years (2022, 2023, 2024, 2025).  
 Through this journey, I’ve contributed dozens of PRs, met inspiring developers from around the world, and grown both technically and personally.  
 
-💚 For me, Hacktoberfest isn’t just about code — it’s about **people, learning, and giving back to the community**.  
-I’m also part of the **Holopin x Hacktoberfest: 1 Badge Club**, celebrating those who’ve contributed continuously since 2022.  
-And yes, somewhere out there, **a tree is growing in my name** — a small but meaningful reminder that code can make a difference beyond the screen 🌍.
+💚 For me, Hacktoberfest isn’t just about code — it’s about **people, learning, and giving back to the community**. I’m also part of the **Holopin x Hacktoberfest: 5 Badge Club**, celebrating those who’ve contributed continuously since 2022. And yes, somewhere out there, **a tree is growing in my name** — a small but meaningful reminder that code can make a difference beyond the screen 🌍.
 
 ### 🧩 Let’s Connect
 
