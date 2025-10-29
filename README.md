@@ -18,9 +18,20 @@ I am a long term [Contributor and Mindshare Member,Fedora KDE SIG Member,Fedora 
 
 Professionally, I use Python development on backend side of works and on mobile side I used Kotlin and Flutter with Google technologies such as [ARCore](https://developers.google.com/ar), [Mediapipe](https://mediapipe.dev/), [Firebase](https://firebase.google.com/), [FlatBuffers](https://flatbuffers.dev/),[OnnxRuntime](https://onnxruntime.ai/),[ncnn](https://github.com/Tencent/ncnn) and many others. On ML sides I used [Tensorflow](https://www.tensorflow.org), [Tensorboard](https://www.tensorflow.org/tensorboard), [Keras](https://keras.io/), [Jax](https://github.com/google/jax), [Pytorch](https://www.pytorch.org). These tools enable me to incorporate ML/DL/AI into apps and products. Additionally, I use the Unity engine for creating AR and ML applications.
 
+### 🧠 Open Source Projects
+
 In addition to my diverse skill set, I am actively contributing and co-maintaner to a computer vision project named [sahi](https://github.com/obss/sahi) is an open-source project that provides a simple and efficient way to perform slicing-based inference for object detection models. It is designed to work with various deep learning frameworks and models, making it a versatile tool for computer vision tasks. In past I was a co-maintaner to [Supervision](https://supervision.roboflow.com/). [Supervision](https://supervision.roboflow.com/) is dedicated to crafting reusable computer vision tools tailored to a wide array of needs. These projects are embodies my commitment to advancing the field of computer vision, offering robust solutions that empower developers and researchers alike.
 
 I am also contributing various FLOSS and OSS projects around GitHub/Gitlab/Pagure and other platforms to make everyone happy and doing better projects together. 
+
+### 🌱 Hacktoberfest Journey
+
+I’ve proudly participated in **Hacktoberfest** every year since **2022**, completing four consecutive years (2022, 2023, 2024, 2025).  
+Through this journey, I’ve contributed dozens of PRs, met inspiring developers from around the world, and grown both technically and personally.  
+
+💚 For me, Hacktoberfest isn’t just about code — it’s about **people, learning, and giving back to the community**.  
+I’m also part of the **Holopin x Hacktoberfest: 1 Badge Club**, celebrating those who’ve contributed continuously since 2022.  
+And yes, somewhere out there, **a tree is growing in my name** — a small but meaningful reminder that code can make a difference beyond the screen 🌍.
 
 ### 🧩 Let’s Connect
 
