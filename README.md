@@ -29,8 +29,7 @@ On the backend, I primarily use **Python**, while on the mobile side, I work wit
 
 On the ML side, I work extensively with [Ultralytics](https://github.com/ultralytics/ultralytics), where I am a **Senior Machine Learning Engineer**, developing and maintaining cutting-edge computer vision tools and YOLO models. My primary deep learning framework is **[PyTorch](https://pytorch.org/)**, which I use for model training, fine-tuning, and deployment workflows.
 
-I also contribute to related open-source projects such as  
-[ExecuTorch](https://github.com/pytorch/executorch) an efficient on-device inference framework from **PyTorch**, and [ONNXSlim](https://github.com/inisis/OnnxSlim) a lightweight ONNX optimization toolkit.  
+I also contribute to related open-source projects such as [ExecuTorch](https://github.com/pytorch/executorch) an efficient on-device inference framework from **PyTorch**, and [ONNXSlim](https://github.com/inisis/OnnxSlim) a lightweight ONNX optimization toolkit.  
 
 In addition, I have experience with other frameworks like [TensorFlow](https://www.tensorflow.org), [TensorBoard](https://www.tensorflow.org/tensorboard), [Keras](https://keras.io/), and [JAX](https://github.com/google/jax), which I occasionally use for experimentation and cross-framework integration.  
 
