@@ -35,9 +35,7 @@ On the ML side, I work extensively with [Ultralytics](https://github.com/ultraly
 I also contribute to related open-source projects such as  
 [ExecuTorch](https://github.com/pytorch/executorch) an efficient on-device inference framework from **PyTorch**, and [ONNXSlim](https://github.com/inisis/OnnxSlim) a lightweight ONNX optimization toolkit.  
 
-In addition, I have experience with other frameworks like  
-[TensorFlow](https://www.tensorflow.org), [TensorBoard](https://www.tensorflow.org/tensorboard), [Keras](https://keras.io/), and [JAX](https://github.com/google/jax),  
-which I occasionally use for experimentation and cross-framework integration.  
+In addition, I have experience with other frameworks like [TensorFlow](https://www.tensorflow.org), [TensorBoard](https://www.tensorflow.org/tensorboard), [Keras](https://keras.io/), and [JAX](https://github.com/google/jax), which I occasionally use for experimentation and cross-framework integration.  
 
 I also use the **Unity** engine for creating **AR** and **ML** applications.
 
