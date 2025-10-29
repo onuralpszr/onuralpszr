@@ -12,11 +12,34 @@
 
 <p align="left">
 
-Greetings Everyone! I'm Onuralp, a seasoned Senior ML Engineer/Software Engineer @Ultralytics with expertise in Python, Kotlin, C++, and Rust. My passion lies in the dynamic fields of Computer Vision, Machine Learning, Deep Learning. Beyond development, I have a strong foundation in DevOps and MLOps, ensuring seamless deployment and scalability of cutting-edge solutions.
+👋 **Greetings Everyone!**
 
-I am a long term [Contributor and Mindshare Member,Fedora KDE SIG Member,Fedora Website and Apps Team Member and RPM Packager](https://fedoraproject.org/wiki/User:onuralpszr) at Fedora Project. I am also member of [Samsun - Google Developer Group](https://github.com/gdgsamsun) as an Organizer and a Speaker related around deep learning, machine learning and Computer Vision and VLMs.
+I'm **Onuralp**, a seasoned **Senior ML Engineer / Software Engineer @Ultralytics** with expertise in **Python 🐍**, **Kotlin 📱**, **C++ ⚙️**, and **Rust 🦀**.  
+My passion lies in the dynamic fields of **Computer Vision 👁️**, **Machine Learning 🤖**, and **Deep Learning 🧠**.  
+Beyond development, I have a strong foundation in **DevOps** and **MLOps**, ensuring seamless deployment, automation, and scalability of cutting-edge solutions 🚀.
 
-Professionally, I use Python development on backend side of works and on mobile side I used Kotlin and Flutter with Google technologies such as [ARCore](https://developers.google.com/ar), [Mediapipe](https://mediapipe.dev/), [Firebase](https://firebase.google.com/), [FlatBuffers](https://flatbuffers.dev/),[OnnxRuntime](https://onnxruntime.ai/),[ncnn](https://github.com/Tencent/ncnn) and many others. On ML sides I used [Tensorflow](https://www.tensorflow.org), [Tensorboard](https://www.tensorflow.org/tensorboard), [Keras](https://keras.io/), [Jax](https://github.com/google/jax), [Pytorch](https://www.pytorch.org). These tools enable me to incorporate ML/DL/AI into apps and products. Additionally, I use the Unity engine for creating AR and ML applications.
+### 🐧 Open Source & Community
+
+I am a long-term [**Contributor and Mindshare Member, Fedora KDE SIG Member, Fedora Website and Apps Team Member, and RPM Packager**](https://fedoraproject.org/wiki/User:onuralpszr) at the **Fedora Project**.  
+I am also an **Organizer and Speaker** at [**GDG Samsun**](https://github.com/gdgsamsun), where I share insights on **Deep Learning**, **Machine Learning**, **Computer Vision**, and **Vision-Language Models (VLMs)**.
+
+In addition to my community work, I contribute to a variety of **FLOSS** and **OSS** projects across GitHub, GitLab, and Pagure — always aiming to build together and make open source a better place for everyone.
+
+### 🔍 Professional Work
+
+On the backend, I primarily use **Python**, while on the mobile side, I work with **Kotlin** and **Flutter**, leveraging Google technologies such as  
+[ARCore](https://developers.google.com/ar), [MediaPipe](https://mediapipe.dev/), [Firebase](https://firebase.google.com/), [FlatBuffers](https://flatbuffers.dev/), [ONNX Runtime](https://onnxruntime.ai/), and [ncnn](https://github.com/Tencent/ncnn).  
+
+On the ML side, I work extensively with [Ultralytics](https://github.com/ultralytics/ultralytics), where I am a **Senior Machine Learning Engineer**, developing and maintaining cutting-edge computer vision tools and YOLO models. My primary deep learning framework is **[PyTorch](https://pytorch.org/)**, which I use for model training, fine-tuning, and deployment workflows.
+
+I also contribute to related open-source projects such as  
+[ExecuTorch](https://github.com/pytorch/executorch) an efficient on-device inference framework from **PyTorch**, and [ONNXSlim](https://github.com/inisis/OnnxSlim) a lightweight ONNX optimization toolkit.  
+
+In addition, I have experience with other frameworks like  
+[TensorFlow](https://www.tensorflow.org), [TensorBoard](https://www.tensorflow.org/tensorboard), [Keras](https://keras.io/), and [JAX](https://github.com/google/jax),  
+which I occasionally use for experimentation and cross-framework integration.  
+
+I also use the **Unity** engine for creating **AR** and **ML** applications.
 
 ### 🧠 Open Source Projects
 
