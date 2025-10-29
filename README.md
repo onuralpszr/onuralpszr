@@ -26,8 +26,7 @@ In addition to my community work, I contribute to a variety of **FLOSS** and **O
 
 ### 🔍 Professional Work
 
-On the backend, I primarily use **Python**, while on the mobile side, I work with **Kotlin** and **Flutter**, leveraging Google technologies such as  
-[ARCore](https://developers.google.com/ar), [MediaPipe](https://mediapipe.dev/), [Firebase](https://firebase.google.com/), [FlatBuffers](https://flatbuffers.dev/), [ONNX Runtime](https://onnxruntime.ai/), and [ncnn](https://github.com/Tencent/ncnn).  
+On the backend, I primarily use **Python**, while on the mobile side, I work with **Kotlin** and **Flutter**, leveraging Google technologies such as [ARCore](https://developers.google.com/ar), [MediaPipe](https://mediapipe.dev/), [Firebase](https://firebase.google.com/), [FlatBuffers](https://flatbuffers.dev/), [ONNX Runtime](https://onnxruntime.ai/), and [ncnn](https://github.com/Tencent/ncnn).  
 
 On the ML side, I work extensively with [Ultralytics](https://github.com/ultralytics/ultralytics), where I am a **Senior Machine Learning Engineer**, developing and maintaining cutting-edge computer vision tools and YOLO models. My primary deep learning framework is **[PyTorch](https://pytorch.org/)**, which I use for model training, fine-tuning, and deployment workflows.
 
