@@ -58,7 +58,7 @@ Feel free to reach out or check out my latest work here on GitHub! 🚀
 <br>
 <p align="center">
   <img width="50%" src="https://github-readme-stats-five-topaz-76.vercel.app/api?username=onuralpszr&show_icons=true&theme=dark" alt="Onuralp's GitHub stats"></img>
-  <img width="50%" src="https://ghstats.onuralpsezer.com/?user=onuralpszr&theme=dark&hide_border=false" alt="Onuralp's GitHub Streak stats"></img>
+  <img width="50%" src="https://ghstats.onuralpsezer.com/?user=onuralpszr&theme=dark&hide_border=true" alt="Onuralp's GitHub Streak stats"></img>
 </p>
 
 Here is my Arsenal Tools and Skills I use;
