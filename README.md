@@ -194,18 +194,24 @@ Here is my Arsenal Tools and Skills I use;
 
 ## Current project(s) I'm working/worked on
 
-- [Ultralytics](https://github.com/ultralytics/ultralytics)
-- [Ultralytics Inference](https://github.com/ultralytics/inference) - 🦀 Ultralytics YOLO Rust Inference: High-performance YOLO inference library written in Rust. This library provides a fast, safe, and efficient interface for running YOLO models using ONNX Runtime, with an API designed to match the Ultralytics Python package. (Main Maintainer)
-- [TrackForge](https://github.com/onuralpszr/trackforge) - A unified, high-performance computer vision tracking library, implemented in Rust and exposed as a Python package. It provides state-of-the-art tracking algorithms like ByteTrack and DeepSORT, optimized for speed and ease of use in both Rust and Python environments.
-- [ExecuTorch](https://github.com/pytorch/executorch)
-- [Yolo-World](https://github.com/AILab-CVC/YOLO-World)
-- [Supervision](https://github.com/roboflow/supervision)
-- [Supervision Conda Forge](https://github.com/conda-forge/supervision-feedstock)
-- [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan)
-- [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile)
-- [Sceneview-android](https://github.com/SceneView/sceneview-android)
-- [Sceneform-android from Sceneview Team](https://github.com/SceneView/sceneform-android)
-- [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora)
+### Active Projects
+
+- [Ultralytics](https://github.com/ultralytics/ultralytics) - The world's leading YOLO framework for object detection, instance segmentation, pose estimation, and image classification. Building state-of-the-art computer vision models for real-world applications.
+- [Ultralytics Inference](https://github.com/ultralytics/inference) - 🦀 High-performance YOLO inference library written in Rust with ONNX Runtime support. Provides a fast, safe, and efficient interface for running YOLO models with an API designed to match the Ultralytics Python package. **(Main Maintainer)**
+- [TrackForge](https://github.com/onuralpszr/trackforge) - A unified, high-performance computer vision tracking library implemented in Rust with Python bindings. Features state-of-the-art algorithms like ByteTrack and DeepSORT, optimized for speed and ease of use across both ecosystems. **(Main Maintainer)**
+- [ExecuTorch](https://github.com/pytorch/executorch) - PyTorch's efficient on-device inference framework for edge and mobile devices. Contributing to enable ML model deployment on resource-constrained platforms.
+- [YOLO-World](https://github.com/AILab-CVC/YOLO-World) - Real-time open-vocabulary object detection model. Enabling YOLO to detect any object with text prompts without additional training.
+- [SAHI](https://github.com/obss/sahi) - Slicing Aided Hyper Inference framework for object detection on large images. Co-maintainer helping to improve inference quality on high-resolution imagery. **(Co-Maintainer)**
+- [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan) - Real-world face restoration powered by GFPGAN, optimized with ncnn and Vulkan for efficient cross-platform inference.
+- [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile) - Template Mobile computer vision camera project for Android, integrating OpenCV and ML capabilities for real-time processing.
+
+### Past Contributions
+
+- [Supervision](https://github.com/roboflow/supervision) - Reusable computer vision tools for working with detections, annotations, and datasets. Former co-maintainer helping build the foundation for CV workflows.
+- [Supervision Conda Forge](https://github.com/conda-forge/supervision-feedstock) - Conda package distribution for Supervision, making it accessible to the scientific Python community.
+- [Sceneview-android](https://github.com/SceneView/sceneview-android) - SceneView for Android - ARCore and 3D rendering made easy.
+- [Sceneform-android](https://github.com/SceneView/sceneform-android) - Sceneform Maintained - ARCore SDK for Android from the SceneView team.
+- [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora) - Automated NVIDIA driver installation tool for Fedora Linux, simplifying GPU setup for the community.
 
 
 ## Useful links
