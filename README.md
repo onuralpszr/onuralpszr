@@ -199,6 +199,7 @@ Here is my Arsenal Tools and Skills I use;
 - [Ultralytics](https://github.com/ultralytics/ultralytics) - The world's leading YOLO framework for object detection, instance segmentation, pose estimation, and image classification. Building state-of-the-art computer vision models for real-world applications.
 - [Ultralytics Inference](https://github.com/ultralytics/inference) - 🦀 High-performance YOLO inference library written in Rust with ONNX Runtime support. Provides a fast, safe, and efficient interface for running YOLO models with an API designed to match the Ultralytics Python package. **(Main Maintainer)**
 - [TrackForge](https://github.com/onuralpszr/trackforge) - A unified, high-performance computer vision tracking library implemented in Rust with Python bindings. Features state-of-the-art algorithms like ByteTrack and DeepSORT, optimized for speed and ease of use across both ecosystems. **(Main Maintainer)**
+- [KDE](https://kde.org/) - Actively contributing to KDE ecosystem projects, supporting Linux desktop and open-source community development.
 - [ExecuTorch](https://github.com/pytorch/executorch) - PyTorch's efficient on-device inference framework for edge and mobile devices. Contributing to enable ML model deployment on resource-constrained platforms.
 - [YOLO-World](https://github.com/AILab-CVC/YOLO-World) - Real-time open-vocabulary object detection model. Enabling YOLO to detect any object with text prompts without additional training.
 - [SAHI](https://github.com/obss/sahi) - Slicing Aided Hyper Inference framework for object detection on large images. Co-maintainer helping to improve inference quality on high-resolution imagery. **(Co-Maintainer)**
@@ -207,7 +208,7 @@ Here is my Arsenal Tools and Skills I use;
 
 ### Past Contributions
 
-- [KDE](https://kde.org/) - Contributed to KDE ecosystem projects in the past, supporting Linux desktop and open-source community development.
+- [Gemma Cookbook](https://github.com/google-gemini/gemma-cookbook) - This is a collection of guides and examples for Google Gemma.
 - [Supervision](https://github.com/roboflow/supervision) - Reusable computer vision tools for working with detections, annotations, and datasets. Former co-maintainer helping build the foundation for CV workflows.
 - [Supervision Conda Forge](https://github.com/conda-forge/supervision-feedstock) - Conda package distribution for Supervision, making it accessible to the scientific Python community.
 - [Sceneview-android](https://github.com/SceneView/sceneview-android) - SceneView for Android - ARCore and 3D rendering made easy.
