@@ -38,7 +38,7 @@ I also use the **Unity** engine for creating **AR** and **ML** applications.
 
 In addition to my diverse skill set, I am actively contributing and co-maintaner to a computer vision project named [sahi](https://github.com/obss/sahi) is an open-source project that provides a simple and efficient way to perform slicing-based inference for object detection models. It is designed to work with various deep learning frameworks and models, making it a versatile tool for computer vision tasks. In past I was a co-maintaner to [Supervision](https://supervision.roboflow.com/). [Supervision](https://supervision.roboflow.com/) is dedicated to crafting reusable computer vision tools tailored to a wide array of needs. These projects are embodies my commitment to advancing the field of computer vision, offering robust solutions that empower developers and researchers alike.
 
-I am also contributing various FLOSS and OSS projects around GitHub/Gitlab/Pagure and other platforms to make everyone happy and doing better projects together. 
+I am also contributing various FLOSS and OSS projects around GitHub/Gitlab/Pagure and other platforms to make everyone happy and doing better projects together.
 
 ### 🌱 Hacktoberfest Journey
 
@@ -214,7 +214,6 @@ Here is my Arsenal Tools and Skills I use;
 - [Sceneview-android](https://github.com/SceneView/sceneview-android) - SceneView for Android - ARCore and 3D rendering made easy.
 - [Sceneform-android](https://github.com/SceneView/sceneform-android) - Sceneform Maintained - ARCore SDK for Android from the SceneView team.
 - [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora) - Automated NVIDIA driver installation tool for Fedora Linux, simplifying GPU setup for the community.
-
 
 ## Useful links
 
