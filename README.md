@@ -207,6 +207,7 @@ Here is my Arsenal Tools and Skills I use;
 
 ### Past Contributions
 
+- [KDE](https://kde.org/) - Contributed to KDE ecosystem projects in the past, supporting Linux desktop and open-source community development.
 - [Supervision](https://github.com/roboflow/supervision) - Reusable computer vision tools for working with detections, annotations, and datasets. Former co-maintainer helping build the foundation for CV workflows.
 - [Supervision Conda Forge](https://github.com/conda-forge/supervision-feedstock) - Conda package distribution for Supervision, making it accessible to the scientific Python community.
 - [Sceneview-android](https://github.com/SceneView/sceneview-android) - SceneView for Android - ARCore and 3D rendering made easy.
