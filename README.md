@@ -49,6 +49,14 @@ class Onuralp(nn.Module):
         return self.deploy_to_edge(models)
 ```
 
+### 🚀 `inference_pipeline.run()`
+
+I specialize in building, optimizing, and deploying state-of-the-art Computer Vision models. From training **YOLO** architectures at [Ultralytics](https://github.com/ultralytics/ultralytics) to optimizing inference with **ONNX**, **TensorRT**, and **ExecuTorch**, I bridge the gap between research and production.
+
+* 🔭 **Currently working on:** Pushing the boundaries of real-time object detection and tracking at **Ultralytics**.
+* 🌱 **Currently exploring:** Vision-Language Models (VLMs), Edge AI, and Rust-based ML inference.
+* 💬 **Ask me about:** YOLO, PyTorch, Computer Vision, Open Source, and Fedora Linux.
+
 ### 🐧 Open Source & Community
 
 I am a long-term [**Contributor and Mindshare Member, Fedora KDE SIG Member, Fedora Website and Apps Team Member, and RPM Packager**](https://fedoraproject.org/wiki/User:onuralpszr) at the **Fedora Project**. I am also an **Organizer and Speaker** at [**GDG Samsun**](https://github.com/gdgsamsun), where I share insights on **Deep Learning**, **Machine Learning**, **Computer Vision**, and **Vision-Language Models (VLMs)**.
@@ -229,45 +237,45 @@ Here is my Arsenal Tools and Skills I use;
 
 ### Active Projects
 
-- [Ultralytics](https://github.com/ultralytics/ultralytics) - The world's leading YOLO framework for object detection, instance segmentation, pose estimation, and image classification. Building state-of-the-art computer vision models for real-world applications.
-- [Ultralytics Inference](https://github.com/ultralytics/inference) - 🦀 High-performance YOLO inference library written in Rust with ONNX Runtime support. Provides a fast, safe, and efficient interface for running YOLO models with an API designed to match the Ultralytics Python package. **(Main Maintainer)**
-- [TrackForge](https://github.com/onuralpszr/trackforge) - A unified, high-performance computer vision tracking library implemented in Rust with Python bindings. Features state-of-the-art algorithms like ByteTrack and DeepSORT, optimized for speed and ease of use across both ecosystems. **(Main Maintainer)**
-- [KDE](https://kde.org/) - Actively contributing to KDE ecosystem projects, supporting Linux desktop and open-source community development.
-- [ExecuTorch](https://github.com/pytorch/executorch) - PyTorch's efficient on-device inference framework for edge and mobile devices. Contributing to enable ML model deployment on resource-constrained platforms.
-- [YOLO-World](https://github.com/AILab-CVC/YOLO-World) - Real-time open-vocabulary object detection model. Enabling YOLO to detect any object with text prompts without additional training.
-- [SAHI](https://github.com/obss/sahi) - Slicing Aided Hyper Inference framework for object detection on large images. Co-maintainer helping to improve inference quality on high-resolution imagery. **(Co-Maintainer)**
-- [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan) - Real-world face restoration powered by GFPGAN, optimized with ncnn and Vulkan for efficient cross-platform inference.
-- [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile) - Template Mobile computer vision camera project for Android, integrating OpenCV and ML capabilities for real-time processing.
+* [Ultralytics](https://github.com/ultralytics/ultralytics) - The world's leading YOLO framework for object detection, instance segmentation, pose estimation, and image classification. Building state-of-the-art computer vision models for real-world applications.
+* [Ultralytics Inference](https://github.com/ultralytics/inference) - 🦀 High-performance YOLO inference library written in Rust with ONNX Runtime support. Provides a fast, safe, and efficient interface for running YOLO models with an API designed to match the Ultralytics Python package. **(Main Maintainer)**
+* [TrackForge](https://github.com/onuralpszr/trackforge) - A unified, high-performance computer vision tracking library implemented in Rust with Python bindings. Features state-of-the-art algorithms like ByteTrack and DeepSORT, optimized for speed and ease of use across both ecosystems. **(Main Maintainer)**
+* [KDE](https://kde.org/) - Actively contributing to KDE ecosystem projects, supporting Linux desktop and open-source community development.
+* [ExecuTorch](https://github.com/pytorch/executorch) - PyTorch's efficient on-device inference framework for edge and mobile devices. Contributing to enable ML model deployment on resource-constrained platforms.
+* [YOLO-World](https://github.com/AILab-CVC/YOLO-World) - Real-time open-vocabulary object detection model. Enabling YOLO to detect any object with text prompts without additional training.
+* [SAHI](https://github.com/obss/sahi) - Slicing Aided Hyper Inference framework for object detection on large images. Co-maintainer helping to improve inference quality on high-resolution imagery. **(Co-Maintainer)**
+* [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan) - Real-world face restoration powered by GFPGAN, optimized with ncnn and Vulkan for efficient cross-platform inference.
+* [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile) - Template Mobile computer vision camera project for Android, integrating OpenCV and ML capabilities for real-time processing.
 
 ### Past Contributions
 
-- [Gemma Cookbook](https://github.com/google-gemini/gemma-cookbook) - This is a collection of guides and examples for Google Gemma.
-- [Supervision](https://github.com/roboflow/supervision) - Reusable computer vision tools for working with detections, annotations, and datasets. Former co-maintainer helping build the foundation for CV workflows.
-- [Supervision Conda Forge](https://github.com/conda-forge/supervision-feedstock) - Conda package distribution for Supervision, making it accessible to the scientific Python community.
-- [Sceneview-android](https://github.com/SceneView/sceneview-android) - SceneView for Android - ARCore and 3D rendering made easy.
-- [Sceneform-android](https://github.com/SceneView/sceneform-android) - Sceneform Maintained - ARCore SDK for Android from the SceneView team.
-- [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora) - Automated NVIDIA driver installation tool for Fedora Linux, simplifying GPU setup for the community.
+* [Gemma Cookbook](https://github.com/google-gemini/gemma-cookbook) - This is a collection of guides and examples for Google Gemma.
+* [Supervision](https://github.com/roboflow/supervision) - Reusable computer vision tools for working with detections, annotations, and datasets. Former co-maintainer helping build the foundation for CV workflows.
+* [Supervision Conda Forge](https://github.com/conda-forge/supervision-feedstock) - Conda package distribution for Supervision, making it accessible to the scientific Python community.
+* [Sceneview-android](https://github.com/SceneView/sceneview-android) - SceneView for Android - ARCore and 3D rendering made easy.
+* [Sceneform-android](https://github.com/SceneView/sceneform-android) - Sceneform Maintained - ARCore SDK for Android from the SceneView team.
+* [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora) - Automated NVIDIA driver installation tool for Fedora Linux, simplifying GPU setup for the community.
 
 ## Useful links
 
 If you want to stay in touch with me, these links can be useful.
 
-- [LinkedIn](https://www.linkedin.com/in/osezer/)
-- [AskFedora account](https://ask.fedoraproject.org/u/thunderbirdtr/)
-- [Twitter](https://twitter.com/onuralpszr)
-- [Fedora Pagure Account](https://pagure.io/user/thunderbirdtr)
-- [Src.Fedora Account](https://src.fedoraproject.org/user/thunderbirdtr/)
-- [Credly](https://www.credly.com/users/onuralp-sezer/badges)
-- [Google Developer Account](https://developers.google.com/profile/u/onuralpsezer)
-- [Personal Fedora wiki page](https://fedoraproject.org/wiki/User:Thunderbirdtr)
-- [Fedora Contribution Badges](https://badges.fedoraproject.org/user/thunderbirdtr)
-- [Google Cloud Skill Boost Profile](https://www.cloudskillsboost.google/public_profiles/aa921c43-e963-4266-aa26-e7465dab9aec)
-- [HuggingFace](https://huggingface.co/onuralpszr)
+* [LinkedIn](https://www.linkedin.com/in/osezer/)
+* [AskFedora account](https://ask.fedoraproject.org/u/thunderbirdtr/)
+* [Twitter](https://twitter.com/onuralpszr)
+* [Fedora Pagure Account](https://pagure.io/user/thunderbirdtr)
+* [Src.Fedora Account](https://src.fedoraproject.org/user/thunderbirdtr/)
+* [Credly](https://www.credly.com/users/onuralp-sezer/badges)
+* [Google Developer Account](https://developers.google.com/profile/u/onuralpsezer)
+* [Personal Fedora wiki page](https://fedoraproject.org/wiki/User:Thunderbirdtr)
+* [Fedora Contribution Badges](https://badges.fedoraproject.org/user/thunderbirdtr)
+* [Google Cloud Skill Boost Profile](https://www.cloudskillsboost.google/public_profiles/aa921c43-e963-4266-aa26-e7465dab9aec)
+* [HuggingFace](https://huggingface.co/onuralpszr)
 
 ## Certifcations
 
-- [Tensorflow Developer](https://www.credential.net/5d4c2d99-4c0b-4990-9399-2bdb496f7d4f#gs.axwujf)
-- [HuggingFace Agents Course](https://cdn-lfs-us-1.hf.co/repos/f2/34/f2344151f60f6027c436821dc61cf3f27a46435de57df8df50ad02b5acca7c07/0d9e4191750a428ab9d6467196276e0801759a1a59c2fd43b7478a4fac38067e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%272025-02-11.png%3B+filename%3D%222025-02-11.png%22%3B&response-content-type=image%2Fpng&Expires=1742677783&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MjY3Nzc4M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2YyLzM0L2YyMzQ0MTUxZjYwZjYwMjdjNDM2ODIxZGM2MWNmM2YyN2E0NjQzNWRlNTdkZjhkZjUwYWQwMmI1YWNjYTdjMDcvMGQ5ZTQxOTE3NTBhNDI4YWI5ZDY0NjcxOTYyNzZlMDgwMTc1OWExYTU5YzJmZDQzYjc0NzhhNGZhYzM4MDY3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=oTIv5lnswS3gCi9vW1KBG1bh6zBcMwRkj3mQE-ILNTSFf-OuW1s6pnptNlPJaZJCOwBhUDA%7EdEmzMaEHSxzKVNnvIB558b0T2KUEVj1j5X1ilD2Q81iIgWqr%7EI82X-PpJogDkj6OaKpWthOhclfuwUj2nATtP5ajjZEyG-U2VSTpcfUVwRZc-rmplzAJqTF-mxkZduQlTnyIvL3x9KATmcY1YkWPrZ%7E0se18EDbOZt4OxWynOVBkL-KXVoORzJc9ISZ1LPNRrEmMxGo3lMpg8UeT7C%7EhdlSrLtBkZDtYGYpPl0mGIPBLDUBfsNC3KXUM-wfco9%7E5a7i8iNI%7EgasL9w__&Key-Pair-Id=K24J24Z295AEI9)
+* [Tensorflow Developer](https://www.credential.net/5d4c2d99-4c0b-4990-9399-2bdb496f7d4f#gs.axwujf)
+* [HuggingFace Agents Course](https://cdn-lfs-us-1.hf.co/repos/f2/34/f2344151f60f6027c436821dc61cf3f27a46435de57df8df50ad02b5acca7c07/0d9e4191750a428ab9d6467196276e0801759a1a59c2fd43b7478a4fac38067e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%272025-02-11.png%3B+filename%3D%222025-02-11.png%22%3B&response-content-type=image%2Fpng&Expires=1742677783&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MjY3Nzc4M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2YyLzM0L2YyMzQ0MTUxZjYwZjYwMjdjNDM2ODIxZGM2MWNmM2YyN2E0NjQzNWRlNTdkZjhkZjUwYWQwMmI1YWNjYTdjMDcvMGQ5ZTQxOTE3NTBhNDI4YWI5ZDY0NjcxOTYyNzZlMDgwMTc1OWExYTU5YzJmZDQzYjc0NzhhNGZhYzM4MDY3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=oTIv5lnswS3gCi9vW1KBG1bh6zBcMwRkj3mQE-ILNTSFf-OuW1s6pnptNlPJaZJCOwBhUDA%7EdEmzMaEHSxzKVNnvIB558b0T2KUEVj1j5X1ilD2Q81iIgWqr%7EI82X-PpJogDkj6OaKpWthOhclfuwUj2nATtP5ajjZEyG-U2VSTpcfUVwRZc-rmplzAJqTF-mxkZduQlTnyIvL3x9KATmcY1YkWPrZ%7E0se18EDbOZt4OxWynOVBkL-KXVoORzJc9ISZ1LPNRrEmMxGo3lMpg8UeT7C%7EhdlSrLtBkZDtYGYpPl0mGIPBLDUBfsNC3KXUM-wfco9%7E5a7i8iNI%7EgasL9w__&Key-Pair-Id=K24J24Z295AEI9)
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
@@ -275,11 +283,11 @@ If you want to stay in touch with me, these links can be useful.
 
 ## Mentorship Programs
 
-- [Outreachy](https://github.com/outreachy)
-- [OpenTR](https://github.com/OpenTRFoundation/OpenTR)
+* [Outreachy](https://github.com/outreachy)
+* [OpenTR](https://github.com/OpenTRFoundation/OpenTR)
 
 ## Volunteer Work
 
-- [Fedora Project Contributor](https://fedoraproject.org/wiki/User:Thunderbirdtr)
-- [Google Developer Group Samsun Member/Speaker/Organizer](https://gdg.community.dev/gdg-samsun/)
-- [GDG Samsun](https://gdgsamsun.org/)
+* [Fedora Project Contributor](https://fedoraproject.org/wiki/User:Thunderbirdtr)
+* [Google Developer Group Samsun Member/Speaker/Organizer](https://gdg.community.dev/gdg-samsun/)
+* [GDG Samsun](https://gdgsamsun.org/)
