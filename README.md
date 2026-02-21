@@ -16,6 +16,25 @@
 
 I'm **Onuralp**, a seasoned **Senior Machine Learning Engineer Lv2 @Ultralytics** with expertise in **Python 🐍**, **Kotlin 📱**, **C++ ⚙️**, and **Rust 🦀**. My passion lies in the dynamic fields of **Computer Vision 👁️**, **Machine Learning 🤖**, and **Deep Learning 🧠**. Beyond development, I have a strong foundation in **DevOps** and **MLOps**, ensuring seamless deployment, automation, and scalability of cutting-edge solutions 🚀.
 
+### 🧠 `model.summary()`
+
+```python
+import torch.nn as nn
+
+class Onuralp(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.role = "Senior Machine Learning Engineer Lv2 @ Ultralytics"
+        self.focus = ["Computer Vision 👁️", "Deep Learning 🧠", "MLOps ⚙️"]
+        self.languages = ["Python 🐍", "Kotlin 📱", "C++ ⚙️", "Rust 🦀"]
+        self.community = ["Fedora Project Contributor 🐧", "GDG Samsun Organizer 🎤"]
+
+    def forward(self, coffee):
+        code = self.write_code(coffee)
+        models = self.train_yolo(code)
+        return self.deploy_to_edge(models)
+```
+
 ### 🐧 Open Source & Community
 
 I am a long-term [**Contributor and Mindshare Member, Fedora KDE SIG Member, Fedora Website and Apps Team Member, and RPM Packager**](https://fedoraproject.org/wiki/User:onuralpszr) at the **Fedora Project**. I am also an **Organizer and Speaker** at [**GDG Samsun**](https://github.com/gdgsamsun), where I share insights on **Deep Learning**, **Machine Learning**, **Computer Vision**, and **Vision-Language Models (VLMs)**.
