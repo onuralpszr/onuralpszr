@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:4A71D9,100:00c6ff&height=200&section=header&text=Onuralp%20Sezer&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20Machine%20Learning%20Engineer%20@Ultralytics&descAlignY=55&descAlign=50">
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:E2E2E2,100:C9D6FF&height=200&section=header&text=Onuralp%20Sezer&fontSize=50&fontColor=000000&animation=fadeIn&fontAlignY=35&desc=Senior%20Machine%20Learning%20Engineer%20@Ultralytics&descAlignY=55&descAlign=50">
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:4A71D9%2C100:00c6ff&height=200&section=header&text=Onuralp%20Sezer&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20Machine%20Learning%20Engineer%20@Ultralytics&descAlignY=55&descAlign=50">
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:E2E2E2%2C100:C9D6FF&height=200&section=header&text=Onuralp%20Sezer&fontSize=50&fontColor=000000&animation=fadeIn&fontAlignY=35&desc=Senior%20Machine%20Learning%20Engineer%20@Ultralytics&descAlignY=55&descAlign=50">
     <img alt="Header" src="https://capsule-render.vercel.app/api?type=waving&color=0:4A71D9,100:00c6ff&height=200&section=header&text=Onuralp%20Sezer&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20Machine%20Learning%20Engineer%20@Ultralytics&descAlignY=55&descAlign=50">
   </picture>
 </div>
