@@ -57,6 +57,29 @@ I specialize in building, optimizing, and deploying state-of-the-art Computer Vi
 * 🌱 **Currently exploring:** Vision-Language Models (VLMs), Edge AI, and Rust-based ML inference.
 * 💬 **Ask me about:** YOLO, PyTorch, Computer Vision, Open Source, and Fedora Linux.
 
+### 🧬 `model.fit(epochs=1000)`
+
+<div align="center">
+
+| `Epoch 1` | `Epoch 50` | `Epoch 100` |
+|:---:|:---:|:---:|
+| 🔲🔳🔲🔳🔳🔲🔳🔲<br>🔳🔲🔳🔲🔲🔳🔲🔳<br>🔲🔳🔲🔳🔳🔲🔳🔲<br>🔳🔲🔳🔲🔲🔳🔲🔳<br>🔲🔳🔲🔳🔳🔲🔳🔲<br>🔳🔲🔳🔲🔲🔳🔲🔳<br>🔲🔳🔲🔳🔳🔲🔳🔲<br>🔳🔲🔳🔲🔲🔳🔲🔳 | ⬛⬛⬛🟪🟪⬛⬛⬛<br>⬛⬛🟪🟪🟪🟪⬛⬛<br>⬛🟪🟪🟪🟪🟪🟪⬛<br>⬛🟪🟪🟪🟪🟪🟪⬛<br>⬛⬛🟪🟪🟪🟪⬛⬛<br>⬛⬛⬛🟪🟪⬛⬛⬛<br>⬛⬛⬛⬛⬛⬛⬛⬛<br>⬛⬛⬛⬛⬛⬛⬛⬛ | 🟥🟥🟥🟥🟥🟥🟥🟥<br>🟥⬛⬛⬛⬛⬛⬛🟥<br>🟥⬛🟦⬛⬛🟦⬛🟥<br>🟥⬛⬛⬛⬛⬛⬛🟥<br>🟥⬛⬛🟦🟦⬛⬛🟥<br>🟥⬛⬛⬛⬛⬛⬛🟥<br>🟥🟥🟥🟥🟥🟥🟥🟥<br>⬛⬛⬛⬛⬛⬛⬛⬛ |
+| *Raw Data (Noise)* | *Feature Extraction* | *YOLO Object Detected!* |
+
+</div>
+
+```console
+[Epoch 001] 🟢⚪⚪⚪⚪⚪⚪⚪⚪⚪ (Learning Python & C++)
+[Epoch 050] 🟢🟢🟢⚪⚪⚪⚪⚪⚪⚪ (Mastering Computer Vision & OpenCV)
+[Epoch 100] 🟢🟢🟢🟢🟢⚪⚪⚪⚪⚪ (Training YOLO & Deep Learning Models)
+[Epoch 500] 🟢🟢🟢🟢🟢🟢🟢⚪⚪⚪ (Optimizing with ONNX, TensorRT & Rust)
+[Epoch 999] 🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢 (Deploying AI @ Ultralytics 🚀)
+
+> Model 'Onuralp' successfully converged.
+> Current State: Senior ML Engineer Lv2
+> Next Objective: AGI & Beyond...
+```
+
 ### 🐧 Open Source & Community
 
 I am a long-term [**Contributor and Mindshare Member, Fedora KDE SIG Member, Fedora Website and Apps Team Member, and RPM Packager**](https://fedoraproject.org/wiki/User:onuralpszr) at the **Fedora Project**. I am also an **Organizer and Speaker** at [**GDG Samsun**](https://github.com/gdgsamsun), where I share insights on **Deep Learning**, **Machine Learning**, **Computer Vision**, and **Vision-Language Models (VLMs)**.
