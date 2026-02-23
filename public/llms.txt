@@ -1,0 +1,35 @@
+# Onuralp Sezer
+
+Senior Machine Learning Engineer Lv2 @ Ultralytics
+
+## Summary
+Seasoned Machine Learning Engineer with expertise in Python, Kotlin, C++, and Rust. Passionate about the dynamic fields of Computer Vision, Machine Learning, and Deep Learning. Strong foundation in DevOps and MLOps, ensuring seamless deployment, automation, and scalability of cutting-edge solutions.
+
+Specializes in building, optimizing, and deploying state-of-the-art Computer Vision models. From training YOLO architectures at Ultralytics to optimizing inference with ONNX, TensorRT, and ExecuTorch, bridging the gap between research and production.
+
+Currently exploring Vision-Language Models (VLMs), Edge AI, and Rust-based ML inference.
+
+## Key Projects
+- **Ultralytics**: Core contributor to the Ultralytics YOLO framework for object detection, segmentation, and classification.
+- **SAHI**: Slicing Aided Hyper Inference framework for small object detection.
+- **Supervision**: Robust and highly-performant set of utilities for writing reusable computer vision tools.
+- **Tracking/TrackForge**: Target tracking algorithms and tools.
+
+## Skills & Frameworks
+- **Languages**: Python, Kotlin, C++, Rust
+- **ML/DL**: PyTorch, ONNX, TensorRT, ExecuTorch
+- **Focus**: Computer Vision, ML/DL, MLOps, DevOps
+
+## Community Involvement
+- Active contributor to Fedora Project
+- Active contributor to openSUSE
+- Active contributor to OpenCV
+- GDG Samsun organizer
+- Hacktoberfest participant
+
+## Profiles
+- LinkedIn: https://www.linkedin.com/in/onuralpsezer/
+- GitHub: https://github.com/onuralpszr
+
+## Contact
+You can reach me via email or LinkedIn.
