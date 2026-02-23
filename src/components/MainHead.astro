@@ -15,6 +15,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 <meta charset="UTF-8" />
 <meta name="description" property="og:description" content={description} />
+<!-- Chrome Built-in AI (Prompt API) Origin Trial token for onuralpsezer.com             -->
+<!-- Get your token at: https://developer.chrome.com/origintrials/#/trials/active         -->
+<!-- Register for "Prompt API for Gemini Nano" and paste the token value below            -->
+{import.meta.env.GEMINI_NANO_OT_TOKEN && (
+  <meta http-equiv="origin-trial" content={import.meta.env.GEMINI_NANO_OT_TOKEN} />
+)}
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
 <meta name="author" content="Onuralp Sezer" />

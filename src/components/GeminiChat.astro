@@ -271,6 +271,7 @@
 
 <script>
   let chatSession: any = null;
+  let isNewApiSession = false;
 
   const initializeGeminiChat = () => {
     const toggleBtn = document.getElementById('gemini-chat-toggle');
@@ -286,6 +287,90 @@
     const inputField = document.getElementById('chat-input') as HTMLInputElement | null;
     const sendBtn = document.getElementById('chat-send') as HTMLButtonElement | null;
 
+    const setStatus = (text: string, isError = false) => {
+      if (!statusMsg) return;
+      statusMsg.textContent = text;
+      statusMsg.style.color = isError ? '#ff5f56' : 'var(--gray-400)';
+    };
+
+    const getLanguageModelApi = () => {
+      const hostWindow = window as any;
+      // New API (Chrome 128+): window.LanguageModel
+      if (typeof hostWindow.LanguageModel !== 'undefined') return hostWindow.LanguageModel;
+      // Legacy API: window.ai.languageModel
+      if (hostWindow.ai && typeof hostWindow.ai.languageModel !== 'undefined') return hostWindow.ai.languageModel;
+      return null;
+    };
+
+    const getAvailability = (capabilities: any) => {
+      return capabilities?.available ?? capabilities?.availability ?? 'unknown';
+    };
+
+    const runDiagnostics = async () => {
+      if (!enableBtn) return { ok: false, availability: 'no' as const };
+
+      if (!window.isSecureContext) {
+        enableBtn.disabled = true;
+        setStatus('Built-in AI requires a secure context (HTTPS or localhost).', true);
+        return { ok: false, availability: 'no' as const };
+      }
+
+      const languageModel = getLanguageModelApi();
+      if (!languageModel) {
+        enableBtn.disabled = true;
+        setStatus(
+          'Chrome Built-in AI API not found. Enable flags: chrome://flags/#optimization-guide-on-device-model and chrome://flags/#prompt-api-for-gemini-nano-multimodal-input, then fully restart Chrome.',
+          true
+        );
+        return { ok: false, availability: 'no' as const };
+      }
+
+      // New API uses availability(), old API uses capabilities()
+      const hasAvailability = typeof languageModel.availability === 'function';
+      const hasCapabilities = typeof languageModel.capabilities === 'function';
+      if (!hasAvailability && !hasCapabilities) {
+        enableBtn.disabled = true;
+        setStatus('LanguageModel API found but availability check is missing. Please update Chrome.', true);
+        return { ok: false, availability: 'no' as const };
+      }
+
+      try {
+        // New API: availability() → string directly ('available','downloading','unavailable')
+        // Old API: capabilities() → object with .available ('readily','after-download','no')
+        let availability: string;
+        if (typeof languageModel.availability === 'function') {
+          availability = await languageModel.availability();
+        } else {
+          const capabilities = await languageModel.capabilities();
+          availability = getAvailability(capabilities);
+        }
+
+        // 'unavailable' = new API, 'no' = old API
+        if (availability === 'unavailable' || availability === 'no') {
+          enableBtn.disabled = true;
+          setStatus(`Gemini Nano reports unavailable (status: ${availability}). Check chrome://on-device-internals.`, true);
+          return { ok: false, availability };
+        }
+
+        // 'downloading' = new API, 'after-download' = old API
+        if (availability === 'after-download' || availability === 'downloading') {
+          enableBtn.disabled = false;
+          enableBtn.textContent = 'Download + Enable AI Chat';
+          setStatus(`Model is still downloading (status: ${availability}). Keep this tab open and try again soon.`);
+          return { ok: true, availability };
+        }
+
+        enableBtn.disabled = false;
+        enableBtn.textContent = 'Enable AI Chat';
+        setStatus(`Gemini Nano is ready ✓ (status: ${availability})`);
+        return { ok: true, availability };
+      } catch (error: any) {
+        enableBtn.disabled = true;
+        setStatus(`Availability check failed: ${error?.message || 'unknown error'}`, true);
+        return { ok: false, availability: 'no' as const };
+      }
+    };
+
     // Toggle Window
     toggleBtn?.addEventListener('click', () => {
       chatWindow?.classList.toggle('hidden');
@@ -297,38 +382,38 @@
 
     // Enable AI
     enableBtn?.addEventListener('click', async () => {
-      if (!statusMsg || !enableBtn) return;
+      if (!enableBtn) return;
 
-      const hostWindow = window as any;
+      const diagnostics = await runDiagnostics();
+      if (!diagnostics.ok) return;
 
-      if (!('ai' in hostWindow) || !('languageModel' in hostWindow.ai)) {
-        statusMsg.textContent = "Your browser does not support Chrome Built-in AI. Please use Chrome Dev/Canary with the experimental flag enabled.";
-        statusMsg.style.color = "#ff5f56";
+      const languageModel = getLanguageModelApi();
+      if (!languageModel) {
+        setStatus('Chrome Built-in AI API not found — re-run diagnostics.', true);
         return;
       }
 
       try {
         enableBtn.disabled = true;
-        statusMsg.textContent = "Checking model capabilities...";
-        
-        const capabilities = await hostWindow.ai.languageModel.capabilities();
-        if (capabilities.available === 'no') {
-           statusMsg.textContent = "The Gemini Nano model is not available on this device.";
-           statusMsg.style.color = "#ff5f56";
-           return;
-        }
-
-        statusMsg.textContent = "Fetching Onuralp's context profile...";
-        // Fetch the externalized system prompt
+        setStatus("Fetching Onuralp's context profile...");
         const promptRes = await fetch('/prompt.txt');
         if (!promptRes.ok) throw new Error("Failed to load prompt.txt");
         const systemPrompt = await promptRes.text();
 
-        statusMsg.textContent = "Initializing AI session (this may take a moment to download the model)...";
-        
-        chatSession = await hostWindow.ai.languageModel.create({
-          systemPrompt: systemPrompt
-        });
+        setStatus('Initializing AI session (first run may take a moment)...');
+
+        // New API uses initialPrompts with role 'system'; old API uses systemPrompt string
+        isNewApiSession = typeof languageModel.availability === 'function';
+        chatSession = isNewApiSession
+          ? await languageModel.create({
+              initialPrompts: [{ role: 'system', content: systemPrompt }],
+              monitor(m: any) {
+                m.addEventListener('downloadprogress', (e: any) => {
+                  setStatus(`Downloading model: ${Math.round(e.loaded * 100)}%`);
+                });
+              },
+            })
+          : await languageModel.create({ systemPrompt });
 
         // Switch to active view
         setupView?.classList.add('hidden');
@@ -336,8 +421,7 @@
 
       } catch (e: any) {
         console.error(e);
-        statusMsg.textContent = "Error initializing AI: " + e.message;
-        statusMsg.style.color = "#ff5f56";
+        setStatus('Error initializing AI: ' + e.message, true);
         enableBtn.disabled = false;
       }
     });
@@ -373,16 +457,18 @@
 
       try {
         if (typeof chatSession.promptStreaming === 'function') {
-           const stream = await chatSession.promptStreaming(text);
-           let fullResponse = '';
-           for await (const chunk of stream) {
-              fullResponse = chunk;
-              aiMessageDiv.textContent = fullResponse;
-              messagesContainer.scrollTop = messagesContainer.scrollHeight;
-           }
+          const stream = chatSession.promptStreaming(text);
+          let fullResponse = '';
+          for await (const chunk of stream) {
+            // New API: each chunk is a delta to append.
+            // Old API: each chunk is the full accumulated response so far.
+            fullResponse = isNewApiSession ? fullResponse + chunk : chunk;
+            aiMessageDiv.textContent = fullResponse;
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+          }
         } else {
-           const response = await chatSession.prompt(text);
-           aiMessageDiv.textContent = response;
+          const response = await chatSession.prompt(text);
+          aiMessageDiv.textContent = response;
         }
       } catch (e: any) {
         console.error(e);
@@ -401,6 +487,8 @@
     inputField?.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') handleSend();
     });
+
+    runDiagnostics();
   };
 
   if (document.readyState === 'loading') {
