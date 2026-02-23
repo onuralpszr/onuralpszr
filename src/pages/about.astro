@@ -64,6 +64,26 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 					</p>
 				</div>
 			</section>
+		<section>
+				<h2 class="section-title">Terminal API</h2>
+				<div class="content">
+					<p>
+						Want to fetch my resume details and links directly from your terminal? Just run the following `curl` command to hit my site's custom ANSI-colored API!
+					</p>
+					<div class="terminal-container">
+						<div class="terminal-header">
+							<span class="terminal-button red"></span>
+							<span class="terminal-button yellow"></span>
+							<span class="terminal-button green"></span>
+							<span class="terminal-title">bash — onuralpsezer.com/api/</span>
+						</div>
+						<div class="terminal-body">
+							<span class="prompt">~ $ </span>
+							<span class="command">curl https://onuralpsezer.com/api.txt</span>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<ContactCTA />
@@ -109,6 +129,57 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 	.content :global(a:hover),
 	.content :global(a:focus) {
 		text-decoration-color: currentColor;
+	}
+
+	.terminal-container {
+		background-color: var(--gray-999);
+		border-radius: 0.5rem;
+		border: 1px solid var(--gray-800);
+		overflow: hidden;
+		margin-top: 1.5rem;
+		box-shadow: var(--shadow-sm);
+		font-family: var(--font-brand);
+	}
+
+	.terminal-header {
+		background-color: var(--gray-800);
+		padding: 0.5rem 1rem;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		border-bottom: 1px solid var(--gray-800);
+	}
+
+	.terminal-button {
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+	}
+
+	.terminal-button.red { background-color: #ff5f56; }
+	.terminal-button.yellow { background-color: #ffbd2e; }
+	.terminal-button.green { background-color: #27c93f; }
+
+	.terminal-title {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 0.75rem;
+		color: var(--gray-400);
+		font-weight: 600;
+	}
+
+	.terminal-body {
+		padding: 1rem;
+		font-size: var(--text-base);
+		color: var(--gray-200);
+	}
+
+	.terminal-body .prompt {
+		color: var(--accent-light);
+	}
+
+	.terminal-body .command {
+		color: var(--gray-0);
 	}
 
 	@media (min-width: 50em) {
