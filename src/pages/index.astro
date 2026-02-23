@@ -31,12 +31,17 @@ const projects = (await getCollection('work'))
 					</div>
 				</Hero>
 
-				<img
-					alt="Onuralp Sezer - Senior Machine Learning Engineer"
-					width="480"
-					height="620"
-					src="https://github.com/onuralpszr.png"
-				/>
+				<div class="hero-image-container">
+					<img
+						alt="Onuralp Sezer - Senior Machine Learning Engineer"
+						width="480"
+						height="620"
+						src="https://github.com/onuralpszr.png"
+					/>
+					<div class="bounding-box">
+						<span class="bbox-label">ML_Engineer 0.99</span>
+					</div>
+				</div>
 			</header>
 
 			<Skills />
@@ -104,7 +109,18 @@ const projects = (await getCollection('work'))
 	}
 
 	.roles {
-		display: none;
+		margin-top: 0.5rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.5rem;
+	}
+
+	.hero-image-container {
+		position: relative;
+		display: inline-block;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
 	}
 
 	.hero img {
@@ -112,7 +128,58 @@ const projects = (await getCollection('work'))
 		object-fit: cover;
 		object-position: top;
 		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.bounding-box {
+		position: absolute;
+		top: 15%;
+		left: 15%;
+		width: 70%;
+		height: 70%;
+		border: 2px solid #00d2ff;
+		border-radius: 8px;
+		pointer-events: none;
+		opacity: 0;
+		animation: fadeInBox 0.5s ease-out forwards 1s;
+	}
+
+	.bounding-box::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		background: #00d2ff;
+		box-shadow: 0 0 10px #00d2ff;
+		animation: scanLine 3s linear infinite;
+	}
+
+	.bbox-label {
+		position: absolute;
+		top: -24px;
+		left: -2px;
+		background-color: #00d2ff;
+		color: #000;
+		font-family: monospace;
+		font-size: 0.85rem;
+		font-weight: bold;
+		padding: 2px 8px;
+		border-radius: 4px 4px 0 0;
+	}
+
+	@keyframes fadeInBox {
+		to { opacity: 1; }
+	}
+
+	@keyframes scanLine {
+		0% { top: 0; opacity: 0; }
+		10% { opacity: 1; }
+		90% { opacity: 1; }
+		100% { top: 100%; opacity: 0; }
 	}
 
 	@media (min-width: 50em) {
@@ -126,13 +193,18 @@ const projects = (await getCollection('work'))
 		.roles {
 			margin-top: 0.5rem;
 			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-start;
 			gap: 0.5rem;
+		}
+
+		.hero-image-container {
+			border-radius: 4.5rem;
 		}
 
 		.hero img {
 			aspect-ratio: 3 / 4;
 			border-radius: 4.5rem;
-			object-fit: cover;
 		}
 	}
 
