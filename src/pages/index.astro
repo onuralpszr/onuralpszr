@@ -41,6 +41,32 @@ const projects = (await getCollection('work'))
 					<div class="bounding-box">
 						<span class="bbox-label">ML_Engineer 0.99</span>
 					</div>
+					<div class="github-status-bubble" aria-live="polite">
+						<p class="status-heading">
+							<Icon icon="github-logo" size="1em" />
+							Dev Signal
+						</p>
+						<p class="status-presence">
+							<span class="status-dot" aria-hidden="true"></span>
+							<span id="github-status-text">Active this week</span>
+						</p>
+						<p class="status-metrics">
+							<Icon icon="github-logo" size="0.95em" />
+							<span id="github-followers">--</span>
+							followers •
+							<span id="github-repos">--</span>
+							repos
+						</p>
+						<p class="status-metrics">
+							<Icon icon="huggingface-logo" size="0.95em" />
+							<span id="hf-models">--</span>
+							models •
+							<span id="hf-datasets">--</span>
+							datasets •
+							<span id="hf-spaces">--</span>
+							spaces
+						</p>
+					</div>
 				</div>
 			</header>
 
@@ -101,6 +127,72 @@ const projects = (await getCollection('work'))
 	</div>
 </BaseLayout>
 
+<script>
+	const githubFollowers = document.getElementById('github-followers');
+	const githubRepos = document.getElementById('github-repos');
+	const githubStatusText = document.getElementById('github-status-text');
+	const hfModels = document.getElementById('hf-models');
+	const hfDatasets = document.getElementById('hf-datasets');
+	const hfSpaces = document.getElementById('hf-spaces');
+
+	const formatNumber = (value: number) => new Intl.NumberFormat('en-US').format(value);
+
+	const loadGithubStatus = async () => {
+		const [userResult] = await Promise.allSettled([
+			fetch('https://api.github.com/users/onuralpszr'),
+		]);
+
+		const userResponse = userResult.status === 'fulfilled' ? userResult.value : null;
+
+		if (userResponse?.ok) {
+			const user = await userResponse.json();
+			if (githubFollowers) githubFollowers.textContent = formatNumber(user.followers ?? 0);
+			if (githubRepos) githubRepos.textContent = formatNumber(user.public_repos ?? 0);
+			if (githubStatusText) githubStatusText.textContent = 'Public profile online';
+			return;
+		}
+
+		if (githubStatusText) githubStatusText.textContent = 'GitHub stats temporarily unavailable';
+	};
+
+	const loadHuggingFaceStatus = async () => {
+		const [modelsResult, datasetsResult, spacesResult] = await Promise.allSettled([
+			fetch('https://huggingface.co/api/models?author=onuralpszr&full=false&config=false'),
+			fetch('https://huggingface.co/api/datasets?author=onuralpszr&full=false'),
+			fetch('https://huggingface.co/api/spaces?author=onuralpszr&full=false'),
+		]);
+
+		const modelsResponse = modelsResult.status === 'fulfilled' ? modelsResult.value : null;
+		const datasetsResponse = datasetsResult.status === 'fulfilled' ? datasetsResult.value : null;
+		const spacesResponse = spacesResult.status === 'fulfilled' ? spacesResult.value : null;
+
+		if (modelsResponse?.ok) {
+			const models = await modelsResponse.json();
+			if (hfModels) hfModels.textContent = formatNumber(Array.isArray(models) ? models.length : 0);
+		}
+
+		if (datasetsResponse?.ok) {
+			const datasets = await datasetsResponse.json();
+			if (hfDatasets) hfDatasets.textContent = formatNumber(Array.isArray(datasets) ? datasets.length : 0);
+		}
+
+		if (spacesResponse?.ok) {
+			const spaces = await spacesResponse.json();
+			if (hfSpaces) hfSpaces.textContent = formatNumber(Array.isArray(spaces) ? spaces.length : 0);
+		}
+	};
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', () => {
+			loadGithubStatus();
+			loadHuggingFaceStatus();
+		}, { once: true });
+	} else {
+		loadGithubStatus();
+		loadHuggingFaceStatus();
+	}
+</script>
+
 <style>
 	.hero {
 		display: flex;
@@ -122,6 +214,7 @@ const projects = (await getCollection('work'))
 		display: inline-block;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
+		isolation: isolate;
 	}
 
 	.hero img {
@@ -172,6 +265,109 @@ const projects = (await getCollection('work'))
 		border-radius: 4px 4px 0 0;
 	}
 
+	.github-status-bubble {
+		position: absolute;
+		left: 50%;
+		bottom: 1rem;
+		transform: translateX(-50%) translateY(8px);
+		width: min(88%, 18rem);
+		padding: 0.88rem 0.95rem;
+		border-radius: 1.2rem;
+		background:
+			conic-gradient(from 190deg at 20% 20%, transparent 0deg, var(--accent-subtle-overlay) 70deg, transparent 150deg),
+			radial-gradient(circle at 85% 18%, var(--accent-subtle-overlay), transparent 45%),
+			linear-gradient(160deg, var(--gray-999_40), var(--gray-900));
+		border: 1px solid var(--gray-700);
+		backdrop-filter: blur(12px);
+		box-shadow: var(--shadow-sm);
+		opacity: 0;
+		pointer-events: none;
+		overflow: hidden;
+		transition: opacity var(--theme-transition), transform var(--theme-transition), box-shadow var(--theme-transition);
+	}
+
+	.github-status-bubble::before,
+	.github-status-bubble::after {
+		content: '';
+		position: absolute;
+		border-radius: 999rem;
+		pointer-events: none;
+	}
+
+	.github-status-bubble::before {
+		inset: 0.4rem;
+		border: 1px dashed var(--gray-700);
+		opacity: 0.55;
+		animation: hudSpin 8s linear infinite;
+	}
+
+	.github-status-bubble::after {
+		width: 6rem;
+		height: 0.9rem;
+		left: calc(50% - 3rem);
+		bottom: 0.55rem;
+		background: linear-gradient(90deg, transparent, var(--accent-regular), transparent);
+		opacity: 0.35;
+		animation: sweep 2.6s ease-in-out infinite;
+	}
+
+	.hero-image-container:hover .bounding-box,
+	.hero-image-container:focus-within .bounding-box {
+		animation-duration: 0.25s;
+	}
+
+	.hero-image-container:hover .github-status-bubble,
+	.hero-image-container:focus-within .github-status-bubble {
+		opacity: 1;
+		transform: translateX(-50%) translateY(0);
+		box-shadow: var(--shadow-md);
+		animation: cloudFloat 2.2s ease-in-out infinite, hudPulse 2.4s ease-in-out infinite;
+	}
+
+	.status-heading,
+	.status-presence,
+	.status-metrics {
+		display: flex;
+		align-items: center;
+		gap: 0.4rem;
+		line-height: 1.3;
+	}
+
+	.status-heading {
+		font-size: 0.78rem;
+		font-weight: 600;
+		color: var(--gray-100);
+		margin-bottom: 0.35rem;
+		position: relative;
+		z-index: 1;
+		letter-spacing: 0.03em;
+	}
+
+	.status-presence {
+		font-size: 0.8rem;
+		color: var(--gray-200);
+		position: relative;
+		z-index: 1;
+	}
+
+	.status-metrics {
+		margin-top: 0.25rem;
+		font-size: 0.73rem;
+		color: var(--gray-300);
+		position: relative;
+		z-index: 1;
+		flex-wrap: wrap;
+	}
+
+	.status-dot {
+		width: 0.55rem;
+		height: 0.55rem;
+		border-radius: 999rem;
+		background: var(--accent-light);
+		box-shadow: 0 0 0 3px var(--gray-999_40);
+		animation: statusPulse 1.8s ease-in-out infinite;
+	}
+
 	@keyframes fadeInBox {
 		to { opacity: 1; }
 	}
@@ -181,6 +377,57 @@ const projects = (await getCollection('work'))
 		10% { opacity: 1; }
 		90% { opacity: 1; }
 		100% { top: 100%; opacity: 0; }
+	}
+
+	@keyframes cloudFloat {
+		0%,
+		100% {
+			transform: translateX(-50%) translateY(0);
+		}
+		50% {
+			transform: translateX(-50%) translateY(-4px);
+		}
+	}
+
+	@keyframes statusPulse {
+		0%,
+		100% {
+			box-shadow: 0 0 0 0 var(--gray-999_40);
+		}
+		50% {
+			box-shadow: 0 0 0 6px transparent;
+		}
+	}
+
+	@keyframes hudSpin {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
+	}
+
+	@keyframes sweep {
+		0%,
+		100% {
+			opacity: 0.2;
+			transform: translateX(-16px);
+		}
+		50% {
+			opacity: 0.5;
+			transform: translateX(16px);
+		}
+	}
+
+	@keyframes hudPulse {
+		0%,
+		100% {
+			border-color: var(--gray-700);
+		}
+		50% {
+			border-color: var(--accent-regular);
+		}
 	}
 
 	@media (min-width: 50em) {
@@ -201,6 +448,10 @@ const projects = (await getCollection('work'))
 
 		.hero-image-container {
 			border-radius: 4.5rem;
+		}
+
+		.github-status-bubble {
+			bottom: 1.5rem;
 		}
 
 		.hero img {

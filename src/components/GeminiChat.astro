@@ -272,7 +272,7 @@
 <script>
   let chatSession: any = null;
 
-  document.addEventListener('DOMContentLoaded', () => {
+  const initializeGeminiChat = () => {
     const toggleBtn = document.getElementById('gemini-chat-toggle');
     const chatWindow = document.getElementById('gemini-chat-window');
     const closeBtn = document.getElementById('gemini-chat-close');
@@ -401,5 +401,11 @@
     inputField?.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') handleSend();
     });
-  });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeGeminiChat, { once: true });
+  } else {
+    initializeGeminiChat();
+  }
 </script>
