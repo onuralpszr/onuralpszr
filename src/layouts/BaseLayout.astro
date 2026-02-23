@@ -2,6 +2,7 @@
 import Footer from '../components/Footer.astro';
 import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
+import GeminiChat from '../components/GeminiChat.astro';
 
 interface Props {
 	title?: string | undefined;
@@ -20,6 +21,7 @@ const { title, description } = Astro.props;
 			<Nav />
 			<slot />
 			<Footer />
+			<GeminiChat />
 		</div>
 
 		<script>
