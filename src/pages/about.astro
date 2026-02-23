@@ -1,0 +1,129 @@
+---
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About | Onuralp Sezer" description="Senior Machine Learning Engineer specializing in Computer Vision, Deep Learning, and MLOps">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Senior Machine Learning Engineer with a passion for Computer Vision, Deep Learning, and Open Source."
+			>
+				<img
+					width="800"
+					height="400"
+					src="https://github.com/onuralpszr.png"
+					alt="Onuralp Sezer"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						I'm <strong>Onuralp Sezer</strong>, a Senior Machine Learning Engineer Lv2 at <a href="https://ultralytics.com">Ultralytics</a>, 
+						specializing in <strong>Computer Vision</strong>, <strong>Deep Learning</strong>, and <strong>MLOps</strong>. 
+						My primary languages are <strong>Python</strong>, <strong>Kotlin</strong>, <strong>C++</strong>, and <strong>Rust</strong>.
+					</p>
+					<p>
+						I work extensively with <a href="https://pytorch.org">PyTorch</a> for model training and fine-tuning, 
+						and contribute to cutting-edge projects like <a href="https://github.com/ultralytics/ultralytics">Ultralytics YOLO</a>, 
+						<a href="https://github.com/pytorch/executorch">ExecuTorch</a>, and <a href="https://github.com/obss/sahi">SAHI</a>.
+					</p>
+					<p>
+						My expertise spans from training state-of-the-art YOLO models to optimizing inference with 
+						<strong>ONNX</strong>, <strong>TensorRT</strong>, and <strong>ExecuTorch</strong> for edge deployment.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Open Source</h2>
+				<div class="content">
+					<p>
+						I'm a long-term <a href="https://fedoraproject.org/wiki/User:onuralpszr">Fedora Project Contributor</a> 
+						(Mindshare Member, KDE SIG Member, RPM Packager) and an <strong>Organizer/Speaker</strong> at 
+						<a href="https://gdgsamsun.org">GDG Samsun</a>, sharing insights on Deep Learning, Computer Vision, and VLMs.
+					</p>
+					<p>
+						I've proudly participated in <strong>Hacktoberfest</strong> every year since 2022, completing four consecutive years. 
+						I'm also part of the <strong>Holopin x Hacktoberfest: 10 Badge Club</strong>.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>
+						<strong>ML/DL:</strong> PyTorch, TensorFlow, ONNX, TensorRT, YOLO, Computer Vision<br>
+						<strong>Languages:</strong> Python, Kotlin, C++, Rust, TypeScript<br>
+						<strong>MLOps:</strong> Docker, Kubernetes, GitHub Actions, CI/CD<br>
+						<strong>Mobile/Edge:</strong> Android, Flutter, ARCore, MediaPipe, ncnn<br>
+						<strong>Platforms:</strong> Linux (Fedora), Windows, macOS
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>

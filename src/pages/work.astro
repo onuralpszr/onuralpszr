@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import ContactCTA from '../components/ContactCTA.astro';
+import Grid from '../components/Grid.astro';
+import Hero from '../components/Hero.astro';
+import PortfolioPreview from '../components/PortfolioPreview.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const projects = (await getCollection('work')).sort(
+	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
+);
+---
+
+<BaseLayout
+	title="My Work | Onuralp Sezer"
+	description="Explore Onuralp Sezer's projects in Machine Learning and Computer Vision"
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="My Work"
+				tagline="A selection of projects I've contributed to and maintained in the ML/CV space."
+				align="start"
+			/>
+			<Grid variant="offset">
+				{
+					projects.map((project) => (
+						<li>
+							<PortfolioPreview project={project} />
+						</li>
+					))
+				}
+			</Grid>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
