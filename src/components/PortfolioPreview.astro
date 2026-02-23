@@ -8,13 +8,15 @@ interface Props {
 const { data, id } = Astro.props.project;
 ---
 
-<a class="card" href={`/work/${id}`}>
+<a class="card cv-target cv-bbox-hover" href={`/work/${id}`}>
 	<span class="title">{data.title}</span>
+	<div class="bbox-overlay"></div>
 	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
 </a>
 
 <style>
 	.card {
+		position: relative;
 		display: grid;
 		grid-template: auto 1fr / auto 1fr;
 		height: 11rem;
@@ -32,6 +34,44 @@ const { data, id } = Astro.props.project;
 
 	.card:hover {
 		box-shadow: var(--shadow-md);
+	}
+
+	.bbox-overlay {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		right: 10px;
+		bottom: 10px;
+		border: 2px solid #00d2ff;
+		border-radius: 8px;
+		pointer-events: none;
+		opacity: 0;
+		z-index: 2;
+		transition: opacity var(--theme-transition);
+		overflow: hidden;
+	}
+
+	.cv-bbox-hover:hover .bbox-overlay {
+		opacity: 1;
+	}
+
+	.cv-bbox-hover:hover .bbox-overlay::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		background: #00d2ff;
+		box-shadow: 0 0 10px #00d2ff;
+		animation: scanLine 2s linear infinite;
+	}
+
+	@keyframes scanLine {
+		0% { top: 0; opacity: 0; }
+		10% { opacity: 1; }
+		90% { opacity: 1; }
+		100% { top: 100%; opacity: 0; }
 	}
 
 	.title {

@@ -85,8 +85,9 @@ const projects = (await getCollection('work'))
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Ultralytics', 'Fedora Project', 'GDG Samsun', 'Hacktoberfest', 'SAHI'].map((brand) => (
-								<li class="mention-card">
+							['Ultralytics', 'Fedora Project', 'openSUSE', 'OpenCV', 'GDG Samsun', 'Hacktoberfest', 'SAHI'].map((brand) => (
+								<li class="mention-card cv-target cv-bbox-hover">
+									<div class="bbox-overlay"></div>
 									<p>{brand}</p>
 								</li>
 							))
@@ -292,6 +293,7 @@ const projects = (await getCollection('work'))
 	/* ====================================================== */
 
 	.mention-card {
+		position: relative;
 		display: flex;
 		height: 7rem;
 		justify-content: center;
@@ -302,6 +304,37 @@ const projects = (await getCollection('work'))
 		color: var(--gray-300);
 		background: var(--gradient-subtle);
 		box-shadow: var(--shadow-sm);
+		overflow: hidden;
+	}
+
+	.bbox-overlay {
+		position: absolute;
+		top: 4px;
+		left: 4px;
+		right: 4px;
+		bottom: 4px;
+		border: 2px solid #00d2ff;
+		border-radius: 8px;
+		pointer-events: none;
+		opacity: 0;
+		z-index: 2;
+		transition: opacity var(--theme-transition);
+	}
+
+	.cv-bbox-hover:hover .bbox-overlay {
+		opacity: 1;
+	}
+
+	.cv-bbox-hover:hover .bbox-overlay::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		background: #00d2ff;
+		box-shadow: 0 0 10px #00d2ff;
+		animation: scanLine 2s linear infinite;
 	}
 
 	@media (min-width: 50em) {

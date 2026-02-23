@@ -1,7 +1,11 @@
-<div class="pill"><slot /></div>
+<div class="pill cv-target cv-bbox-hover">
+	<div class="bbox-overlay"></div>
+	<slot />
+</div>
 
 <style>
 	.pill {
+		position: relative;
 		display: flex;
 		align-items: center;
 		padding: 0.5rem 1rem;
@@ -13,5 +17,43 @@
 		font-size: var(--text-md);
 		line-height: 1.35;
 		white-space: nowrap;
+	}
+
+	.bbox-overlay {
+		position: absolute;
+		top: -2px;
+		left: -2px;
+		right: -2px;
+		bottom: -2px;
+		border: 1.5px solid #00d2ff;
+		border-radius: 999rem;
+		pointer-events: none;
+		opacity: 0;
+		z-index: 2;
+		transition: opacity var(--theme-transition);
+		overflow: hidden;
+	}
+
+	.cv-bbox-hover:hover .bbox-overlay {
+		opacity: 1;
+	}
+
+	.cv-bbox-hover:hover .bbox-overlay::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		background: #00d2ff;
+		box-shadow: 0 0 10px #00d2ff;
+		animation: scanLine 2s linear infinite;
+	}
+
+	@keyframes scanLine {
+		0% { top: 0; opacity: 0; }
+		10% { opacity: 1; }
+		90% { opacity: 1; }
+		100% { top: 100%; opacity: 0; }
 	}
 </style>

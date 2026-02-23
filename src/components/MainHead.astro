@@ -10,6 +10,7 @@ const {
 	title = 'Onuralp Sezer | Senior ML Engineer',
 	description = 'Senior Machine Learning Engineer at Ultralytics, specializing in Computer Vision, Deep Learning, and MLOps.',
 } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <meta charset="UTF-8" />
@@ -17,12 +18,46 @@ const {
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
 <meta name="author" content="Onuralp Sezer" />
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#13151a" media="(prefers-color-scheme: dark)" />
+
+<!-- Canonical URL -->
+<link rel="canonical" href={canonicalURL} />
+
+<!-- OpenGraph tags -->
 <meta property="og:title" content={title} />
 <meta property="og:type" content="website" />
+<meta property="og:url" content={canonicalURL} />
 <meta property="og:image" content="https://github.com/onuralpszr.png" />
+
+<!-- Twitter tags -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:creator" content="@onuralpszr" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content="https://github.com/onuralpszr.png" />
+
 <title>{title}</title>
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Onuralp Sezer",
+		"url": "https://onuralpszr.github.io/",
+		"image": "https://github.com/onuralpszr.png",
+		"sameAs": [
+			"https://github.com/onuralpszr",
+			"https://www.linkedin.com/in/onuralpsezer/"
+		],
+		"jobTitle": "Senior Machine Learning Engineer",
+		"worksFor": {
+			"@type": "Organization",
+			"name": "Ultralytics"
+		}
+	}
+</script>
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="icon" href="/favicon.ico" />
