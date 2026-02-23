@@ -7,8 +7,8 @@ interface Props {
 }
 
 const {
-	title = 'Onuralp Sezer | Senior ML Engineer',
-	description = 'Senior Machine Learning Engineer at Ultralytics, specializing in Computer Vision, Deep Learning, and MLOps.',
+	title = 'Onuralp Sezer | Senior Machine Learning Engineer',
+	description = 'Senior Machine Learning Engineer at Ultralytics. Specializing in Computer Vision, Deep Learning, MLOps, and scalable Open Source AI solutions.',
 } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
@@ -28,14 +28,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <meta property="og:title" content={title} />
 <meta property="og:type" content="website" />
 <meta property="og:url" content={canonicalURL} />
-<meta property="og:image" content="https://github.com/onuralpszr.png" />
+<meta property="og:image" content={new URL('/assets/og_preview_image.png', Astro.site)} />
 
 <!-- Twitter tags -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:creator" content="@onuralpszr" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
-<meta name="twitter:image" content="https://github.com/onuralpszr.png" />
+<meta name="twitter:image" content={new URL('/assets/og_preview_image.png', Astro.site)} />
 
 <title>{title}</title>
 
