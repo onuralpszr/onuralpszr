@@ -31,7 +31,7 @@ ${YELLOW}[ Skills & Expertise ]${RESET}
 ${BLUE}[ Links ]${RESET}
 - GitHub:   ${BOLD}https://github.com/onuralpszr${RESET}
 - LinkedIn: ${BOLD}https://www.linkedin.com/in/onuralpsezer/${RESET}
-- Website:  ${BOLD}https://onuralpszr.github.io${RESET}
+- Website:  ${BOLD}https://onuralpsezer.com${RESET}
 
 ${CYAN}>>> "Vision is the art of seeing what is invisible to others." -- Jonathan Swift${RESET}
 `;
