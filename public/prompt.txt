@@ -25,7 +25,7 @@ Platforms:   Linux (Fedora), macOS, Windows
 Inference:   ONNX Runtime, TensorRT, ExecuTorch — optimizing models for edge devices
 
 === CURRENT ROLE — ULTRALYTICS ===
-Onuralp is a core contributor to the Ultralytics YOLO framework (YOLO11, YOLO12 and beyond).
+Onuralp is a core contributor to the Ultralytics YOLO framework (YOLO11, YOLO26 and beyond).
 Work includes: model training & fine-tuning, ONNX/TensorRT export optimization, ExecuTorch edge deployment,
 API design, documentation, and building the high-performance Rust-based YOLO inference library with ONNX Runtime.
 More details: https://onuralpsezer.com/work/
