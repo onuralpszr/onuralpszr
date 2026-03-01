@@ -66,13 +66,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 			</section>
 			<section>
 				<h2 class="section-title">Support</h2>
-				<div class="content support-content">
-					<p>
-						If you find my open-source work or talks helpful, you can support me by <a href="https://buymeacoffee.com/onuralpszr" target="_blank" rel="noopener noreferrer">buying me a coffee</a>!
-					</p>
-					<a href="https://buymeacoffee.com/onuralpszr" target="_blank" rel="noopener noreferrer" class="qr-link">
-						<img src="/assets/qr-code.png" alt="Buy Me A Coffee QR Code" width="200" height="200" class="qr-code" />
-					</a>
+				<div class="content">
+					<div class="support-card">
+						<div class="support-info">
+							<p>
+								If you find my open-source work or talks helpful, you can support me to keep going!
+							</p>
+							<a href="https://buymeacoffee.com/onuralpszr" target="_blank" rel="noopener noreferrer" class="bmc-btn">
+								<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" class="bmc-img" />
+							</a>
+						</div>
+						<a href="https://buymeacoffee.com/onuralpszr" target="_blank" rel="noopener noreferrer" class="qr-link">
+							<img src="/assets/qr-code.png" alt="Buy Me A Coffee QR Code" width="160" height="160" class="qr-code" />
+						</a>
+					</div>
 				</div>
 			</section>
 			<section>
@@ -142,30 +149,66 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 		text-decoration-color: currentColor;
 	}
 
-	.support-content {
+	.support-card {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		gap: 2rem;
+		background: radial-gradient(var(--gray-900), var(--gray-800) 150%);
+		border: 1px solid var(--gray-800);
+		border-radius: 1.5rem;
+		padding: 2rem;
+		box-shadow: var(--shadow-sm);
+		text-align: center;
+	}
+
+	.support-info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		gap: 1.5rem;
 	}
 
+	.bmc-btn {
+		display: inline-block;
+		transition: transform var(--theme-transition), filter var(--theme-transition);
+	}
+
+	.bmc-btn:hover,
+	.bmc-btn:focus {
+		transform: translateY(-0.15rem);
+		filter: brightness(1.1);
+	}
+
+	.bmc-img {
+		height: 3.5rem !important;
+		width: auto !important;
+		margin: 0 !important;
+		box-shadow: none !important;
+		border-radius: 0.5rem;
+	}
+
 	.qr-link {
-		width: fit-content;
+		flex-shrink: 0;
 		border-radius: 1.5rem;
 		overflow: hidden;
 		transition: transform var(--theme-transition), box-shadow var(--theme-transition);
+		background: white; /* Ensure QR code is legible */
+		padding: 0.75rem;
+		box-shadow: var(--shadow-sm);
 	}
 
 	.qr-link:hover,
 	.qr-link:focus {
 		transform: translateY(-0.25rem);
+		box-shadow: var(--shadow-md);
 	}
 
 	.qr-code {
 		display: block;
-		margin-top: 0; /* Reset global img style */
-		box-shadow: none; /* Let .qr-link or global handle it */
-		background: white; /* Make sure QR code is always readable in dark mode */
-		padding: 1rem;
+		margin-top: 0;
+		box-shadow: none;
+		border-radius: 0.75rem;
 	}
 
 	.terminal-container {
@@ -232,6 +275,17 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 		section {
 			display: contents;
 			font-size: var(--text-lg);
+		}
+		
+		.support-card {
+			flex-direction: row;
+			justify-content: space-between;
+			text-align: left;
+			padding: 2.5rem;
+		}
+
+		.support-info {
+			align-items: flex-start;
 		}
 	}
 </style>
