@@ -1,56 +1,62 @@
 ---
-import type { HTMLAttributes } from 'astro/types';
-import { iconPaths } from './IconPaths';
-
-interface Props {
-	icon: keyof typeof iconPaths;
+export interface Props {
+	icon: string;
 	color?: string;
 	gradient?: boolean;
 	size?: string;
 }
 
-const { color = 'currentcolor', gradient, icon, size } = Astro.props;
-const iconPath = iconPaths[icon];
+const { color, gradient, icon, size } = Astro.props;
 
-const attrs: HTMLAttributes<'svg'> = {};
-if (size) attrs.style = { '--size': size };
+const iconMap: Record<string, string> = {
+	'terminal-window': 'fa-solid fa-terminal',
+	'trophy': 'fa-solid fa-trophy',
+	'strategy': 'fa-solid fa-chess-knight',
+	'paper-plane-tilt': 'fa-solid fa-paper-plane',
+	'arrow-right': 'fa-solid fa-arrow-right',
+	'arrow-left': 'fa-solid fa-arrow-left',
+	'code': 'fa-solid fa-code',
+	'microphone-stage': 'fa-solid fa-microphone',
+	'pencil-line': 'fa-solid fa-pen',
+	'rocket-launch': 'fa-solid fa-rocket',
+	'list': 'fa-solid fa-bars',
+	'heart': 'fa-solid fa-heart',
+	'moon-stars': 'fa-solid fa-moon',
+	'sun': 'fa-solid fa-sun',
+	'twitter-logo': 'fa-brands fa-x-twitter',
+	'codepen-logo': 'fa-brands fa-codepen',
+	'github-logo': 'fa-brands fa-github',
+	'twitch-logo': 'fa-brands fa-twitch',
+	'youtube-logo': 'fa-brands fa-youtube',
+	'dribbble-logo': 'fa-brands fa-dribbble',
+	'discord-logo': 'fa-brands fa-discord',
+	'linkedin-logo': 'fa-brands fa-linkedin',
+	'instagram-logo': 'fa-brands fa-instagram',
+	'tiktok-logo': 'fa-brands fa-tiktok',
+	'huggingface-logo': 'fa-solid fa-face-smile-beam',
+	'brain': 'fa-solid fa-brain',
+	'robot': 'fa-solid fa-robot',
+	'eye': 'fa-solid fa-eye',
+	'coffee': 'fa-solid fa-mug-hot',
+};
 
-const gradientId = 'icon-gradient-' + Math.round(Math.random() * 10e12).toString(36);
+const faClass = iconMap[icon] || icon;
 ---
 
-<svg
-	xmlns="http://www.w3.org/2000/svg"
-	width="40"
-	height="40"
-	viewBox="0 0 256 256"
-	aria-hidden="true"
-	stroke={gradient ? `url(#${gradientId})` : color}
-	fill={gradient ? `url(#${gradientId})` : color}
-	{...attrs}
->
-	<g set:html={iconPath} />
-	{
-		gradient && (
-			<linearGradient
-				id={gradientId}
-				x1="23"
-				x2="235"
-				y1="43"
-				y2="202"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop stop-color="var(--gradient-stop-1)" />
-				<stop offset=".5" stop-color="var(--gradient-stop-2)" />
-				<stop offset="1" stop-color="var(--gradient-stop-3)" />
-			</linearGradient>
-		)
-	}
-</svg>
+<i class={`${faClass} ${gradient ? 'icon-gradient' : ''}`} style={`${size ? `font-size: ${size};` : ''} ${color && color !== 'currentcolor' && !gradient ? `color: ${color};` : ''}`}></i>
 
 <style>
-	svg {
+	i {
 		vertical-align: middle;
-		width: var(--size, 1em);
-		height: var(--size, 1em);
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.icon-gradient {
+		background: var(--gradient-accent);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
 	}
 </style>
