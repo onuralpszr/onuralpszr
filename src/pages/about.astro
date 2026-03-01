@@ -64,7 +64,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 					</p>
 				</div>
 			</section>
-		<section>
+			<section>
+				<h2 class="section-title">Support</h2>
+				<div class="content support-content">
+					<p>
+						If you find my open-source work or talks helpful, you can support me by <a href="https://buymeacoffee.com/onuralpszr" target="_blank" rel="noopener noreferrer">buying me a coffee</a>!
+					</p>
+					<a href="https://buymeacoffee.com/onuralpszr" target="_blank" rel="noopener noreferrer" class="qr-link">
+						<img src="/assets/qr-code.png" alt="Buy Me A Coffee QR Code" width="200" height="200" class="qr-code" />
+					</a>
+				</div>
+			</section>
+			<section>
 				<h2 class="section-title">Terminal API</h2>
 				<div class="content">
 					<p>
@@ -129,6 +140,32 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 	.content :global(a:hover),
 	.content :global(a:focus) {
 		text-decoration-color: currentColor;
+	}
+
+	.support-content {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.qr-link {
+		width: fit-content;
+		border-radius: 1.5rem;
+		overflow: hidden;
+		transition: transform var(--theme-transition), box-shadow var(--theme-transition);
+	}
+
+	.qr-link:hover,
+	.qr-link:focus {
+		transform: translateY(-0.25rem);
+	}
+
+	.qr-code {
+		display: block;
+		margin-top: 0; /* Reset global img style */
+		box-shadow: none; /* Let .qr-link or global handle it */
+		background: white; /* Make sure QR code is always readable in dark mode */
+		padding: 1rem;
 	}
 
 	.terminal-container {
