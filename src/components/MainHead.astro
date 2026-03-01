@@ -14,6 +14,17 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <meta charset="UTF-8" />
+
+<!-- Google tag (gtag.js) -->
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-JD85L1X3PS"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JD85L1X3PS');
+</script>
+
 <meta name="description" property="og:description" content={description} />
 <!-- Chrome Built-in AI (Prompt API) Origin Trial token for onuralpsezer.com             -->
 <!-- Get your token at: https://developer.chrome.com/origintrials/#/trials/active         -->
@@ -73,6 +84,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 	href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
 	rel="stylesheet"
 />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 <script is:inline>
 	// This code is inlined in the head to make dark mode instant & blocking.
 	const getThemePreference = () => {
