@@ -1,6 +1,5 @@
 ---
 import Icon from './Icon.astro';
-import type { iconPaths } from './IconPaths';
 import ThemeToggle from './ThemeToggle.astro';
 
 /** Main menu items */
@@ -11,12 +10,13 @@ const textLinks: { label: string; href: string }[] = [
 ];
 
 /** Icon links to social media */
-const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
+const iconLinks: { label: string; href: string; icon: string }[] = [
 	{ label: 'GitHub', href: 'https://github.com/onuralpszr', icon: 'github-logo' },
 	{ label: 'Ultralytics', href: 'https://www.ultralytics.com/authors/onuralp-sezer', icon: 'rocket-launch' },
 	{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/osezer/', icon: 'linkedin-logo' },
 	{ label: 'Twitter', href: 'https://twitter.com/onuralpszr', icon: 'twitter-logo' },
 	{ label: 'Hugging Face', href: 'https://huggingface.co/onuralpszr', icon: 'huggingface-logo' },
+	{ label: 'Buy Me a Coffee', href: 'https://buymeacoffee.com/onuralpszr', icon: 'coffee' },
 ];
 
 /** Test if a link is pointing to the current page. */
@@ -248,13 +248,13 @@ const isCurrentPage = (href: string) => {
 		display: flex;
 		padding: var(--icon-padding);
 		text-decoration: none;
-		color: var(--accent-dark);
+		color: var(--gray-200);
 		transition: color var(--theme-transition);
 	}
 
 	.social:hover,
 	.social:focus {
-		color: var(--accent-text-over);
+		color: var(--accent-regular);
 	}
 
 	.theme-toggle {
