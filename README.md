@@ -109,7 +109,7 @@ I am also contributing various FLOSS and OSS projects around GitHub/Gitlab/Pagur
 I’ve proudly participated in **Hacktoberfest** every year since **2022**, completing four consecutive years (2022, 2023, 2024, 2025).  
 Through this journey, I’ve contributed dozens of PRs, met inspiring developers from around the world, and grown both technically and personally.  
 
-💚 For me, Hacktoberfest isn’t just about code — it’s about **people, learning, and giving back to the community**. I’m also part of the **Holopin x Hacktoberfest: 10 Badge Club**, celebrating those who’ve contributed continuously since 2022. And yes, somewhere out there, **a tree is growing in my name** — a small but meaningful reminder that code can make a difference beyond the screen 🌍.
+💚 For me, Hacktoberfest isn’t just about code, it’s about **people, learning, and giving back to the community**. I’m also part of the **Holopin x Hacktoberfest: 10 Badge Club**, celebrating those who’ve contributed continuously since 2022. And yes, somewhere out there, **a tree is growing in my name** — a small but meaningful reminder that code can make a difference beyond the screen 🌍.
 
 ### 🧩 Let’s Connect
 
