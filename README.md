@@ -82,9 +82,29 @@ I specialize in building, optimizing, and deploying state-of-the-art Computer Vi
 
 ### 🐧 Open Source & Community
 
-I am a long-term [**Contributor and Mindshare Member, Fedora KDE SIG Member, Fedora Website and Apps Team Member, and RPM Packager**](https://fedoraproject.org/wiki/User:onuralpszr) at the **Fedora Project**. I am also an **Organizer and Speaker** at [**GDG Samsun**](https://github.com/gdgsamsun), where I share insights on **Deep Learning**, **Machine Learning**, **Computer Vision**, and **Vision-Language Models (VLMs)**.
+I am a long-term [**Contributor and Mindshare Member, Fedora KDE SIG Member, Fedora Website and Apps Team Member, and RPM Packager**](https://fedoraproject.org/wiki/User:onuralpszr) at the **Fedora Project**. As an RPM packager, I actively maintain and package Python, KDE, Qt and AI/ML-related libraries for Fedora Linux helping bring cutting-edge open source tools to millions of users through the official Fedora repositories. I am also an **Organizer and Speaker** at [**GDG Samsun**](https://github.com/gdgsamsun), where I share insights on **Deep Learning**, **Machine Learning**, **Computer Vision**, and **Vision-Language Models (VLMs)**.
 
 In addition to my community work, I contribute to a variety of **FLOSS** and **OSS** projects across GitHub, GitLab, and Pagure always aiming to build together and make open source a better place for everyone.
+
+### 📦 `rpm --build-pipeline`
+
+<div align="center">
+
+| `%prep` | `%build` | `%install` | `%check` | `dnf install` |
+|:---:|:---:|:---:|:---:|:---:|
+| 🔵⚪⚪⚪⚪ | 🔵🔵⚪⚪⚪ | 🔵🔵🔵⚪⚪ | 🔵🔵🔵🔵⚪ | 🔵🔵🔵🔵🔵 |
+| *Patch & unpack sources* | *Compile & link* | *Stage files* | *Run tests* | *Ship to users!* |
+
+</div>
+
+```console
+$ fedpkg clone python-awesome-package && cd python-awesome-package
+$ fedpkg prep       # ✅ Sources verified, patches applied
+$ fedpkg build      # ✅ RPM built successfully
+$ fedpkg mockbuild  # ✅ Mock build passed (x86_64, aarch64)
+$ fedpkg push && fedpkg submit  # 🚀 Submitted to Bodhi
+> Update pushed to stable → reaching ~40M Fedora users
+```
 
 ### 🔍 Professional Work
 
