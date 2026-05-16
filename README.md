@@ -22,6 +22,7 @@
     <a href="https://user-badge.committers.top/turkey_public/onuralpszr">
     <img alt="commiter" src="https://user-badge.committers.top/turkey_public/onuralpszr.svg" alt="committers.top badge"> </a>
     <a href="https://huggingface.co/onuralpszr"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FF9A00?logo=HuggingFace&logoColor=white"></a>
+    <a href="https://onuralpsezer.com"><img alt="Website" src="https://img.shields.io/badge/Website-onuralpsezer.com-4A71D9?logo=internet-explorer&logoColor=white"></a>
 </p>
 
 <p align="left">
@@ -104,6 +105,41 @@ $ fedpkg build      # ✅ RPM built successfully
 $ fedpkg mockbuild  # ✅ Mock build passed (x86_64, aarch64)
 $ fedpkg push && fedpkg submit  # 🚀 Submitted to Bodhi
 > Update pushed to stable → reaching ~40M Fedora users
+```
+
+### ⚡ `cuda_oxide::kernel::launch()`
+
+Currently exploring **[cuda-oxide](https://nvlabs.github.io/cuda-oxide/)** an experimental Rust-to-CUDA compiler from NVIDIA Research that compiles safe(ish), idiomatic Rust directly to PTX. No CUDA C, no DSLs, no foreign bindings — just Rust running on the GPU.
+
+<div align="center">
+
+| `Grid` | `Block 0` | `Block 1` | `Block 2` | `Block 3` |
+|:---:|:---:|:---:|:---:|:---:|
+| `Warp 0..3` | 🟩🟩🟩🟩🟩🟩🟩🟩 | 🟦🟦🟦🟦🟦🟦🟦🟦 | 🟨🟨🟨🟨🟨🟨🟨🟨 | 🟥🟥🟥🟥🟥🟥🟥🟥 |
+| `SIMT` | *all threads run the same instruction* | ← | ← | ← |
+
+</div>
+
+```rust
+// 🦀 Safe(ish) GPU kernel — Rust compiles straight to PTX
+#[kernel]
+pub unsafe fn vector_add(a: &[f32], b: &[f32], c: &mut [f32]) {
+    let tid = thread::index_1d() as usize;
+    if tid < c.len() {
+        c[tid] = a[tid] + b[tid]; // thousands of threads, one instruction
+    }
+}
+```
+
+```console
+$ cargo build --target nvptx64-nvidia-cuda
+   Compiling cuda-kernel v0.1.0
+   ✅ Rust  -> LLVM IR  ->  PTX   (no CUDA C required)
+   ✅ Kernel compiled: vector_add.ptx
+   ✅ Loaded onto device: NVIDIA GPU
+> Launching 4096 threads across 128 warps...
+> All threads converged. ✅
+> Status: still learning — but the 🦀 loves the GPU
 ```
 
 ### 🔍 Professional Work
