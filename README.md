@@ -280,7 +280,7 @@ Here is my Arsenal Tools and Skills I use;
 
 ### Active Projects
 
-* [Ultralytics](https://github.com/ultralytics/ultralytics) - The world's leading YOLO framework for object detection, instance segmentation, pose estimation, and image classification. Building state-of-the-art computer vision models for real-world applications.
+* [Ultralytics](https://github.com/ultralytics/ultralytics) - The world's leading YOLO framework for object detection, instance segmentation, pose estimation, and image classification. Building state-of-the-art computer vision models for real-world applications. **(Co-Maintainer)**
 * [Ultralytics Inference](https://github.com/ultralytics/inference) - 🦀 High-performance YOLO inference library written in Rust with ONNX Runtime support. Provides a fast, safe, and efficient interface for running YOLO models with an API designed to match the Ultralytics Python package. **(Main Maintainer)**
 * [TrackForge](https://github.com/onuralpszr/trackforge) - A unified, high-performance computer vision tracking library implemented in Rust with Python bindings. Features state-of-the-art algorithms like ByteTrack and DeepSORT, optimized for speed and ease of use across both ecosystems. **(Main Maintainer)**
 * [KDE](https://kde.org/) - Actively contributing to KDE ecosystem projects, supporting Linux desktop and open-source community development.
@@ -288,7 +288,7 @@ Here is my Arsenal Tools and Skills I use;
 * [YOLO-World](https://github.com/AILab-CVC/YOLO-World) - Real-time open-vocabulary object detection model. Enabling YOLO to detect any object with text prompts without additional training.
 * [SAHI](https://github.com/obss/sahi) - Slicing Aided Hyper Inference framework for object detection on large images. Co-maintainer helping to improve inference quality on high-resolution imagery. **(Co-Maintainer)**
 * [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan) - Real-world face restoration powered by GFPGAN, optimized with ncnn and Vulkan for efficient cross-platform inference.
-* [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile) - Template Mobile computer vision camera project for Android, integrating OpenCV and ML capabilities for real-time processing.
+* [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile) - Template Mobile computer vision camera project for Android, integrating OpenCV and ML capabilities for real-time processing. **(Main Maintainer)**
 
 ### Past Contributions
 
