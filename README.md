@@ -9,9 +9,9 @@
 <div align="center">
   <a href="https://github.com/onuralpszr">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00c6ff&center=true&vCenter=true&width=600&lines=%3E_Initializing+neural+networks...;%3E_Loading+YOLO+weights...;%3E_Hello+World!+I'm+Onuralp+%F0%9F%91%8B">
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=4A71D9&center=true&vCenter=true&width=600&lines=%3E_Initializing+neural+networks...;%3E_Loading+YOLO+weights...;%3E_Hello+World!+I'm+Onuralp+%F0%9F%91%8B">
-      <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00c6ff&center=true&vCenter=true&width=600&lines=%3E_Initializing+neural+networks...;%3E_Loading+YOLO+weights...;%3E_Hello+World!+I'm+Onuralp+%F0%9F%91%8B">
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00c6ff&center=true&vCenter=true&width=600&lines=%3E_Initializing+neural+networks...;%3E_Loading+YOLO+weights...;%3E_Compiling+Rust+to+PTX...;%3E_Hello+World!+I'm+Onuralp+%F0%9F%91%8B">
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=4A71D9&center=true&vCenter=true&width=600&lines=%3E_Initializing+neural+networks...;%3E_Loading+YOLO+weights...;%3E_Compiling+Rust+to+PTX...;%3E_Hello+World!+I'm+Onuralp+%F0%9F%91%8B">
+      <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00c6ff&center=true&vCenter=true&width=600&lines=%3E_Initializing+neural+networks...;%3E_Loading+YOLO+weights...;%3E_Compiling+Rust+to+PTX...;%3E_Hello+World!+I'm+Onuralp+%F0%9F%91%8B">
     </picture>
   </a>
 </div>
@@ -40,8 +40,8 @@ class Onuralp(nn.Module):
     def __init__(self):
         super().__init__()
         self.role = "Senior Machine Learning Engineer Lv2 @ Ultralytics"
-        self.focus = ["Computer Vision 👁️", "Deep Learning 🧠", "MLOps ⚙️"]
-        self.languages = ["Python 🐍", "Kotlin 📱", "C++ ⚙️", "Rust 🦀"]
+        self.focus = ["Computer Vision 👁️", "Deep Learning 🧠", "MLOps ⚙️", "GPU Kernels ⚡"]
+        self.languages = ["Python 🐍", "Kotlin 📱", "C++ ⚙️", "Rust 🦀", "CUDA PTX ⚡"]
         self.community = ["Fedora Project Contributor 🐧", "GDG Samsun Organizer 🎤"]
 
     def forward(self, coffee):
@@ -55,7 +55,7 @@ class Onuralp(nn.Module):
 I specialize in building, optimizing, and deploying state-of-the-art Computer Vision models. From training **YOLO** architectures at [Ultralytics](https://github.com/ultralytics/ultralytics) to optimizing inference with **ONNX**, **TensorRT**, and **ExecuTorch**, I bridge the gap between research and production.
 
 * 🔭 **Currently working on:** Pushing the boundaries of real-time object detection and tracking at **Ultralytics**.
-* 🌱 **Currently exploring:** Vision-Language Models (VLMs), Edge AI, and Rust-based ML inference.
+* 🌱 **Currently exploring:** Vision-Language Models (VLMs), Edge AI, Rust-based ML inference, and GPU kernel programming with [cuda-oxide](https://nvlabs.github.io/cuda-oxide/).
 * 💬 **Ask me about:** YOLO, PyTorch, Computer Vision, Open Source, and Fedora Linux.
 
 ### 🧬 `model.fit(epochs=1000)`
@@ -142,7 +142,17 @@ $ cargo build --target nvptx64-nvidia-cuda
 > Status: still learning — but the 🦀 loves the GPU
 ```
 
-### 🔍 Professional Work
+### 🔧 `deploy::stack()`
+
+```python
+stack = {
+    "backend":   ["Python", "FastAPI", "Django", "Flask"],
+    "mobile":    ["Kotlin", "Flutter", "ARCore", "MediaPipe", "Firebase"],
+    "inference": ["ONNX Runtime", "TensorRT", "ExecuTorch", "ncnn", "Vulkan"],
+    "training":  ["PyTorch", "Ultralytics", "TensorFlow", "JAX", "Keras"],
+    "gpu":       ["CUDA", "cuda-oxide", "PTX", "NVIDIA TensorRT"],
+}
+```
 
 On the backend, I primarily use **Python**, while on the mobile side, I work with **Kotlin** and **Flutter**, leveraging Google technologies such as [ARCore](https://developers.google.com/ar), [MediaPipe](https://mediapipe.dev/), [Firebase](https://firebase.google.com/), [FlatBuffers](https://flatbuffers.dev/), [ONNX Runtime](https://onnxruntime.ai/), and [ncnn](https://github.com/Tencent/ncnn).  
 
@@ -152,9 +162,12 @@ I also contribute to related open-source projects such as [ExecuTorch](https://g
 
 In addition, I have experience with other frameworks like [TensorFlow](https://www.tensorflow.org), [TensorBoard](https://www.tensorflow.org/tensorboard), [Keras](https://keras.io/), and [JAX](https://github.com/google/jax), which I occasionally use for experimentation and cross-framework integration.  
 
-I also use the **Unity** engine for creating **AR** and **ML** applications.
+### 🌍 `oss::contributions()`
 
-### 🧠 Open Source Projects
+```rust
+let platforms = vec!["GitHub", "GitLab", "Pagure"];
+let mission   = "build together — make open source better for everyone 🌍";
+```
 
 In addition to my diverse skill set, I am actively contributing and co-maintaner to a computer vision project named [sahi](https://github.com/obss/sahi) is an open-source project that provides a simple and efficient way to perform slicing-based inference for object detection models. It is designed to work with various deep learning frameworks and models, making it a versatile tool for computer vision tasks. In past I was a co-maintaner to [Supervision](https://supervision.roboflow.com/). [Supervision](https://supervision.roboflow.com/) is dedicated to crafting reusable computer vision tools tailored to a wide array of needs. These projects are embodies my commitment to advancing the field of computer vision, offering robust solutions that empower developers and researchers alike.
 
@@ -312,61 +325,73 @@ Here is my Arsenal Tools and Skills I use;
     <a href="#"><img alt="Google Cloud" src="https://img.shields.io/badge/Google-Cloud-4285F4.svg?logo=googlecloud&logoColor=white"></a>
 </p>
 
-## Current project(s) I'm working/worked on
+## ⚙️ `projects::active()`
 
-### Active Projects
+| Project | Role | Description |
+|:---|:---:|:---|
+| [Ultralytics](https://github.com/ultralytics/ultralytics) | `Co-Maintainer` | World's leading YOLO framework — detection, segmentation, pose estimation |
+| [Ultralytics Inference](https://github.com/ultralytics/inference) | `Main Maintainer` | 🦀 High-performance YOLO inference in Rust with ONNX Runtime |
+| [TrackForge](https://github.com/onuralpszr/trackforge) | `Main Maintainer` | CV tracking library in Rust + Python bindings (ByteTrack, DeepSORT) |
+| [SAHI](https://github.com/obss/sahi) | `Co-Maintainer` | Slicing Aided Hyper Inference for object detection on large images |
+| [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile) | `Main Maintainer` | Android CV camera template with OpenCV and real-time ML |
+| [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan) | `Main Maintainer` | Face restoration via GFPGAN, accelerated with ncnn + Vulkan |
+| [ExecuTorch](https://github.com/pytorch/executorch) | `Contributor` | PyTorch on-device inference framework for edge and mobile |
+| [YOLO-World](https://github.com/AILab-CVC/YOLO-World) | `Contributor` | Real-time open-vocabulary object detection via text prompts |
+| [KDE](https://kde.org/) | `Contributor` | KDE ecosystem — Linux desktop and open-source community |
 
-* [Ultralytics](https://github.com/ultralytics/ultralytics) - The world's leading YOLO framework for object detection, instance segmentation, pose estimation, and image classification. Building state-of-the-art computer vision models for real-world applications. **(Co-Maintainer)**
-* [Ultralytics Inference](https://github.com/ultralytics/inference) - 🦀 High-performance YOLO inference library written in Rust with ONNX Runtime support. Provides a fast, safe, and efficient interface for running YOLO models with an API designed to match the Ultralytics Python package. **(Main Maintainer)**
-* [TrackForge](https://github.com/onuralpszr/trackforge) - A unified, high-performance computer vision tracking library implemented in Rust with Python bindings. Features state-of-the-art algorithms like ByteTrack and DeepSORT, optimized for speed and ease of use across both ecosystems. **(Main Maintainer)**
-* [KDE](https://kde.org/) - Actively contributing to KDE ecosystem projects, supporting Linux desktop and open-source community development.
-* [ExecuTorch](https://github.com/pytorch/executorch) - PyTorch's efficient on-device inference framework for edge and mobile devices. Contributing to enable ML model deployment on resource-constrained platforms.
-* [YOLO-World](https://github.com/AILab-CVC/YOLO-World) - Real-time open-vocabulary object detection model. Enabling YOLO to detect any object with text prompts without additional training.
-* [SAHI](https://github.com/obss/sahi) - Slicing Aided Hyper Inference framework for object detection on large images. Co-maintainer helping to improve inference quality on high-resolution imagery. **(Co-Maintainer)**
-* [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan) - Real-world face restoration powered by GFPGAN, optimized with ncnn and Vulkan for efficient cross-platform inference.
-* [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile) - Template Mobile computer vision camera project for Android, integrating OpenCV and ML capabilities for real-time processing. **(Main Maintainer)**
+## 📜 `projects::past()`
 
-### Past Contributions
+| Project | Description |
+|:---|:---|
+| [Supervision](https://github.com/roboflow/supervision) | Reusable CV tools for detections, annotations, and datasets — former co-maintainer |
+| [Supervision Conda Forge](https://github.com/conda-forge/supervision-feedstock) | Conda package distribution for Supervision |
+| [Gemma Cookbook](https://github.com/google-gemini/gemma-cookbook) | Guides and examples for Google Gemma |
+| [Sceneview-android](https://github.com/SceneView/sceneview-android) | ARCore and 3D rendering for Android |
+| [Sceneform-android](https://github.com/SceneView/sceneform-android) | ARCore SDK for Android from the SceneView team |
+| [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora) | Automated NVIDIA driver installer for Fedora Linux |
 
-* [Gemma Cookbook](https://github.com/google-gemini/gemma-cookbook) - This is a collection of guides and examples for Google Gemma.
-* [Supervision](https://github.com/roboflow/supervision) - Reusable computer vision tools for working with detections, annotations, and datasets. Former co-maintainer helping build the foundation for CV workflows.
-* [Supervision Conda Forge](https://github.com/conda-forge/supervision-feedstock) - Conda package distribution for Supervision, making it accessible to the scientific Python community.
-* [Sceneview-android](https://github.com/SceneView/sceneview-android) - SceneView for Android - ARCore and 3D rendering made easy.
-* [Sceneform-android](https://github.com/SceneView/sceneform-android) - Sceneform Maintained - ARCore SDK for Android from the SceneView team.
-* [Nvidia Auto Installer](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora) - Automated NVIDIA driver installation tool for Fedora Linux, simplifying GPU setup for the community.
+## 🔗 `links::connect()`
 
-## Useful links
+<p align="center">
+  <a href="https://www.linkedin.com/in/osezer/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-osezer-0A66C2?logo=linkedin&logoColor=white"></a>
+  <a href="https://twitter.com/onuralpszr"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-onuralpszr-000000?logo=x&logoColor=white"></a>
+  <a href="https://huggingface.co/onuralpszr"><img alt="HuggingFace" src="https://img.shields.io/badge/HuggingFace-onuralpszr-FF9A00?logo=huggingface&logoColor=white"></a>
+  <a href="https://www.credly.com/users/onuralp-sezer/badges"><img alt="Credly" src="https://img.shields.io/badge/Credly-Badges-FF6B00?logo=credly&logoColor=white"></a>
+  <a href="https://developers.google.com/profile/u/onuralpsezer"><img alt="Google Developer" src="https://img.shields.io/badge/Google%20Developer-Profile-4285F4?logo=google&logoColor=white"></a>
+  <a href="https://www.cloudskillsboost.google/public_profiles/aa921c43-e963-4266-aa26-e7465dab9aec"><img alt="Cloud Skills Boost" src="https://img.shields.io/badge/Cloud%20Skills%20Boost-Profile-4285F4?logo=googlecloud&logoColor=white"></a>
+  <a href="https://ask.fedoraproject.org/u/thunderbirdtr/"><img alt="Ask Fedora" src="https://img.shields.io/badge/Ask%20Fedora-thunderbirdtr-294172?logo=fedora&logoColor=white"></a>
+  <a href="https://pagure.io/user/thunderbirdtr"><img alt="Fedora Pagure" src="https://img.shields.io/badge/Fedora%20Pagure-thunderbirdtr-294172?logo=fedora&logoColor=white"></a>
+  <a href="https://src.fedoraproject.org/user/thunderbirdtr/"><img alt="Src Fedora" src="https://img.shields.io/badge/Src.Fedora-thunderbirdtr-294172?logo=fedora&logoColor=white"></a>
+  <a href="https://fedoraproject.org/wiki/User:Thunderbirdtr"><img alt="Fedora Wiki" src="https://img.shields.io/badge/Fedora%20Wiki-Thunderbirdtr-294172?logo=fedora&logoColor=white"></a>
+  <a href="https://badges.fedoraproject.org/user/thunderbirdtr"><img alt="Fedora Badges" src="https://img.shields.io/badge/Fedora%20Badges-thunderbirdtr-294172?logo=fedora&logoColor=white"></a>
+</p>
 
-If you want to stay in touch with me, these links can be useful.
+## 🤝 `mentorship::programs()`
 
-* [LinkedIn](https://www.linkedin.com/in/osezer/)
-* [AskFedora account](https://ask.fedoraproject.org/u/thunderbirdtr/)
-* [Twitter](https://twitter.com/onuralpszr)
-* [Fedora Pagure Account](https://pagure.io/user/thunderbirdtr)
-* [Src.Fedora Account](https://src.fedoraproject.org/user/thunderbirdtr/)
-* [Credly](https://www.credly.com/users/onuralp-sezer/badges)
-* [Google Developer Account](https://developers.google.com/profile/u/onuralpsezer)
-* [Personal Fedora wiki page](https://fedoraproject.org/wiki/User:Thunderbirdtr)
-* [Fedora Contribution Badges](https://badges.fedoraproject.org/user/thunderbirdtr)
-* [Google Cloud Skill Boost Profile](https://www.cloudskillsboost.google/public_profiles/aa921c43-e963-4266-aa26-e7465dab9aec)
-* [HuggingFace](https://huggingface.co/onuralpszr)
+<p align="center">
+  <a href="https://github.com/outreachy"><img alt="Outreachy" src="https://img.shields.io/badge/Outreachy-Mentor-4A71D9?logo=github&logoColor=white"></a>
+  <a href="https://github.com/OpenTRFoundation/OpenTR"><img alt="OpenTR" src="https://img.shields.io/badge/OpenTR-Mentor-E74C3C?logo=github&logoColor=white"></a>
+</p>
 
-## Certifcations
+## 🙌 `volunteer::work()`
 
-* [Tensorflow Developer](https://www.credential.net/5d4c2d99-4c0b-4990-9399-2bdb496f7d4f#gs.axwujf)
-* [HuggingFace Agents Course](https://cdn-lfs-us-1.hf.co/repos/f2/34/f2344151f60f6027c436821dc61cf3f27a46435de57df8df50ad02b5acca7c07/0d9e4191750a428ab9d6467196276e0801759a1a59c2fd43b7478a4fac38067e?response-content-disposition=inline%3B+filename*%3DUTF-8%27%272025-02-11.png%3B+filename%3D%222025-02-11.png%22%3B&response-content-type=image%2Fpng&Expires=1742677783&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MjY3Nzc4M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2YyLzM0L2YyMzQ0MTUxZjYwZjYwMjdjNDM2ODIxZGM2MWNmM2YyN2E0NjQzNWRlNTdkZjhkZjUwYWQwMmI1YWNjYTdjMDcvMGQ5ZTQxOTE3NTBhNDI4YWI5ZDY0NjcxOTYyNzZlMDgwMTc1OWExYTU5YzJmZDQzYjc0NzhhNGZhYzM4MDY3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=oTIv5lnswS3gCi9vW1KBG1bh6zBcMwRkj3mQE-ILNTSFf-OuW1s6pnptNlPJaZJCOwBhUDA%7EdEmzMaEHSxzKVNnvIB558b0T2KUEVj1j5X1ilD2Q81iIgWqr%7EI82X-PpJogDkj6OaKpWthOhclfuwUj2nATtP5ajjZEyG-U2VSTpcfUVwRZc-rmplzAJqTF-mxkZduQlTnyIvL3x9KATmcY1YkWPrZ%7E0se18EDbOZt4OxWynOVBkL-KXVoORzJc9ISZ1LPNRrEmMxGo3lMpg8UeT7C%7EhdlSrLtBkZDtYGYpPl0mGIPBLDUBfsNC3KXUM-wfco9%7E5a7i8iNI%7EgasL9w__&Key-Pair-Id=K24J24Z295AEI9)
+<p align="center">
+  <a href="https://fedoraproject.org/wiki/User:Thunderbirdtr"><img alt="Fedora Project" src="https://img.shields.io/badge/Fedora%20Project-Contributor-294172?logo=fedora&logoColor=white"></a>
+  <a href="https://kde.org/"><img alt="KDE" src="https://img.shields.io/badge/KDE-Contributor-1D99F3?logo=kde&logoColor=white"></a>
+  <a href="https://www.opensuse.org/"><img alt="openSUSE" src="https://img.shields.io/badge/openSUSE-Contributor-73BA25?logo=opensuse&logoColor=white"></a>
+  <a href="https://gdg.community.dev/gdg-samsun/"><img alt="GDG Samsun" src="https://img.shields.io/badge/GDG%20Samsun-Member%20%7C%20Speaker%20%7C%20Organizer-4285F4?logo=google&logoColor=white"></a>
+  <a href="https://gdgsamsun.org/"><img alt="GDG Samsun Website" src="https://img.shields.io/badge/gdgsamsun.org-Visit-4285F4?logo=google&logoColor=white"></a>
+</p>
+
+## 🏅 `certifications::earned()`
+
+<p align="center">
+  <a href="https://www.credential.net/5d4c2d99-4c0b-4990-9399-2bdb496f7d4f#gs.axwujf"><img alt="TensorFlow Developer" src="https://img.shields.io/badge/TensorFlow%20Developer-Certified-FF6F00?logo=tensorflow&logoColor=white"></a>
+  <a href="#"><img alt="HuggingFace Agents Course" src="https://img.shields.io/badge/HuggingFace%20Agents%20Course-Completed-FF9A00?logo=huggingface&logoColor=white"></a>
+</p>
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
 [![@osezer's Holopin board](https://holopin.me/osezer)](https://holopin.io/@osezer)
 
-## Mentorship Programs
 
-* [Outreachy](https://github.com/outreachy)
-* [OpenTR](https://github.com/OpenTRFoundation/OpenTR)
-
-## Volunteer Work
-
-* [Fedora Project Contributor](https://fedoraproject.org/wiki/User:Thunderbirdtr)
-* [Google Developer Group Samsun Member/Speaker/Organizer](https://gdg.community.dev/gdg-samsun/)
-* [GDG Samsun](https://gdgsamsun.org/)
