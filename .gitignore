@@ -2,6 +2,19 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-node_modules
-dist
-.astro
+
+# node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Rust
+target/
+
+# astro
+dist/
+.astro/
