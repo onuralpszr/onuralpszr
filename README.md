@@ -180,6 +180,39 @@ Through this journey, I’ve contributed dozens of PRs, met inspiring developers
 
 💚 For me, Hacktoberfest isn’t just about code, it’s about **people, learning, and giving back to the community**. I’m also part of the **Holopin x Hacktoberfest: 10 Badge Club**, celebrating those who’ve contributed continuously since 2022. And yes, somewhere out there, **a tree is growing in my name** — a small but meaningful reminder that code can make a difference beyond the screen 🌍.
 
+### 📈 `git log --milestones`
+
+A snapshot of the journey so far — from first commits in 2012 to maintaining production CV frameworks today.
+
+```console
+$ git log --oneline --milestones --author="Onuralp"
+
+2026  🦀 Created TrackForge — Rust CV tracking lib (ByteTrack/DeepSORT) + Python bindings
+2025  🚀 Main maintainer of ultralytics/inference — Rust YOLO inference, dual-shipped to crates.io + npm
+2024  🧠 Senior ML Engineer @Ultralytics — co-maintaining YOLO (detection/seg/pose)
+2023  🔬 Co-maintainer @ SAHI · former co-maintainer @ Supervision (Roboflow)
+2022  🌱 First Hacktoberfest — 4 consecutive years and counting (Holopin 10 Badge Club)
+2021  🐧 Fedora RPM packager & KDE SIG member — shipping AI/ML libs to ~40M users
+2012  👋 git init — joined GitHub, started the open-source journey
+```
+
+### 🔥 `contributions.plot()`
+
+<div align="center">
+
+| Year | Contributions | |
+|:---:|:---:|:---|
+| `2021` |   243 | 🟩🟩 |
+| `2022` |   466 | 🟩🟩🟩 |
+| `2023` | 2,044 | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 |
+| `2024` | 2,620 | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 |
+| `2025` | 2,320 | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 |
+| `2026` | growing… | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ |
+
+*Across 45+ repositories on GitHub, GitLab, and Pagure 🌍*
+
+</div>
+
 ### 🧩 Let’s Connect
 
 I’m always open to collaborating, contributing, or just talking about open source, computer vision, and AI.  
@@ -327,10 +360,22 @@ Here is my Arsenal Tools and Skills I use;
 
 ## ⚙️ `projects::active()`
 
+<div align="center">
+
+> ⭐ **Featured:** [`ultralytics/inference`](https://github.com/ultralytics/inference) — Rust YOLO inference, shipped to two ecosystems · live stats:
+
+<a href="https://github.com/ultralytics/inference"><img alt="GitHub stars" src="https://img.shields.io/github/stars/ultralytics/inference?style=flat&logo=github&label=stars&color=4A71D9"></a>
+<a href="https://crates.io/crates/ultralytics-inference"><img alt="Crates.io version" src="https://img.shields.io/crates/v/ultralytics-inference?style=flat&logo=rust&label=crate&color=E43717"></a>
+<a href="https://crates.io/crates/ultralytics-inference"><img alt="Crates.io downloads" src="https://img.shields.io/crates/d/ultralytics-inference?style=flat&logo=rust&label=crate%20downloads&color=E43717"></a>
+<a href="https://www.npmjs.com/package/@ultralytics/yolo"><img alt="npm version" src="https://img.shields.io/npm/v/@ultralytics/yolo?style=flat&logo=npm&label=npm&color=CB3837"></a>
+<a href="https://www.npmjs.com/package/@ultralytics/yolo"><img alt="npm downloads" src="https://img.shields.io/npm/dt/@ultralytics/yolo?style=flat&logo=npm&label=npm%20downloads&color=CB3837"></a>
+
+</div>
+
 | Project | Role | Description |
 |:---|:---:|:---|
 | [Ultralytics](https://github.com/ultralytics/ultralytics) | `Co-Maintainer` | World's leading YOLO framework — detection, segmentation, pose estimation |
-| [Ultralytics Inference](https://github.com/ultralytics/inference) | `Main Maintainer` | 🦀 High-performance YOLO inference in Rust with ONNX Runtime |
+| [Ultralytics Inference](https://github.com/ultralytics/inference) | `Main Maintainer` | 🦀 High-performance YOLO inference in Rust with ONNX Runtime — dual-published as a [crate](https://crates.io/crates/ultralytics-inference) 📦 and an [npm](https://www.npmjs.com/package/@ultralytics/yolo) package 🟢 (Node bindings) |
 | [TrackForge](https://github.com/onuralpszr/trackforge) | `Main Maintainer` | CV tracking library in Rust + Python bindings (ByteTrack, DeepSORT) |
 | [SAHI](https://github.com/obss/sahi) | `Co-Maintainer` | Slicing Aided Hyper Inference for object detection on large images |
 | [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile) | `Main Maintainer` | Android CV camera template with OpenCV and real-time ML |
