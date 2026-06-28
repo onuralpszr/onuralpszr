@@ -360,29 +360,17 @@ Here is my Arsenal Tools and Skills I use;
 
 ## ⚙️ `projects::active()`
 
-<div align="center">
-
-> ⭐ **Featured:** [`ultralytics/inference`](https://github.com/ultralytics/inference) - Rust YOLO inference, shipped to two ecosystems · live stats:
-
-<a href="https://github.com/ultralytics/inference"><img alt="GitHub stars" src="https://img.shields.io/github/stars/ultralytics/inference?style=flat&logo=github&label=stars&color=4A71D9"></a>
-<a href="https://crates.io/crates/ultralytics-inference"><img alt="Crates.io version" src="https://img.shields.io/crates/v/ultralytics-inference?style=flat&logo=rust&label=crate&color=E43717"></a>
-<a href="https://crates.io/crates/ultralytics-inference"><img alt="Crates.io downloads" src="https://img.shields.io/crates/d/ultralytics-inference?style=flat&logo=rust&label=crate%20downloads&color=E43717"></a>
-<a href="https://www.npmjs.com/package/@ultralytics/yolo"><img alt="npm version" src="https://img.shields.io/npm/v/@ultralytics/yolo?style=flat&logo=npm&label=npm&color=CB3837"></a>
-<a href="https://www.npmjs.com/package/@ultralytics/yolo"><img alt="npm downloads" src="https://img.shields.io/npm/dt/@ultralytics/yolo?style=flat&logo=npm&label=npm%20downloads&color=CB3837"></a>
-
-</div>
-
-| Project | Role | Description |
-|:---|:---:|:---|
-| [Ultralytics](https://github.com/ultralytics/ultralytics) | `Co-Maintainer` | World's leading YOLO framework - detection, segmentation, pose estimation |
-| [Ultralytics Inference](https://github.com/ultralytics/inference) | `Main Maintainer` | 🦀 High-performance YOLO inference in Rust with ONNX Runtime - dual-published as a [crate](https://crates.io/crates/ultralytics-inference) 📦 and an [npm](https://www.npmjs.com/package/@ultralytics/yolo) package 🟢 (Node bindings) |
-| [TrackForge](https://github.com/onuralpszr/trackforge) | `Main Maintainer` | CV tracking library in Rust + Python bindings (ByteTrack, DeepSORT) |
-| [SAHI](https://github.com/obss/sahi) | `Co-Maintainer` | Slicing Aided Hyper Inference for object detection on large images |
-| [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile) | `Main Maintainer` | Android CV camera template with OpenCV and real-time ML |
-| [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan) | `Main Maintainer` | Face restoration via GFPGAN, accelerated with ncnn + Vulkan |
-| [ExecuTorch](https://github.com/pytorch/executorch) | `Contributor` | PyTorch on-device inference framework for edge and mobile |
-| [YOLO-World](https://github.com/AILab-CVC/YOLO-World) | `Contributor` | Real-time open-vocabulary object detection via text prompts |
-| [KDE](https://kde.org/) | `Contributor` | KDE ecosystem - Linux desktop and open-source community |
+| Project | Role | Description | Live Stats |
+|:---|:---:|:---|:---|
+| [Ultralytics](https://github.com/ultralytics/ultralytics) | `Co-Maintainer` | World's leading YOLO framework - detection, segmentation, pose estimation | <a href="https://github.com/ultralytics/ultralytics"><img alt="stars" src="https://img.shields.io/github/stars/ultralytics/ultralytics?style=flat&logo=github&label=%E2%AD%90"></a> |
+| [Ultralytics Inference](https://github.com/ultralytics/inference) | `Main Maintainer` | 🦀 High-performance YOLO inference in Rust with ONNX Runtime - dual-published as a [crate](https://crates.io/crates/ultralytics-inference) 📦 and an [npm](https://www.npmjs.com/package/@ultralytics/yolo) package 🟢 (Node bindings) | <a href="https://github.com/ultralytics/inference"><img alt="stars" src="https://img.shields.io/github/stars/ultralytics/inference?style=flat&logo=github&label=%E2%AD%90"></a> <a href="https://crates.io/crates/ultralytics-inference"><img alt="crate downloads" src="https://img.shields.io/crates/d/ultralytics-inference?style=flat&logo=rust&label=crate"></a> <a href="https://www.npmjs.com/package/@ultralytics/yolo"><img alt="npm downloads" src="https://img.shields.io/npm/dt/@ultralytics/yolo?style=flat&logo=npm&label=npm"></a> |
+| [TrackForge](https://github.com/onuralpszr/trackforge) | `Main Maintainer` | CV tracking library in Rust + Python bindings (ByteTrack, DeepSORT) | <a href="https://github.com/onuralpszr/trackforge"><img alt="stars" src="https://img.shields.io/github/stars/onuralpszr/trackforge?style=flat&logo=github&label=%E2%AD%90"></a> |
+| [SAHI](https://github.com/obss/sahi) | `Co-Maintainer` | Slicing Aided Hyper Inference for object detection on large images | <a href="https://github.com/obss/sahi"><img alt="stars" src="https://img.shields.io/github/stars/obss/sahi?style=flat&logo=github&label=%E2%AD%90"></a> |
+| [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile) | `Main Maintainer` | Android CV camera template with OpenCV and real-time ML | <a href="https://github.com/onuralpszr/CvCamera-Mobile"><img alt="stars" src="https://img.shields.io/github/stars/onuralpszr/CvCamera-Mobile?style=flat&logo=github&label=%E2%AD%90"></a> |
+| [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan) | `Main Maintainer` | Face restoration via GFPGAN, accelerated with ncnn + Vulkan | <a href="https://github.com/onuralpszr/GFPGAN-ncnn-vulkan"><img alt="stars" src="https://img.shields.io/github/stars/onuralpszr/GFPGAN-ncnn-vulkan?style=flat&logo=github&label=%E2%AD%90"></a> |
+| [ExecuTorch](https://github.com/pytorch/executorch) | `Contributor` | PyTorch on-device inference framework for edge and mobile | <a href="https://github.com/pytorch/executorch"><img alt="stars" src="https://img.shields.io/github/stars/pytorch/executorch?style=flat&logo=github&label=%E2%AD%90"></a> |
+| [YOLO-World](https://github.com/AILab-CVC/YOLO-World) | `Contributor` | Real-time open-vocabulary object detection via text prompts | <a href="https://github.com/AILab-CVC/YOLO-World"><img alt="stars" src="https://img.shields.io/github/stars/AILab-CVC/YOLO-World?style=flat&logo=github&label=%E2%AD%90"></a> |
+| [KDE](https://kde.org/) | `Contributor` | KDE ecosystem - Linux desktop and open-source community | [kde.org](https://kde.org/) |
 
 ## 📜 `projects::past()`
 
