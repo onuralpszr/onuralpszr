@@ -109,7 +109,7 @@ $ fedpkg push && fedpkg submit  # 🚀 Submitted to Bodhi
 
 ### ⚡ `cuda_oxide::kernel::launch()`
 
-Currently exploring **[cuda-oxide](https://nvlabs.github.io/cuda-oxide/)** an experimental Rust-to-CUDA compiler from NVIDIA Research that compiles safe(ish), idiomatic Rust directly to PTX. No CUDA C, no DSLs, no foreign bindings — just Rust running on the GPU.
+Currently exploring **[cuda-oxide](https://nvlabs.github.io/cuda-oxide/)** an experimental Rust-to-CUDA compiler from NVIDIA Research that compiles safe(ish), idiomatic Rust directly to PTX. No CUDA C, no DSLs, no foreign bindings - just Rust running on the GPU.
 
 <div align="center">
 
@@ -121,7 +121,7 @@ Currently exploring **[cuda-oxide](https://nvlabs.github.io/cuda-oxide/)** an ex
 </div>
 
 ```rust
-// 🦀 Safe(ish) GPU kernel — Rust compiles straight to PTX
+// 🦀 Safe(ish) GPU kernel - Rust compiles straight to PTX
 #[kernel]
 pub unsafe fn vector_add(a: &[f32], b: &[f32], c: &mut [f32]) {
     let tid = thread::index_1d() as usize;
@@ -139,7 +139,7 @@ $ cargo build --target nvptx64-nvidia-cuda
    ✅ Loaded onto device: NVIDIA GPU
 > Launching 4096 threads across 128 warps...
 > All threads converged. ✅
-> Status: still learning — but the 🦀 loves the GPU
+> Status: still learning - but the 🦀 loves the GPU
 ```
 
 ### 🔧 `deploy::stack()`
@@ -166,7 +166,7 @@ In addition, I have experience with other frameworks like [TensorFlow](https://w
 
 ```rust
 let platforms = vec!["GitHub", "GitLab", "Pagure"];
-let mission   = "build together — make open source better for everyone 🌍";
+let mission   = "build together - make open source better for everyone 🌍";
 ```
 
 In addition to my diverse skill set, I am actively contributing and co-maintaner to a computer vision project named [sahi](https://github.com/obss/sahi) is an open-source project that provides a simple and efficient way to perform slicing-based inference for object detection models. It is designed to work with various deep learning frameworks and models, making it a versatile tool for computer vision tasks. In past I was a co-maintaner to [Supervision](https://supervision.roboflow.com/). [Supervision](https://supervision.roboflow.com/) is dedicated to crafting reusable computer vision tools tailored to a wide array of needs. These projects are embodies my commitment to advancing the field of computer vision, offering robust solutions that empower developers and researchers alike.
@@ -178,22 +178,22 @@ I am also contributing various FLOSS and OSS projects around GitHub/Gitlab/Pagur
 I’ve proudly participated in **Hacktoberfest** every year since **2022**, completing four consecutive years (2022, 2023, 2024, 2025).  
 Through this journey, I’ve contributed dozens of PRs, met inspiring developers from around the world, and grown both technically and personally.  
 
-💚 For me, Hacktoberfest isn’t just about code, it’s about **people, learning, and giving back to the community**. I’m also part of the **Holopin x Hacktoberfest: 10 Badge Club**, celebrating those who’ve contributed continuously since 2022. And yes, somewhere out there, **a tree is growing in my name** — a small but meaningful reminder that code can make a difference beyond the screen 🌍.
+💚 For me, Hacktoberfest isn’t just about code, it’s about **people, learning, and giving back to the community**. I’m also part of the **Holopin x Hacktoberfest: 10 Badge Club**, celebrating those who’ve contributed continuously since 2022. And yes, somewhere out there, **a tree is growing in my name** - a small but meaningful reminder that code can make a difference beyond the screen 🌍.
 
 ### 📈 `git log --milestones`
 
-A snapshot of the journey so far — from first commits in 2012 to maintaining production CV frameworks today.
+A snapshot of the journey so far - from first commits in 2012 to maintaining production CV frameworks today.
 
 ```console
 $ git log --oneline --milestones --author="Onuralp"
 
-2026  🦀 Created TrackForge — Rust CV tracking lib (ByteTrack/DeepSORT) + Python bindings
-2025  🚀 Main maintainer of ultralytics/inference — Rust YOLO inference, dual-shipped to crates.io + npm
-2024  🧠 Senior ML Engineer @Ultralytics — co-maintaining YOLO (detection/seg/pose)
+2026  🦀 Created TrackForge - Rust CV tracking lib (ByteTrack/DeepSORT) + Python bindings
+2025  🚀 Main maintainer of ultralytics/inference - Rust YOLO inference, dual-shipped to crates.io + npm
+2024  🧠 Senior ML Engineer @Ultralytics - co-maintaining YOLO (detection/seg/pose)
 2023  🔬 Co-maintainer @ SAHI · former co-maintainer @ Supervision (Roboflow)
-2022  🌱 First Hacktoberfest — 4 consecutive years and counting (Holopin 10 Badge Club)
-2021  🐧 Fedora RPM packager & KDE SIG member — shipping AI/ML libs to ~40M users
-2012  👋 git init — joined GitHub, started the open-source journey
+2022  🌱 First Hacktoberfest - 4 consecutive years and counting (Holopin 10 Badge Club)
+2021  🐧 Fedora RPM packager & KDE SIG member - shipping AI/ML libs to ~40M users
+2012  👋 git init - joined GitHub, started the open-source journey
 ```
 
 ### 🔥 `contributions.plot()`
@@ -362,7 +362,7 @@ Here is my Arsenal Tools and Skills I use;
 
 <div align="center">
 
-> ⭐ **Featured:** [`ultralytics/inference`](https://github.com/ultralytics/inference) — Rust YOLO inference, shipped to two ecosystems · live stats:
+> ⭐ **Featured:** [`ultralytics/inference`](https://github.com/ultralytics/inference) - Rust YOLO inference, shipped to two ecosystems · live stats:
 
 <a href="https://github.com/ultralytics/inference"><img alt="GitHub stars" src="https://img.shields.io/github/stars/ultralytics/inference?style=flat&logo=github&label=stars&color=4A71D9"></a>
 <a href="https://crates.io/crates/ultralytics-inference"><img alt="Crates.io version" src="https://img.shields.io/crates/v/ultralytics-inference?style=flat&logo=rust&label=crate&color=E43717"></a>
@@ -374,21 +374,21 @@ Here is my Arsenal Tools and Skills I use;
 
 | Project | Role | Description |
 |:---|:---:|:---|
-| [Ultralytics](https://github.com/ultralytics/ultralytics) | `Co-Maintainer` | World's leading YOLO framework — detection, segmentation, pose estimation |
-| [Ultralytics Inference](https://github.com/ultralytics/inference) | `Main Maintainer` | 🦀 High-performance YOLO inference in Rust with ONNX Runtime — dual-published as a [crate](https://crates.io/crates/ultralytics-inference) 📦 and an [npm](https://www.npmjs.com/package/@ultralytics/yolo) package 🟢 (Node bindings) |
+| [Ultralytics](https://github.com/ultralytics/ultralytics) | `Co-Maintainer` | World's leading YOLO framework - detection, segmentation, pose estimation |
+| [Ultralytics Inference](https://github.com/ultralytics/inference) | `Main Maintainer` | 🦀 High-performance YOLO inference in Rust with ONNX Runtime - dual-published as a [crate](https://crates.io/crates/ultralytics-inference) 📦 and an [npm](https://www.npmjs.com/package/@ultralytics/yolo) package 🟢 (Node bindings) |
 | [TrackForge](https://github.com/onuralpszr/trackforge) | `Main Maintainer` | CV tracking library in Rust + Python bindings (ByteTrack, DeepSORT) |
 | [SAHI](https://github.com/obss/sahi) | `Co-Maintainer` | Slicing Aided Hyper Inference for object detection on large images |
 | [CvCamera-Mobile](https://github.com/onuralpszr/CvCamera-Mobile) | `Main Maintainer` | Android CV camera template with OpenCV and real-time ML |
 | [GFPGAN-ncnn-vulkan](https://github.com/onuralpszr/GFPGAN-ncnn-vulkan) | `Main Maintainer` | Face restoration via GFPGAN, accelerated with ncnn + Vulkan |
 | [ExecuTorch](https://github.com/pytorch/executorch) | `Contributor` | PyTorch on-device inference framework for edge and mobile |
 | [YOLO-World](https://github.com/AILab-CVC/YOLO-World) | `Contributor` | Real-time open-vocabulary object detection via text prompts |
-| [KDE](https://kde.org/) | `Contributor` | KDE ecosystem — Linux desktop and open-source community |
+| [KDE](https://kde.org/) | `Contributor` | KDE ecosystem - Linux desktop and open-source community |
 
 ## 📜 `projects::past()`
 
 | Project | Description |
 |:---|:---|
-| [Supervision](https://github.com/roboflow/supervision) | Reusable CV tools for detections, annotations, and datasets — former co-maintainer |
+| [Supervision](https://github.com/roboflow/supervision) | Reusable CV tools for detections, annotations, and datasets - former co-maintainer |
 | [Supervision Conda Forge](https://github.com/conda-forge/supervision-feedstock) | Conda package distribution for Supervision |
 | [Gemma Cookbook](https://github.com/google-gemini/gemma-cookbook) | Guides and examples for Google Gemma |
 | [Sceneview-android](https://github.com/SceneView/sceneview-android) | ARCore and 3D rendering for Android |
