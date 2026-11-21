@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-label="> Model 'Onuralp' successfully converged. Next objective: AGI &amp; beyond...">
+<defs><clipPath id="type"><rect class="typer" x="0" y="0" width="0" height="96"/></clipPath></defs>
+<style>
+  .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', Menlo, Consolas, monospace; }
+  .typer { animation: type 3.2s steps(73) .4s forwards; }
+  .cursor { animation: move 3.2s steps(73) .4s forwards, blink 1s steps(1) infinite; }
+  @keyframes type { to { width: 1200px; } }
+  @keyframes move { from { transform: translateX(0); } to { transform: translateX(657px); } }
+  @keyframes blink { 50% { opacity: 0; } }
+  
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001s !important; animation-iteration-count: 1 !important; animation-delay: 0s !important; }
+}
+</style>
+<rect width="1200" height="96" rx="18" fill="#0a0b0e"/>
+<rect x="0.5" y="0.5" width="1199" height="95" rx="18" fill="none" stroke="#1d2028"/>
+<circle cx="34" cy="48" r="5" fill="#2c313c"/><circle cx="52" cy="48" r="5" fill="#2c313c"/><circle cx="70" cy="48" r="5" fill="#4d7cff"/>
+<g transform="translate(100 0)">
+  <text class="mono" x="0" y="53" font-size="15" fill="#a8afbd" textLength="657" lengthAdjust="spacingAndGlyphs" clip-path="url(#type)">> Model &#39;Onuralp&#39; successfully converged. Next objective: AGI &amp; beyond...</text>
+  <rect class="cursor" x="2" y="38" width="9" height="19" fill="#4d7cff"/>
+</g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="Pipeline: datasets, PyTorch training, ONNX export, TensorRT and ExecuTorch optimization, Rust and edge deployment">
+<style>
+  .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', Menlo, Consolas, monospace; } .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .hl { opacity: 0; animation: hl 4.5s ease-in-out infinite; }
+  .flow { stroke-dasharray: 10 30; stroke-dashoffset: 40; opacity: 0; animation: flow 4.5s linear infinite; }
+  @keyframes hl { 0% { opacity: 0; } 6% { opacity: 1; } 20% { opacity: 0; } 100% { opacity: 0; } }
+  @keyframes flow { 0% { opacity: 1; stroke-dashoffset: 40; } 12% { opacity: 1; stroke-dashoffset: 0; } 13%, 100% { opacity: 0; } }
+  
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001s !important; animation-iteration-count: 1 !important; animation-delay: 0s !important; }
+}
+</style>
+<rect width="1200" height="210" rx="18" fill="#0a0b0e"/>
+<rect x="0.5" y="0.5" width="1199" height="209" rx="18" fill="none" stroke="#1d2028"/>
+<text class="mono" x="30.0" y="44" font-size="13" fill="#6f7787">$ research ──▶ production</text>
+
+  <g class="stage" style="animation-delay:0.0s">
+    <rect x="30.0" y="70" width="196" height="104" rx="12" fill="#101217" stroke="#2c313c" stroke-width="1"/>
+    <rect class="hl" x="30.0" y="70" width="196" height="104" rx="12" fill="none" stroke="#4d7cff" stroke-width="2" style="animation-delay:0.0s"/>
+    <text class="mono" x="48.0" y="100" font-size="12" fill="#6f7787">01 data</text>
+    <text class="sans" x="48.0" y="132" font-size="21" font-weight="650" fill="#eef1f6">Datasets</text>
+    <text class="mono" x="48.0" y="156" font-size="12" fill="#6f7787">images · labels</text>
+  </g>
+  <line x1="226.0" y1="122.0" x2="266.0" y2="122.0" stroke="#2c313c" stroke-width="2"/>
+  <line class="flow" x1="226.0" y1="122.0" x2="266.0" y2="122.0" stroke="#4d7cff" stroke-width="2" style="animation-delay:0.45s"/>
+  <path d="M259.0 117.0 L266.0 122.0 L259.0 127.0" fill="none" stroke="#2c313c" stroke-width="2"/>
+  <g class="stage" style="animation-delay:0.9s">
+    <rect x="266.0" y="70" width="196" height="104" rx="12" fill="#101217" stroke="#2c313c" stroke-width="1"/>
+    <rect class="hl" x="266.0" y="70" width="196" height="104" rx="12" fill="none" stroke="#4d7cff" stroke-width="2" style="animation-delay:0.9s"/>
+    <text class="mono" x="284.0" y="100" font-size="12" fill="#6f7787">02 train</text>
+    <text class="sans" x="284.0" y="132" font-size="21" font-weight="650" fill="#eef1f6">PyTorch</text>
+    <text class="mono" x="284.0" y="156" font-size="12" fill="#6f7787">Ultralytics YOLO</text>
+  </g>
+  <line x1="462.0" y1="122.0" x2="502.0" y2="122.0" stroke="#2c313c" stroke-width="2"/>
+  <line class="flow" x1="462.0" y1="122.0" x2="502.0" y2="122.0" stroke="#4d7cff" stroke-width="2" style="animation-delay:1.35s"/>
+  <path d="M495.0 117.0 L502.0 122.0 L495.0 127.0" fill="none" stroke="#2c313c" stroke-width="2"/>
+  <g class="stage" style="animation-delay:1.8s">
+    <rect x="502.0" y="70" width="196" height="104" rx="12" fill="#101217" stroke="#2c313c" stroke-width="1"/>
+    <rect class="hl" x="502.0" y="70" width="196" height="104" rx="12" fill="none" stroke="#4d7cff" stroke-width="2" style="animation-delay:1.8s"/>
+    <text class="mono" x="520.0" y="100" font-size="12" fill="#6f7787">03 export</text>
+    <text class="sans" x="520.0" y="132" font-size="21" font-weight="650" fill="#eef1f6">ONNX</text>
+    <text class="mono" x="520.0" y="156" font-size="12" fill="#6f7787">ONNXSlim</text>
+  </g>
+  <line x1="698.0" y1="122.0" x2="738.0" y2="122.0" stroke="#2c313c" stroke-width="2"/>
+  <line class="flow" x1="698.0" y1="122.0" x2="738.0" y2="122.0" stroke="#4d7cff" stroke-width="2" style="animation-delay:2.25s"/>
+  <path d="M731.0 117.0 L738.0 122.0 L731.0 127.0" fill="none" stroke="#2c313c" stroke-width="2"/>
+  <g class="stage" style="animation-delay:2.7s">
+    <rect x="738.0" y="70" width="196" height="104" rx="12" fill="#101217" stroke="#2c313c" stroke-width="1"/>
+    <rect class="hl" x="738.0" y="70" width="196" height="104" rx="12" fill="none" stroke="#4d7cff" stroke-width="2" style="animation-delay:2.7s"/>
+    <text class="mono" x="756.0" y="100" font-size="12" fill="#6f7787">04 optimize</text>
+    <text class="sans" x="756.0" y="132" font-size="21" font-weight="650" fill="#eef1f6">TensorRT</text>
+    <text class="mono" x="756.0" y="156" font-size="12" fill="#6f7787">ExecuTorch · ncnn</text>
+  </g>
+  <line x1="934.0" y1="122.0" x2="974.0" y2="122.0" stroke="#2c313c" stroke-width="2"/>
+  <line class="flow" x1="934.0" y1="122.0" x2="974.0" y2="122.0" stroke="#4d7cff" stroke-width="2" style="animation-delay:3.15s"/>
+  <path d="M967.0 117.0 L974.0 122.0 L967.0 127.0" fill="none" stroke="#2c313c" stroke-width="2"/>
+  <g class="stage" style="animation-delay:3.6s">
+    <rect x="974.0" y="70" width="196" height="104" rx="12" fill="#101217" stroke="#4d7cff" stroke-width="1.5"/>
+    <rect class="hl" x="974.0" y="70" width="196" height="104" rx="12" fill="none" stroke="#4d7cff" stroke-width="2" style="animation-delay:3.6s"/>
+    <text class="mono" x="992.0" y="100" font-size="12" fill="#4d7cff">05 deploy</text>
+    <text class="sans" x="992.0" y="132" font-size="21" font-weight="650" fill="#eef1f6">Rust · Edge</text>
+    <text class="mono" x="992.0" y="156" font-size="12" fill="#6f7787">crates.io · npm</text>
+  </g>
+</svg>
