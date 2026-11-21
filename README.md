@@ -124,6 +124,7 @@ From research to production, this is the path my work takes every day:
 ```console
 $ git log --oneline --milestones --author="Onuralp"
 2026  🍕 model.predict(): real-time edge vision talk at Python Pizza Istanbul
+2026  🛠️ No GPU Left Behind: hybrid YOLO training workshop at GDG Samsun DevFest
 2026  🦀 Created TrackForge: Rust multi-object tracking (ByteTrack, DeepSORT, OC-SORT, BoT-SORT, TrackTrack and more) + Python bindings
 2025  🚀 Main maintainer of ultralytics/inference: Rust YOLO inference, dual-shipped to crates.io + npm
 2024  🧠 Senior ML Engineer @Ultralytics, co-maintaining YOLO (detect, segment, semantic, depth, classify, pose, OBB)
@@ -250,6 +251,7 @@ I co-maintain **[SAHI](https://github.com/obss/sahi)** and was previously a co-m
 | When | Talk | Event | |
 |:---|:---|:---|:---:|
 | `Nov 2026` | [model.predict(): Real-Time Edge Vision with Ultralytics](https://pizza.onuralpsezer.com/) | Python Pizza Istanbul 2026 | 🍕 live demo |
+| `Oct 2026` | [No GPU Left Behind: Hybrid Ultralytics YOLO Training and Fast Execution](https://onuralpszr.github.io/gdg-samsun-etkinlik-2026-workshop/) | GDG Samsun DevFest 2026 | 🛠️ workshop |
 | `Jun 2025` | [Computer Vision with Supervision](./Presentations/openSUSE-Conf-2025/supervision-computer-vision) | openSUSE Conference 2025 | 🐍 code |
 | `May 2025` | [Fedora 42 KDE Plasma Desktop Edition](./Presentations/Fedora/Fedora%2042%20KDE%20Plasma%20Desktop%20Edition%20Release%20Party%20Slides.pdf) | Fedora 42 Release Party | 📄 slides |
 | `Dec 2024` | [What’s new in Fedora 41](./Presentations/Samsun/Samsun_Fedora41_Release_Slides/Fedora_Samsun.pdf) | Fedora 41 Release Party · Samsun | 📄 slides |
