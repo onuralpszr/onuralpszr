@@ -250,6 +250,7 @@ I co-maintain **[SAHI](https://github.com/obss/sahi)** and was previously a co-m
 
 | When | Talk | Event | |
 |:---|:---|:---|:---:|
+| `Dec 2026` | [Nerede? Turkish-English Semantic Search with EmbeddingGemma 2](https://onuralpszr.github.io/nerede/) | GDG DevFest İstanbul 2026 | 📝 proposal |
 | `Nov 2026` | [model.predict(): Real-Time Edge Vision with Ultralytics](https://pizza.onuralpsezer.com/) | Python Pizza Istanbul 2026 | 🍕 live demo |
 | `Oct 2026` | [No GPU Left Behind: Hybrid Ultralytics YOLO Training and Fast Execution](https://onuralpszr.github.io/gdg-samsun-etkinlik-2026-workshop/) | GDG Samsun DevFest 2026 | 🛠️ workshop |
 | `Jun 2025` | [Computer Vision with Supervision](./Presentations/openSUSE-Conf-2025/supervision-computer-vision) | openSUSE Conference 2025 | 🐍 code |
